@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking | FJJCE</title>
+  <meta name="description" content="Ranking oficial da Federação de Jiu-Jitsu do Estado do Ceará por categoria, faixa, idade, peso e equipe.">
+
+  <meta property="og:title" content="Ranking | FJJCE">
+  <meta property="og:description" content="Ranking do jiu-jitsu cearense por categoria e por equipe.">
+  <meta property="og:image" content="assets/img/logo-fjjce.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3A1214">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="preload" href="assets/fontes/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+
+  <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/ranking-dados.js" defer></script>
+  <script src="assets/js/ranking.js" defer></script>
+</head>
+<body>
+  <header data-incluir="partials/cabecalho.html"></header>
+
+  <main id="conteudo">
+    <section class="pagina-topo" aria-labelledby="pagina-titulo">
+      <div class="container">
+        <h1 id="pagina-titulo" class="pagina-topo__titulo">Ranking <span data-temporada></span></h1>
+        <p class="pagina-topo__texto" data-atualizado>Pontuação acumulada nas etapas do Campeonato Cearense.</p>
+      </div>
+    </section>
+
+    <div class="faixa" aria-hidden="true"><span></span></div>
+
+    <section class="secao secao--compacta">
+      <div class="container">
+
+        <div class="abas" role="tablist" aria-label="Tipo de ranking">
+          <button class="abas__botao" type="button" role="tab" id="aba-atletas" aria-controls="painel-atletas" aria-selected="true">Atletas</button>
+          <button class="abas__botao" type="button" role="tab" id="aba-equipes" aria-controls="painel-equipes" aria-selected="false" tabindex="-1">Equipes</button>
+        </div>
+
+        <!-- ATLETAS -->
+        <div id="painel-atletas" role="tabpanel" aria-labelledby="aba-atletas">
+          <form class="filtros" data-filtros>
+            <div class="filtros__campo">
+              <label for="f-sexo">Sexo</label>
+              <select id="f-sexo" name="sexo"></select>
+            </div>
+            <div class="filtros__campo">
+              <label for="f-idade">Idade</label>
+              <select id="f-idade" name="idade"></select>
+            </div>
+            <div class="filtros__campo">
+              <label for="f-faixa">Faixa</label>
+              <select id="f-faixa" name="faixa"></select>
+            </div>
+            <div class="filtros__campo">
+              <label for="f-peso">Peso</label>
+              <select id="f-peso" name="peso"></select>
+            </div>
+            <div class="filtros__campo filtros__campo--busca">
+              <label for="f-busca">Buscar atleta ou equipe</label>
+              <input id="f-busca" name="busca" type="search" placeholder="Ex.: Oliveira ou Fênix" autocomplete="off">
+            </div>
+          </form>
+
+          <p class="resultado-resumo" data-resumo aria-live="polite"></p>
+          <div class="ranking ranking--pagina" data-resultado>
+            <p class="carregando">Carregando ranking…</p>
+          </div>
+        </div>
+
+        <!-- EQUIPES -->
+        <div id="painel-equipes" role="tabpanel" aria-labelledby="aba-equipes" hidden>
+          <p class="resultado-resumo">Soma dos pontos de todos os atletas de cada equipe, em todas as categorias.</p>
+          <div class="ranking ranking--pagina ranking--uma-coluna" data-equipes></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" data-incluir="partials/rodape.html"></footer>
+</body>
+</html>

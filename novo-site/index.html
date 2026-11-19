@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="assets/css/estilo.css">
 
   <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/eventos-dados.js" defer></script>
+  <script src="assets/js/ranking-dados.js" defer></script>
   <script src="assets/js/inicio.js" defer></script>
 </head>
 <body>
@@ -31,7 +34,7 @@
     <section class="destaque" aria-labelledby="destaque-titulo">
       <div class="destaque__grade container">
         <div class="destaque__texto">
-          <p class="destaque__rotulo">Próximo campeonato</p>
+          <p class="destaque__rotulo" data-destaque="rotulo">Próximo campeonato</p>
           <h1 id="destaque-titulo" class="destaque__titulo" data-destaque="nome">Federação de Jiu-Jitsu do Estado do Ceará</h1>
           <p class="destaque__etapa" data-destaque="etapa"></p>
           <dl class="destaque__info">
@@ -47,7 +50,7 @@
           <div class="destaque__acoes" data-destaque="acoes"></div>
         </div>
         <figure class="destaque__cartaz" data-destaque="cartaz" hidden>
-          <img src="" alt="" width="682" height="860">
+          <img src="" alt="" width="1080" height="1069">
         </figure>
       </div>
     </section>
@@ -58,12 +61,13 @@
     <section id="calendario" class="secao" aria-labelledby="calendario-titulo">
       <div class="container">
         <div class="secao__cabeca">
-          <h2 id="calendario-titulo">Calendário <span data-temporada></span></h2>
+          <h2 id="calendario-titulo">Próximos campeonatos</h2>
           <p>Inscrições, editais e chaves de cada campeonato. As inscrições são feitas pelo iLutas.</p>
         </div>
         <ol class="calendario" data-lista="eventos">
           <li class="carregando">Carregando campeonatos…</li>
         </ol>
+        <p class="secao__rodape"><a class="botao botao--contorno-escuro" href="campeonatos.html">Ver todos os campeonatos</a></p>
       </div>
     </section>
 
@@ -75,7 +79,10 @@
           <p data-ranking-atualizado>Pontuação acumulada nas etapas do Campeonato Cearense.</p>
         </div>
         <div class="ranking" data-lista="ranking"></div>
-        <p class="ranking__mais"><a class="botao botao--contorno" href="#ranking">Ver ranking completo</a></p>
+        <p class="ranking__mais">
+          <a class="botao botao--ouro" href="ranking.html">Ver ranking completo</a>
+          <a class="botao botao--contorno" href="ranking.html?ver=equipes">Ranking por equipes</a>
+        </p>
       </div>
     </section>
 

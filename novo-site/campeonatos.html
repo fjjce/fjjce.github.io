@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campeonatos | FJJCE</title>
+  <meta name="description" content="Calendário de campeonatos da Federação de Jiu-Jitsu do Estado do Ceará: inscrições, editais, chaves e resultados.">
+
+  <meta property="og:title" content="Campeonatos | FJJCE">
+  <meta property="og:description" content="Calendário, inscrições e resultados dos campeonatos de jiu-jitsu no Ceará.">
+  <meta property="og:image" content="assets/img/logo-fjjce.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3A1214">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="preload" href="assets/fontes/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+
+  <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/eventos-dados.js" defer></script>
+  <script src="assets/js/campeonatos.js" defer></script>
+</head>
+<body>
+  <header data-incluir="partials/cabecalho.html"></header>
+
+  <main id="conteudo">
+    <section class="pagina-topo" aria-labelledby="pagina-titulo">
+      <div class="container">
+        <h1 id="pagina-titulo" class="pagina-topo__titulo">Campeonatos</h1>
+        <p class="pagina-topo__texto">Calendário da federação. As inscrições são feitas pelo iLutas; editais, chaves e resultados ficam na página de cada campeonato.</p>
+      </div>
+    </section>
+
+    <div class="faixa" aria-hidden="true"><span></span></div>
+
+    <section class="secao secao--compacta" aria-labelledby="proximos-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="proximos-titulo">Próximos</h2>
+        </div>
+        <ol class="calendario" data-lista="proximos">
+          <li class="carregando">Carregando campeonatos…</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="secao secao--cinza" aria-labelledby="encerrados-titulo" data-bloco="encerrados" hidden>
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="encerrados-titulo">Encerrados</h2>
+          <p>Resultados e chaves dos campeonatos anteriores.</p>
+        </div>
+        <div data-lista="encerrados"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" data-incluir="partials/rodape.html"></footer>
+</body>
+</html>

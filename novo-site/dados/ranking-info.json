@@ -1,0 +1,6 @@
+{
+  "_aviso": "Ranking com DADOS DE EXEMPLO. 'fonte' pode ser o arquivo local ou o link CSV de uma planilha do Google publicada na web.",
+  "temporada": 2027,
+  "atualizado_em": "2026-11-19",
+  "fonte": "dados/ranking.csv"
+}

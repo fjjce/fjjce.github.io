@@ -1,0 +1,823 @@
+sexo,idade,faixa,peso,atleta,equipe,pontos
+Masculino,Juvenil,Branca,Galo,Lucas Cavalcante,Litoral Leste BJJ,256.5
+Masculino,Juvenil,Branca,Galo,Lucas Lima,Águias da Ribeira,256.5
+Masculino,Juvenil,Branca,Galo,Raul Macêdo,Dragões da Guarda,211.5
+Masculino,Juvenil,Branca,Galo,Ícaro Farias,Jangada Jiu-Jitsu,130.5
+Masculino,Juvenil,Branca,Galo,Gustavo Santos,Águias da Ribeira,31.5
+Masculino,Juvenil,Branca,Pluma,Wesley Monteiro,Jangada Jiu-Jitsu,315.0
+Masculino,Juvenil,Branca,Pluma,Antônio Cavalcante,Panteras da Arte Suave,270.0
+Masculino,Juvenil,Branca,Pluma,Caio Gomes,Sertão Fight Team,171.0
+Masculino,Juvenil,Branca,Pluma,Lucas Siqueira,Mandacaru BJJ,157.5
+Masculino,Juvenil,Branca,Pluma,Mateus Brito,Jangada Jiu-Jitsu,117.0
+Masculino,Juvenil,Branca,Pena,Renan Lima,Iracema Jiu-Jitsu,211.5
+Masculino,Juvenil,Branca,Pena,Rafael Lima,Sertão Fight Team,135.0
+Masculino,Juvenil,Branca,Pena,Caio Nogueira,Dragões da Guarda,58.5
+Masculino,Juvenil,Branca,Leve,Carlos Sampaio,Litoral Leste BJJ,180.0
+Masculino,Juvenil,Branca,Leve,Heitor Batista,Iracema Jiu-Jitsu,126.0
+Masculino,Juvenil,Branca,Leve,Igor Santos,Mandacaru BJJ,67.5
+Masculino,Juvenil,Branca,Médio,André Nogueira,Dragões da Guarda,333.0
+Masculino,Juvenil,Branca,Médio,Samuel Costa,Jangada Jiu-Jitsu,315.0
+Masculino,Juvenil,Branca,Médio,Vinícius Oliveira,Fênix BJJ,198.0
+Masculino,Juvenil,Branca,Médio,André Oliveira,Jangada Jiu-Jitsu,76.5
+Masculino,Juvenil,Branca,Meio-pesado,Caio Albuquerque,Mandacaru BJJ,319.5
+Masculino,Juvenil,Branca,Meio-pesado,Vinícius Teixeira,Sertão Fight Team,315.0
+Masculino,Juvenil,Branca,Meio-pesado,Vinícius Rocha,Mandacaru BJJ,238.5
+Masculino,Juvenil,Branca,Meio-pesado,Felipe Menezes,Litoral Leste BJJ,189.0
+Masculino,Juvenil,Branca,Pesado,Francisco Santos,Águias da Ribeira,346.5
+Masculino,Juvenil,Branca,Pesado,Renan Bezerra,Fênix BJJ,234.0
+Masculino,Juvenil,Branca,Pesado,Raul Lima,Mandacaru BJJ,175.5
+Masculino,Juvenil,Branca,Pesado,Wesley Costa,Águias da Ribeira,157.5
+Masculino,Juvenil,Branca,Pesado,Emanuel Macêdo,Sertão Fight Team,148.5
+Masculino,Juvenil,Branca,Pesado,Felipe Cavalcante,Panteras da Arte Suave,112.5
+Masculino,Juvenil,Branca,Pesado,Breno Nogueira,Iracema Jiu-Jitsu,81.0
+Masculino,Juvenil,Branca,Super-pesado,Vinícius Costa,Águias da Ribeira,324.0
+Masculino,Juvenil,Branca,Super-pesado,Joaquim Rocha,Fênix BJJ,261.0
+Masculino,Juvenil,Branca,Super-pesado,Gustavo Teixeira,Águias da Ribeira,139.5
+Masculino,Juvenil,Branca,Super-pesado,Mateus Siqueira,Litoral Leste BJJ,40.5
+Masculino,Juvenil,Branca,Pesadíssimo,Rafael Menezes,Águias da Ribeira,193.5
+Masculino,Juvenil,Branca,Pesadíssimo,André Gomes,Leões do Tatame,180.0
+Masculino,Juvenil,Branca,Pesadíssimo,Cícero Batista,Fênix BJJ,135.0
+Masculino,Juvenil,Branca,Pesadíssimo,André Holanda,Litoral Leste BJJ,85.5
+Masculino,Juvenil,Azul,Galo,Caio Pereira,Dragões da Guarda,355.5
+Masculino,Juvenil,Azul,Galo,Heitor Bezerra,Águias da Ribeira,333.0
+Masculino,Juvenil,Azul,Galo,Levi Santos,Panteras da Arte Suave,202.5
+Masculino,Juvenil,Azul,Galo,Breno Holanda,Iracema Jiu-Jitsu,180.0
+Masculino,Juvenil,Azul,Galo,Otávio Barbosa,Panteras da Arte Suave,148.5
+Masculino,Juvenil,Azul,Pluma,Lucas Oliveira,Litoral Leste BJJ,265.5
+Masculino,Juvenil,Azul,Pluma,Vinícius Brito,Iracema Jiu-Jitsu,243.0
+Masculino,Juvenil,Azul,Pluma,Diego Teixeira,Fênix BJJ,216.0
+Masculino,Juvenil,Azul,Pluma,Cícero Araújo,Dragões da Guarda,103.5
+Masculino,Juvenil,Azul,Pluma,Pedro Gomes,Panteras da Arte Suave,54.0
+Masculino,Juvenil,Azul,Pena,Renan Nogueira,Fênix BJJ,216.0
+Masculino,Juvenil,Azul,Pena,Francisco Correia,Iracema Jiu-Jitsu,162.0
+Masculino,Juvenil,Azul,Pena,Marcos Freitas,Dragões da Guarda,135.0
+Masculino,Juvenil,Azul,Pena,Caio Menezes,Iracema Jiu-Jitsu,130.5
+Masculino,Juvenil,Azul,Pena,Ícaro Sales,Leões do Tatame,81.0
+Masculino,Juvenil,Azul,Pena,Joaquim Albuquerque,Mandacaru BJJ,67.5
+Masculino,Juvenil,Azul,Leve,Ícaro Araújo,Iracema Jiu-Jitsu,351.0
+Masculino,Juvenil,Azul,Leve,Carlos Menezes,Panteras da Arte Suave,301.5
+Masculino,Juvenil,Azul,Leve,Otávio Farias,Mandacaru BJJ,148.5
+Masculino,Juvenil,Azul,Leve,Francisco Oliveira,Fênix BJJ,135.0
+Masculino,Juvenil,Azul,Leve,Caio Batista,Litoral Leste BJJ,76.5
+Masculino,Juvenil,Azul,Médio,Cícero Monteiro,Leões do Tatame,351.0
+Masculino,Juvenil,Azul,Médio,Emanuel Teixeira,Sertão Fight Team,283.5
+Masculino,Juvenil,Azul,Médio,Ícaro Rocha,Litoral Leste BJJ,193.5
+Masculino,Juvenil,Azul,Meio-pesado,Igor Costa,Litoral Leste BJJ,171.0
+Masculino,Juvenil,Azul,Meio-pesado,Felipe Lima,Sertão Fight Team,49.5
+Masculino,Juvenil,Azul,Pesado,Lucas Costa,Leões do Tatame,297.0
+Masculino,Juvenil,Azul,Pesado,Bruno Silva,Fênix BJJ,193.5
+Masculino,Juvenil,Azul,Pesado,Emanuel Pinheiro,Iracema Jiu-Jitsu,103.5
+Masculino,Juvenil,Azul,Super-pesado,Renan Rocha,Mandacaru BJJ,328.5
+Masculino,Juvenil,Azul,Super-pesado,Mateus Correia,Litoral Leste BJJ,171.0
+Masculino,Juvenil,Azul,Super-pesado,Pedro Barbosa,Fênix BJJ,112.5
+Masculino,Juvenil,Azul,Super-pesado,Joaquim Araújo,Mandacaru BJJ,81.0
+Masculino,Juvenil,Azul,Pesadíssimo,Bruno Santos,Jangada Jiu-Jitsu,238.5
+Masculino,Juvenil,Roxa,Galo,Levi Batista,Fênix BJJ,279.0
+Masculino,Juvenil,Roxa,Galo,Igor Moreira,Iracema Jiu-Jitsu,216.0
+Masculino,Juvenil,Roxa,Galo,Pedro Macêdo,Mandacaru BJJ,45.0
+Masculino,Juvenil,Roxa,Pluma,Diego Nogueira,Dragões da Guarda,306.0
+Masculino,Juvenil,Roxa,Pluma,Raul Santos,Leões do Tatame,283.5
+Masculino,Juvenil,Roxa,Pluma,Carlos Brito,Dragões da Guarda,261.0
+Masculino,Juvenil,Roxa,Pluma,Vinícius Albuquerque,Mandacaru BJJ,234.0
+Masculino,Juvenil,Roxa,Pluma,Carlos Farias,Iracema Jiu-Jitsu,229.5
+Masculino,Juvenil,Roxa,Pluma,Pedro Freitas,Mandacaru BJJ,184.5
+Masculino,Juvenil,Roxa,Pena,Samuel Pinheiro,Águias da Ribeira,328.5
+Masculino,Juvenil,Roxa,Pena,Caio Brito,Águias da Ribeira,198.0
+Masculino,Juvenil,Roxa,Pena,Gustavo Monteiro,Sertão Fight Team,130.5
+Masculino,Juvenil,Roxa,Pena,Carlos Cavalcante,Iracema Jiu-Jitsu,67.5
+Masculino,Juvenil,Roxa,Leve,Caio Monteiro,Sertão Fight Team,342.0
+Masculino,Juvenil,Roxa,Leve,Emanuel Lima,Leões do Tatame,274.5
+Masculino,Juvenil,Roxa,Leve,Levi Costa,Mandacaru BJJ,225.0
+Masculino,Juvenil,Roxa,Médio,Samuel Monteiro,Leões do Tatame,360.0
+Masculino,Juvenil,Roxa,Médio,Francisco Sampaio,Iracema Jiu-Jitsu,238.5
+Masculino,Juvenil,Roxa,Meio-pesado,Heitor Costa,Fênix BJJ,324.0
+Masculino,Juvenil,Roxa,Meio-pesado,Davi Menezes,Mandacaru BJJ,274.5
+Masculino,Juvenil,Roxa,Meio-pesado,Raul Pinheiro,Dragões da Guarda,103.5
+Masculino,Juvenil,Roxa,Meio-pesado,Francisco Pereira,Jangada Jiu-Jitsu,81.0
+Masculino,Juvenil,Roxa,Meio-pesado,Samuel Oliveira,Sertão Fight Team,81.0
+Masculino,Juvenil,Roxa,Meio-pesado,Davi Correia,Leões do Tatame,36.0
+Masculino,Juvenil,Roxa,Pesado,Marcos Monteiro,Mandacaru BJJ,279.0
+Masculino,Juvenil,Roxa,Pesado,Breno Macêdo,Iracema Jiu-Jitsu,234.0
+Masculino,Juvenil,Roxa,Pesado,Lucas Monteiro,Iracema Jiu-Jitsu,225.0
+Masculino,Juvenil,Roxa,Super-pesado,Ícaro Pereira,Leões do Tatame,342.0
+Masculino,Juvenil,Roxa,Super-pesado,Vinícius Batista,Iracema Jiu-Jitsu,274.5
+Masculino,Adulto,Branca,Galo,Renan Sampaio,Sertão Fight Team,355.5
+Masculino,Adulto,Branca,Galo,Diego Barbosa,Leões do Tatame,328.5
+Masculino,Adulto,Branca,Galo,Heitor Silva,Fênix BJJ,256.5
+Masculino,Adulto,Branca,Galo,Lucas Pinheiro,Iracema Jiu-Jitsu,252.0
+Masculino,Adulto,Branca,Galo,Wesley Teixeira,Panteras da Arte Suave,247.5
+Masculino,Adulto,Branca,Galo,Samuel Silva,Sertão Fight Team,135.0
+Masculino,Adulto,Branca,Pluma,Antônio Nogueira,Litoral Leste BJJ,355.5
+Masculino,Adulto,Branca,Pluma,Pedro Sales,Leões do Tatame,319.5
+Masculino,Adulto,Branca,Pluma,Davi Oliveira,Sertão Fight Team,310.5
+Masculino,Adulto,Branca,Pluma,Joaquim Nogueira,Dragões da Guarda,306.0
+Masculino,Adulto,Branca,Pluma,Heitor Siqueira,Dragões da Guarda,301.5
+Masculino,Adulto,Branca,Pluma,Gustavo Martins,Fênix BJJ,297.0
+Masculino,Adulto,Branca,Pluma,Diego Costa,Águias da Ribeira,247.5
+Masculino,Adulto,Branca,Pluma,Marcos Menezes,Mandacaru BJJ,85.5
+Masculino,Adulto,Branca,Pluma,Gustavo Sales,Dragões da Guarda,31.5
+Masculino,Adulto,Branca,Pena,Pedro Silva,Jangada Jiu-Jitsu,238.5
+Masculino,Adulto,Branca,Pena,Gustavo Oliveira,Sertão Fight Team,157.5
+Masculino,Adulto,Branca,Leve,Samuel Rocha,Sertão Fight Team,324.0
+Masculino,Adulto,Branca,Leve,Diego Martins,Sertão Fight Team,270.0
+Masculino,Adulto,Branca,Leve,Davi Araújo,Leões do Tatame,207.0
+Masculino,Adulto,Branca,Leve,Renan Batista,Mandacaru BJJ,189.0
+Masculino,Adulto,Branca,Médio,Marcos Nogueira,Jangada Jiu-Jitsu,252.0
+Masculino,Adulto,Branca,Médio,Thiago Farias,Leões do Tatame,189.0
+Masculino,Adulto,Branca,Médio,Gustavo Macêdo,Panteras da Arte Suave,189.0
+Masculino,Adulto,Branca,Médio,Rafael Silva,Fênix BJJ,126.0
+Masculino,Adulto,Branca,Médio,Emanuel Sampaio,Litoral Leste BJJ,126.0
+Masculino,Adulto,Branca,Médio,Thiago Cavalcante,Dragões da Guarda,103.5
+Masculino,Adulto,Branca,Médio,Bruno Gomes,Dragões da Guarda,103.5
+Masculino,Adulto,Branca,Meio-pesado,Heitor Macêdo,Jangada Jiu-Jitsu,346.5
+Masculino,Adulto,Branca,Meio-pesado,Antônio Freitas,Sertão Fight Team,319.5
+Masculino,Adulto,Branca,Meio-pesado,Bruno Monteiro,Águias da Ribeira,270.0
+Masculino,Adulto,Branca,Meio-pesado,Breno Freitas,Mandacaru BJJ,252.0
+Masculino,Adulto,Branca,Meio-pesado,Thiago Monteiro,Mandacaru BJJ,211.5
+Masculino,Adulto,Branca,Meio-pesado,Otávio Araújo,Jangada Jiu-Jitsu,202.5
+Masculino,Adulto,Branca,Meio-pesado,Felipe Sampaio,Litoral Leste BJJ,157.5
+Masculino,Adulto,Branca,Meio-pesado,Levi Rocha,Dragões da Guarda,103.5
+Masculino,Adulto,Branca,Pesado,Davi Nogueira,Mandacaru BJJ,342.0
+Masculino,Adulto,Branca,Pesado,André Barbosa,Leões do Tatame,265.5
+Masculino,Adulto,Branca,Pesado,Carlos Santos,Dragões da Guarda,252.0
+Masculino,Adulto,Branca,Pesado,Ícaro Teixeira,Fênix BJJ,252.0
+Masculino,Adulto,Branca,Pesado,Igor Batista,Litoral Leste BJJ,211.5
+Masculino,Adulto,Branca,Pesado,Lucas Correia,Iracema Jiu-Jitsu,126.0
+Masculino,Adulto,Branca,Pesado,Carlos Silva,Sertão Fight Team,67.5
+Masculino,Adulto,Branca,Super-pesado,Carlos Rocha,Jangada Jiu-Jitsu,216.0
+Masculino,Adulto,Branca,Pesadíssimo,Renan Monteiro,Mandacaru BJJ,328.5
+Masculino,Adulto,Branca,Pesadíssimo,Breno Barbosa,Panteras da Arte Suave,225.0
+Masculino,Adulto,Branca,Pesadíssimo,Antônio Brito,Jangada Jiu-Jitsu,85.5
+Masculino,Adulto,Branca,Pesadíssimo,Joaquim Gomes,Águias da Ribeira,72.0
+Masculino,Adulto,Azul,Galo,Otávio Monteiro,Jangada Jiu-Jitsu,261.0
+Masculino,Adulto,Azul,Galo,Wesley Brito,Panteras da Arte Suave,166.5
+Masculino,Adulto,Azul,Galo,Francisco Farias,Jangada Jiu-Jitsu,153.0
+Masculino,Adulto,Azul,Galo,Marcos Rocha,Águias da Ribeira,58.5
+Masculino,Adulto,Azul,Pluma,Renan Barbosa,Iracema Jiu-Jitsu,292.5
+Masculino,Adulto,Azul,Pluma,Ícaro Menezes,Panteras da Arte Suave,144.0
+Masculino,Adulto,Azul,Pluma,Carlos Martins,Águias da Ribeira,135.0
+Masculino,Adulto,Azul,Pluma,Bruno Pinheiro,Mandacaru BJJ,108.0
+Masculino,Adulto,Azul,Pluma,Caio Sampaio,Iracema Jiu-Jitsu,90.0
+Masculino,Adulto,Azul,Pluma,Gustavo Batista,Litoral Leste BJJ,58.5
+Masculino,Adulto,Azul,Pena,Davi Pinheiro,Leões do Tatame,346.5
+Masculino,Adulto,Azul,Pena,Renan Macêdo,Mandacaru BJJ,342.0
+Masculino,Adulto,Azul,Pena,Heitor Menezes,Águias da Ribeira,337.5
+Masculino,Adulto,Azul,Pena,Davi Silva,Dragões da Guarda,261.0
+Masculino,Adulto,Azul,Pena,Heitor Martins,Dragões da Guarda,180.0
+Masculino,Adulto,Azul,Leve,Otávio Bezerra,Leões do Tatame,346.5
+Masculino,Adulto,Azul,Leve,Joaquim Teixeira,Jangada Jiu-Jitsu,252.0
+Masculino,Adulto,Azul,Leve,Davi Monteiro,Litoral Leste BJJ,211.5
+Masculino,Adulto,Azul,Leve,Caio Santos,Águias da Ribeira,180.0
+Masculino,Adulto,Azul,Leve,Raul Nogueira,Panteras da Arte Suave,126.0
+Masculino,Adulto,Azul,Leve,Davi Albuquerque,Litoral Leste BJJ,108.0
+Masculino,Adulto,Azul,Leve,Otávio Batista,Sertão Fight Team,31.5
+Masculino,Adulto,Azul,Médio,Levi Barbosa,Águias da Ribeira,351.0
+Masculino,Adulto,Azul,Médio,Pedro Pereira,Panteras da Arte Suave,234.0
+Masculino,Adulto,Azul,Médio,Wesley Bezerra,Jangada Jiu-Jitsu,229.5
+Masculino,Adulto,Azul,Médio,Lucas Gomes,Sertão Fight Team,207.0
+Masculino,Adulto,Azul,Médio,Cícero Teixeira,Litoral Leste BJJ,130.5
+Masculino,Adulto,Azul,Meio-pesado,Felipe Brito,Fênix BJJ,315.0
+Masculino,Adulto,Azul,Meio-pesado,Carlos Moreira,Litoral Leste BJJ,247.5
+Masculino,Adulto,Azul,Meio-pesado,Caio Macêdo,Dragões da Guarda,243.0
+Masculino,Adulto,Azul,Meio-pesado,Pedro Menezes,Iracema Jiu-Jitsu,144.0
+Masculino,Adulto,Azul,Meio-pesado,Cícero Siqueira,Jangada Jiu-Jitsu,117.0
+Masculino,Adulto,Azul,Pesado,Renan Oliveira,Sertão Fight Team,355.5
+Masculino,Adulto,Azul,Pesado,Diego Batista,Litoral Leste BJJ,351.0
+Masculino,Adulto,Azul,Pesado,Wesley Araújo,Sertão Fight Team,333.0
+Masculino,Adulto,Azul,Pesado,Felipe Moreira,Litoral Leste BJJ,162.0
+Masculino,Adulto,Azul,Pesado,Gustavo Moreira,Mandacaru BJJ,126.0
+Masculino,Adulto,Azul,Pesado,Mateus Martins,Sertão Fight Team,85.5
+Masculino,Adulto,Azul,Pesado,Mateus Macêdo,Fênix BJJ,81.0
+Masculino,Adulto,Azul,Super-pesado,Bruno Brito,Dragões da Guarda,337.5
+Masculino,Adulto,Azul,Super-pesado,Rafael Correia,Sertão Fight Team,283.5
+Masculino,Adulto,Azul,Super-pesado,André Silva,Iracema Jiu-Jitsu,243.0
+Masculino,Adulto,Azul,Super-pesado,Heitor Lima,Iracema Jiu-Jitsu,189.0
+Masculino,Adulto,Azul,Super-pesado,Heitor Sales,Águias da Ribeira,184.5
+Masculino,Adulto,Azul,Super-pesado,Felipe Gomes,Sertão Fight Team,126.0
+Masculino,Adulto,Azul,Super-pesado,Otávio Sales,Panteras da Arte Suave,112.5
+Masculino,Adulto,Azul,Pesadíssimo,Francisco Siqueira,Panteras da Arte Suave,162.0
+Masculino,Adulto,Azul,Pesadíssimo,André Correia,Jangada Jiu-Jitsu,27.0
+Masculino,Adulto,Roxa,Galo,Felipe Farias,Panteras da Arte Suave,288.0
+Masculino,Adulto,Roxa,Galo,Bruno Moreira,Iracema Jiu-Jitsu,225.0
+Masculino,Adulto,Roxa,Galo,Samuel Teixeira,Dragões da Guarda,202.5
+Masculino,Adulto,Roxa,Galo,Raul Costa,Panteras da Arte Suave,135.0
+Masculino,Adulto,Roxa,Galo,Vinícius Menezes,Dragões da Guarda,117.0
+Masculino,Adulto,Roxa,Pluma,Antônio Sales,Fênix BJJ,333.0
+Masculino,Adulto,Roxa,Pluma,Diego Cavalcante,Jangada Jiu-Jitsu,297.0
+Masculino,Adulto,Roxa,Pluma,Antônio Gomes,Águias da Ribeira,270.0
+Masculino,Adulto,Roxa,Pluma,André Batista,Sertão Fight Team,189.0
+Masculino,Adulto,Roxa,Pluma,Mateus Bezerra,Mandacaru BJJ,153.0
+Masculino,Adulto,Roxa,Pluma,Caio Barbosa,Mandacaru BJJ,135.0
+Masculino,Adulto,Roxa,Pluma,Raul Rocha,Águias da Ribeira,45.0
+Masculino,Adulto,Roxa,Pena,Caio Araújo,Sertão Fight Team,342.0
+Masculino,Adulto,Roxa,Pena,Cícero Sampaio,Jangada Jiu-Jitsu,283.5
+Masculino,Adulto,Roxa,Pena,Felipe Araújo,Litoral Leste BJJ,256.5
+Masculino,Adulto,Roxa,Pena,Joaquim Barbosa,Águias da Ribeira,220.5
+Masculino,Adulto,Roxa,Pena,Thiago Araújo,Iracema Jiu-Jitsu,220.5
+Masculino,Adulto,Roxa,Pena,Rafael Rocha,Iracema Jiu-Jitsu,67.5
+Masculino,Adulto,Roxa,Leve,André Sales,Panteras da Arte Suave,319.5
+Masculino,Adulto,Roxa,Leve,Diego Siqueira,Leões do Tatame,310.5
+Masculino,Adulto,Roxa,Leve,Samuel Cavalcante,Litoral Leste BJJ,283.5
+Masculino,Adulto,Roxa,Leve,Vinícius Gomes,Fênix BJJ,135.0
+Masculino,Adulto,Roxa,Leve,Emanuel Monteiro,Sertão Fight Team,112.5
+Masculino,Adulto,Roxa,Leve,Vinícius Moreira,Águias da Ribeira,108.0
+Masculino,Adulto,Roxa,Leve,Raul Cavalcante,Jangada Jiu-Jitsu,108.0
+Masculino,Adulto,Roxa,Leve,Otávio Silva,Águias da Ribeira,81.0
+Masculino,Adulto,Roxa,Leve,André Cavalcante,Mandacaru BJJ,40.5
+Masculino,Adulto,Roxa,Médio,Felipe Teixeira,Águias da Ribeira,346.5
+Masculino,Adulto,Roxa,Médio,Ícaro Barbosa,Sertão Fight Team,315.0
+Masculino,Adulto,Roxa,Médio,Lucas Bezerra,Mandacaru BJJ,148.5
+Masculino,Adulto,Roxa,Médio,Davi Bezerra,Dragões da Guarda,49.5
+Masculino,Adulto,Roxa,Médio,Bruno Sampaio,Fênix BJJ,31.5
+Masculino,Adulto,Roxa,Meio-pesado,Diego Brito,Sertão Fight Team,351.0
+Masculino,Adulto,Roxa,Meio-pesado,Mateus Costa,Iracema Jiu-Jitsu,256.5
+Masculino,Adulto,Roxa,Meio-pesado,Raul Batista,Litoral Leste BJJ,180.0
+Masculino,Adulto,Roxa,Meio-pesado,Caio Teixeira,Litoral Leste BJJ,45.0
+Masculino,Adulto,Roxa,Pesado,Carlos Nogueira,Sertão Fight Team,265.5
+Masculino,Adulto,Roxa,Pesado,Ícaro Monteiro,Jangada Jiu-Jitsu,243.0
+Masculino,Adulto,Roxa,Pesado,Joaquim Monteiro,Panteras da Arte Suave,202.5
+Masculino,Adulto,Roxa,Pesado,André Freitas,Panteras da Arte Suave,148.5
+Masculino,Adulto,Roxa,Pesado,Davi Moreira,Leões do Tatame,135.0
+Masculino,Adulto,Roxa,Pesado,Breno Menezes,Sertão Fight Team,135.0
+Masculino,Adulto,Roxa,Pesado,Carlos Barbosa,Jangada Jiu-Jitsu,130.5
+Masculino,Adulto,Roxa,Pesado,Lucas Silva,Litoral Leste BJJ,108.0
+Masculino,Adulto,Roxa,Pesado,Raul Teixeira,Sertão Fight Team,63.0
+Masculino,Adulto,Roxa,Super-pesado,Diego Gomes,Jangada Jiu-Jitsu,328.5
+Masculino,Adulto,Roxa,Super-pesado,Vinícius Martins,Iracema Jiu-Jitsu,247.5
+Masculino,Adulto,Roxa,Super-pesado,Antônio Araújo,Litoral Leste BJJ,126.0
+Masculino,Adulto,Roxa,Pesadíssimo,Antônio Teixeira,Sertão Fight Team,310.5
+Masculino,Adulto,Roxa,Pesadíssimo,Antônio Costa,Fênix BJJ,270.0
+Masculino,Adulto,Roxa,Pesadíssimo,Ícaro Gomes,Águias da Ribeira,234.0
+Masculino,Adulto,Roxa,Pesadíssimo,Diego Monteiro,Jangada Jiu-Jitsu,121.5
+Masculino,Adulto,Roxa,Pesadíssimo,Felipe Pinheiro,Iracema Jiu-Jitsu,117.0
+Masculino,Adulto,Roxa,Pesadíssimo,Mateus Santos,Dragões da Guarda,99.0
+Masculino,Adulto,Roxa,Pesadíssimo,Francisco Silva,Litoral Leste BJJ,76.5
+Masculino,Adulto,Roxa,Pesadíssimo,Antônio Pereira,Águias da Ribeira,54.0
+Masculino,Adulto,Marrom,Galo,Levi Bezerra,Mandacaru BJJ,301.5
+Masculino,Adulto,Marrom,Galo,Felipe Albuquerque,Litoral Leste BJJ,234.0
+Masculino,Adulto,Marrom,Galo,Thiago Bezerra,Litoral Leste BJJ,234.0
+Masculino,Adulto,Marrom,Galo,Antônio Bezerra,Sertão Fight Team,166.5
+Masculino,Adulto,Marrom,Pluma,Heitor Barbosa,Jangada Jiu-Jitsu,328.5
+Masculino,Adulto,Marrom,Pluma,Breno Moreira,Leões do Tatame,198.0
+Masculino,Adulto,Marrom,Pluma,Raul Holanda,Fênix BJJ,166.5
+Masculino,Adulto,Marrom,Pluma,Pedro Nogueira,Leões do Tatame,130.5
+Masculino,Adulto,Marrom,Pluma,Raul Gomes,Leões do Tatame,126.0
+Masculino,Adulto,Marrom,Pena,Davi Barbosa,Dragões da Guarda,274.5
+Masculino,Adulto,Marrom,Pena,Otávio Albuquerque,Jangada Jiu-Jitsu,171.0
+Masculino,Adulto,Marrom,Pena,Emanuel Correia,Águias da Ribeira,153.0
+Masculino,Adulto,Marrom,Pena,Diego Moreira,Águias da Ribeira,103.5
+Masculino,Adulto,Marrom,Leve,Thiago Oliveira,Mandacaru BJJ,306.0
+Masculino,Adulto,Marrom,Leve,Thiago Martins,Sertão Fight Team,270.0
+Masculino,Adulto,Marrom,Leve,Igor Silva,Águias da Ribeira,265.5
+Masculino,Adulto,Marrom,Leve,Rafael Farias,Águias da Ribeira,189.0
+Masculino,Adulto,Marrom,Leve,Pedro Albuquerque,Jangada Jiu-Jitsu,58.5
+Masculino,Adulto,Marrom,Médio,Ícaro Oliveira,Litoral Leste BJJ,31.5
+Masculino,Adulto,Marrom,Meio-pesado,Breno Pereira,Fênix BJJ,328.5
+Masculino,Adulto,Marrom,Meio-pesado,Marcos Oliveira,Jangada Jiu-Jitsu,202.5
+Masculino,Adulto,Marrom,Meio-pesado,Joaquim Martins,Dragões da Guarda,198.0
+Masculino,Adulto,Marrom,Meio-pesado,Emanuel Araújo,Fênix BJJ,166.5
+Masculino,Adulto,Marrom,Meio-pesado,Gustavo Freitas,Iracema Jiu-Jitsu,157.5
+Masculino,Adulto,Marrom,Meio-pesado,Marcos Costa,Litoral Leste BJJ,135.0
+Masculino,Adulto,Marrom,Meio-pesado,Bruno Batista,Dragões da Guarda,130.5
+Masculino,Adulto,Marrom,Meio-pesado,Joaquim Moreira,Sertão Fight Team,117.0
+Masculino,Adulto,Marrom,Meio-pesado,Bruno Farias,Panteras da Arte Suave,103.5
+Masculino,Adulto,Marrom,Pesado,Raul Menezes,Iracema Jiu-Jitsu,351.0
+Masculino,Adulto,Marrom,Pesado,Antônio Moreira,Águias da Ribeira,301.5
+Masculino,Adulto,Marrom,Pesado,Lucas Batista,Litoral Leste BJJ,216.0
+Masculino,Adulto,Marrom,Pesado,Breno Brito,Iracema Jiu-Jitsu,211.5
+Masculino,Adulto,Marrom,Pesado,Wesley Macêdo,Mandacaru BJJ,202.5
+Masculino,Adulto,Marrom,Pesado,Ícaro Bezerra,Jangada Jiu-Jitsu,189.0
+Masculino,Adulto,Marrom,Pesado,Felipe Oliveira,Iracema Jiu-Jitsu,171.0
+Masculino,Adulto,Marrom,Pesado,Raul Martins,Iracema Jiu-Jitsu,108.0
+Masculino,Adulto,Marrom,Super-pesado,Levi Teixeira,Litoral Leste BJJ,346.5
+Masculino,Adulto,Marrom,Super-pesado,Rafael Martins,Iracema Jiu-Jitsu,229.5
+Masculino,Adulto,Marrom,Super-pesado,Wesley Siqueira,Iracema Jiu-Jitsu,225.0
+Masculino,Adulto,Marrom,Pesadíssimo,André Santos,Leões do Tatame,333.0
+Masculino,Adulto,Marrom,Pesadíssimo,Rafael Sales,Jangada Jiu-Jitsu,288.0
+Masculino,Adulto,Marrom,Pesadíssimo,Thiago Sales,Iracema Jiu-Jitsu,112.5
+Masculino,Adulto,Preta,Galo,Felipe Correia,Fênix BJJ,324.0
+Masculino,Adulto,Preta,Galo,Samuel Moreira,Litoral Leste BJJ,261.0
+Masculino,Adulto,Preta,Galo,Rafael Brito,Iracema Jiu-Jitsu,220.5
+Masculino,Adulto,Preta,Galo,Joaquim Freitas,Litoral Leste BJJ,207.0
+Masculino,Adulto,Preta,Galo,Igor Sampaio,Panteras da Arte Suave,207.0
+Masculino,Adulto,Preta,Galo,Breno Lima,Sertão Fight Team,193.5
+Masculino,Adulto,Preta,Galo,Pedro Araújo,Panteras da Arte Suave,148.5
+Masculino,Adulto,Preta,Pluma,Cícero Oliveira,Sertão Fight Team,324.0
+Masculino,Adulto,Preta,Pluma,Caio Correia,Sertão Fight Team,306.0
+Masculino,Adulto,Preta,Pluma,Antônio Silva,Fênix BJJ,243.0
+Masculino,Adulto,Preta,Pluma,Rafael Santos,Iracema Jiu-Jitsu,121.5
+Masculino,Adulto,Preta,Pluma,Lucas Barbosa,Jangada Jiu-Jitsu,40.5
+Masculino,Adulto,Preta,Pena,Raul Barbosa,Leões do Tatame,346.5
+Masculino,Adulto,Preta,Pena,Ícaro Sampaio,Sertão Fight Team,256.5
+Masculino,Adulto,Preta,Pena,Thiago Macêdo,Leões do Tatame,103.5
+Masculino,Adulto,Preta,Pena,Caio Bezerra,Dragões da Guarda,90.0
+Masculino,Adulto,Preta,Pena,Antônio Albuquerque,Litoral Leste BJJ,49.5
+Masculino,Adulto,Preta,Leve,Levi Holanda,Sertão Fight Team,360.0
+Masculino,Adulto,Preta,Leve,Breno Monteiro,Sertão Fight Team,270.0
+Masculino,Adulto,Preta,Leve,Ícaro Siqueira,Panteras da Arte Suave,234.0
+Masculino,Adulto,Preta,Leve,Renan Siqueira,Mandacaru BJJ,207.0
+Masculino,Adulto,Preta,Leve,Levi Siqueira,Panteras da Arte Suave,162.0
+Masculino,Adulto,Preta,Médio,Thiago Siqueira,Leões do Tatame,328.5
+Masculino,Adulto,Preta,Médio,Vinícius Nogueira,Leões do Tatame,297.0
+Masculino,Adulto,Preta,Médio,Pedro Teixeira,Mandacaru BJJ,198.0
+Masculino,Adulto,Preta,Médio,Diego Farias,Fênix BJJ,175.5
+Masculino,Adulto,Preta,Médio,Samuel Correia,Sertão Fight Team,171.0
+Masculino,Adulto,Preta,Médio,Marcos Holanda,Litoral Leste BJJ,148.5
+Masculino,Adulto,Preta,Meio-pesado,Joaquim Pereira,Sertão Fight Team,337.5
+Masculino,Adulto,Preta,Meio-pesado,Samuel Nogueira,Leões do Tatame,261.0
+Masculino,Adulto,Preta,Meio-pesado,Carlos Monteiro,Dragões da Guarda,193.5
+Masculino,Adulto,Preta,Meio-pesado,Mateus Sales,Leões do Tatame,148.5
+Masculino,Adulto,Preta,Meio-pesado,Igor Bezerra,Sertão Fight Team,45.0
+Masculino,Adulto,Preta,Pesado,Cícero Santos,Dragões da Guarda,315.0
+Masculino,Adulto,Preta,Pesado,Cícero Costa,Jangada Jiu-Jitsu,265.5
+Masculino,Adulto,Preta,Pesado,Heitor Sampaio,Leões do Tatame,157.5
+Masculino,Adulto,Preta,Pesado,Renan Menezes,Leões do Tatame,90.0
+Masculino,Adulto,Preta,Pesado,Joaquim Lima,Iracema Jiu-Jitsu,90.0
+Masculino,Adulto,Preta,Super-pesado,Emanuel Oliveira,Jangada Jiu-Jitsu,346.5
+Masculino,Adulto,Preta,Super-pesado,Francisco Batista,Iracema Jiu-Jitsu,342.0
+Masculino,Adulto,Preta,Super-pesado,André Pereira,Litoral Leste BJJ,324.0
+Masculino,Adulto,Preta,Super-pesado,Lucas Araújo,Águias da Ribeira,166.5
+Masculino,Adulto,Preta,Super-pesado,Francisco Freitas,Iracema Jiu-Jitsu,126.0
+Masculino,Adulto,Preta,Super-pesado,Felipe Sales,Panteras da Arte Suave,99.0
+Masculino,Adulto,Preta,Super-pesado,Rafael Moreira,Sertão Fight Team,90.0
+Masculino,Adulto,Preta,Pesadíssimo,Marcos Batista,Panteras da Arte Suave,351.0
+Masculino,Adulto,Preta,Pesadíssimo,Renan Freitas,Leões do Tatame,274.5
+Masculino,Adulto,Preta,Pesadíssimo,Carlos Oliveira,Dragões da Guarda,265.5
+Masculino,Adulto,Preta,Pesadíssimo,Wesley Lima,Sertão Fight Team,175.5
+Masculino,Adulto,Preta,Pesadíssimo,Davi Cavalcante,Leões do Tatame,94.5
+Masculino,Adulto,Preta,Pesadíssimo,Felipe Monteiro,Dragões da Guarda,90.0
+Masculino,Adulto,Preta,Pesadíssimo,Samuel Santos,Dragões da Guarda,31.5
+Masculino,Master 1,Branca,Pluma,Caio Freitas,Iracema Jiu-Jitsu,112.5
+Masculino,Master 1,Branca,Pena,Emanuel Sales,Iracema Jiu-Jitsu,360.0
+Masculino,Master 1,Branca,Pena,Otávio Menezes,Jangada Jiu-Jitsu,297.0
+Masculino,Master 1,Branca,Leve,Vinícius Freitas,Sertão Fight Team,252.0
+Masculino,Master 1,Branca,Leve,Joaquim Brito,Águias da Ribeira,85.5
+Masculino,Master 1,Branca,Médio,Cícero Rocha,Fênix BJJ,342.0
+Masculino,Master 1,Branca,Médio,Emanuel Silva,Mandacaru BJJ,283.5
+Masculino,Master 1,Branca,Médio,Antônio Siqueira,Leões do Tatame,207.0
+Masculino,Master 1,Branca,Meio-pesado,Felipe Nogueira,Sertão Fight Team,288.0
+Masculino,Master 1,Branca,Meio-pesado,Diego Rocha,Jangada Jiu-Jitsu,135.0
+Masculino,Master 1,Branca,Pesado,Samuel Pereira,Sertão Fight Team,301.5
+Masculino,Master 1,Branca,Super-pesado,Wesley Martins,Dragões da Guarda,324.0
+Masculino,Master 1,Branca,Super-pesado,Emanuel Menezes,Águias da Ribeira,211.5
+Masculino,Master 1,Branca,Super-pesado,Emanuel Siqueira,Iracema Jiu-Jitsu,135.0
+Masculino,Master 1,Azul,Galo,Renan Santos,Águias da Ribeira,225.0
+Masculino,Master 1,Azul,Pluma,Igor Rocha,Mandacaru BJJ,328.5
+Masculino,Master 1,Azul,Pluma,Breno Bezerra,Dragões da Guarda,90.0
+Masculino,Master 1,Azul,Pluma,Otávio Sampaio,Sertão Fight Team,90.0
+Masculino,Master 1,Azul,Pluma,Felipe Pereira,Águias da Ribeira,72.0
+Masculino,Master 1,Azul,Pena,Gustavo Correia,Águias da Ribeira,243.0
+Masculino,Master 1,Azul,Pena,Cícero Freitas,Fênix BJJ,90.0
+Masculino,Master 1,Azul,Leve,Felipe Freitas,Litoral Leste BJJ,247.5
+Masculino,Master 1,Azul,Leve,Igor Nogueira,Litoral Leste BJJ,162.0
+Masculino,Master 1,Azul,Médio,Antônio Oliveira,Leões do Tatame,351.0
+Masculino,Master 1,Azul,Médio,Lucas Moreira,Leões do Tatame,216.0
+Masculino,Master 1,Azul,Médio,Marcos Farias,Águias da Ribeira,81.0
+Masculino,Master 1,Azul,Meio-pesado,Emanuel Bezerra,Litoral Leste BJJ,360.0
+Masculino,Master 1,Azul,Meio-pesado,Breno Oliveira,Panteras da Arte Suave,346.5
+Masculino,Master 1,Azul,Meio-pesado,Cícero Gomes,Sertão Fight Team,342.0
+Masculino,Master 1,Azul,Meio-pesado,Mateus Barbosa,Iracema Jiu-Jitsu,324.0
+Masculino,Master 1,Azul,Meio-pesado,Carlos Sales,Jangada Jiu-Jitsu,112.5
+Masculino,Master 1,Azul,Meio-pesado,Levi Silva,Sertão Fight Team,54.0
+Masculino,Master 1,Azul,Meio-pesado,Breno Silva,Iracema Jiu-Jitsu,40.5
+Masculino,Master 1,Azul,Super-pesado,Otávio Moreira,Panteras da Arte Suave,198.0
+Masculino,Master 1,Azul,Super-pesado,Mateus Silva,Mandacaru BJJ,153.0
+Masculino,Master 1,Azul,Super-pesado,Emanuel Holanda,Mandacaru BJJ,108.0
+Masculino,Master 1,Azul,Super-pesado,Francisco Lima,Panteras da Arte Suave,103.5
+Masculino,Master 1,Azul,Super-pesado,Davi Sales,Panteras da Arte Suave,85.5
+Masculino,Master 1,Azul,Pesadíssimo,Igor Macêdo,Dragões da Guarda,355.5
+Masculino,Master 1,Azul,Pesadíssimo,Rafael Pereira,Leões do Tatame,355.5
+Masculino,Master 1,Azul,Pesadíssimo,Cícero Holanda,Dragões da Guarda,85.5
+Masculino,Master 1,Roxa,Galo,Gustavo Barbosa,Sertão Fight Team,337.5
+Masculino,Master 1,Roxa,Galo,Vinícius Araújo,Panteras da Arte Suave,288.0
+Masculino,Master 1,Roxa,Galo,André Bezerra,Iracema Jiu-Jitsu,238.5
+Masculino,Master 1,Roxa,Galo,Lucas Teixeira,Panteras da Arte Suave,135.0
+Masculino,Master 1,Roxa,Pluma,Francisco Menezes,Águias da Ribeira,144.0
+Masculino,Master 1,Roxa,Pluma,André Araújo,Iracema Jiu-Jitsu,81.0
+Masculino,Master 1,Roxa,Pluma,Thiago Rocha,Sertão Fight Team,63.0
+Masculino,Master 1,Roxa,Pena,Bruno Macêdo,Mandacaru BJJ,333.0
+Masculino,Master 1,Roxa,Pena,Marcos Siqueira,Litoral Leste BJJ,274.5
+Masculino,Master 1,Roxa,Pena,Ícaro Costa,Iracema Jiu-Jitsu,256.5
+Masculino,Master 1,Roxa,Pena,Felipe Rocha,Sertão Fight Team,148.5
+Masculino,Master 1,Roxa,Pena,Renan Sales,Dragões da Guarda,72.0
+Masculino,Master 1,Roxa,Pena,Pedro Brito,Mandacaru BJJ,31.5
+Masculino,Master 1,Roxa,Médio,Marcos Silva,Jangada Jiu-Jitsu,310.5
+Masculino,Master 1,Roxa,Médio,Wesley Freitas,Leões do Tatame,270.0
+Masculino,Master 1,Roxa,Médio,Ícaro Holanda,Águias da Ribeira,229.5
+Masculino,Master 1,Roxa,Médio,Heitor Cavalcante,Dragões da Guarda,108.0
+Masculino,Master 1,Roxa,Médio,Diego Sales,Mandacaru BJJ,85.5
+Masculino,Master 1,Roxa,Meio-pesado,Diego Bezerra,Águias da Ribeira,283.5
+Masculino,Master 1,Roxa,Meio-pesado,Felipe Barbosa,Águias da Ribeira,166.5
+Masculino,Master 1,Roxa,Meio-pesado,Bruno Lima,Dragões da Guarda,76.5
+Masculino,Master 1,Roxa,Pesado,Thiago Lima,Águias da Ribeira,261.0
+Masculino,Master 1,Roxa,Pesado,Igor Araújo,Iracema Jiu-Jitsu,189.0
+Masculino,Master 1,Roxa,Pesado,Marcos Gomes,Panteras da Arte Suave,166.5
+Masculino,Master 1,Roxa,Pesado,Heitor Correia,Iracema Jiu-Jitsu,130.5
+Masculino,Master 1,Roxa,Super-pesado,Diego Santos,Leões do Tatame,324.0
+Masculino,Master 1,Roxa,Super-pesado,Mateus Gomes,Sertão Fight Team,198.0
+Masculino,Master 1,Roxa,Super-pesado,Bruno Teixeira,Dragões da Guarda,144.0
+Masculino,Master 1,Roxa,Pesadíssimo,Pedro Farias,Litoral Leste BJJ,292.5
+Masculino,Master 1,Roxa,Pesadíssimo,Ícaro Correia,Mandacaru BJJ,283.5
+Masculino,Master 1,Roxa,Pesadíssimo,Breno Martins,Jangada Jiu-Jitsu,211.5
+Masculino,Master 1,Roxa,Pesadíssimo,Heitor Oliveira,Mandacaru BJJ,207.0
+Masculino,Master 1,Roxa,Pesadíssimo,Caio Farias,Jangada Jiu-Jitsu,198.0
+Masculino,Master 1,Roxa,Pesadíssimo,Heitor Nogueira,Águias da Ribeira,36.0
+Masculino,Master 1,Marrom,Galo,Thiago Barbosa,Panteras da Arte Suave,315.0
+Masculino,Master 1,Marrom,Galo,Felipe Holanda,Leões do Tatame,283.5
+Masculino,Master 1,Marrom,Galo,Carlos Freitas,Panteras da Arte Suave,265.5
+Masculino,Master 1,Marrom,Galo,Otávio Siqueira,Iracema Jiu-Jitsu,229.5
+Masculino,Master 1,Marrom,Galo,Wesley Moreira,Sertão Fight Team,130.5
+Masculino,Master 1,Marrom,Galo,Bruno Sales,Jangada Jiu-Jitsu,103.5
+Masculino,Master 1,Marrom,Pluma,Marcos Brito,Panteras da Arte Suave,256.5
+Masculino,Master 1,Marrom,Pluma,Cícero Lima,Sertão Fight Team,238.5
+Masculino,Master 1,Marrom,Pena,Marcos Macêdo,Jangada Jiu-Jitsu,130.5
+Masculino,Master 1,Marrom,Leve,Joaquim Macêdo,Litoral Leste BJJ,166.5
+Masculino,Master 1,Marrom,Leve,Francisco Rocha,Iracema Jiu-Jitsu,108.0
+Masculino,Master 1,Marrom,Leve,Marcos Teixeira,Iracema Jiu-Jitsu,45.0
+Masculino,Master 1,Marrom,Médio,Vinícius Barbosa,Litoral Leste BJJ,355.5
+Masculino,Master 1,Marrom,Médio,Otávio Correia,Fênix BJJ,202.5
+Masculino,Master 1,Marrom,Médio,Heitor Gomes,Panteras da Arte Suave,54.0
+Masculino,Master 1,Marrom,Médio,Davi Santos,Águias da Ribeira,40.5
+Masculino,Master 1,Marrom,Meio-pesado,Rafael Siqueira,Águias da Ribeira,135.0
+Masculino,Master 1,Marrom,Meio-pesado,Levi Freitas,Fênix BJJ,121.5
+Masculino,Master 1,Marrom,Meio-pesado,Antônio Lima,Águias da Ribeira,72.0
+Masculino,Master 1,Marrom,Pesado,Ícaro Lima,Leões do Tatame,292.5
+Masculino,Master 1,Marrom,Pesado,Raul Albuquerque,Panteras da Arte Suave,99.0
+Masculino,Master 1,Marrom,Pesado,Antônio Correia,Fênix BJJ,90.0
+Masculino,Master 1,Marrom,Super-pesado,Caio Rocha,Dragões da Guarda,328.5
+Masculino,Master 1,Marrom,Super-pesado,Rafael Barbosa,Leões do Tatame,319.5
+Masculino,Master 1,Marrom,Super-pesado,Levi Pinheiro,Panteras da Arte Suave,225.0
+Masculino,Master 1,Marrom,Super-pesado,Felipe Costa,Iracema Jiu-Jitsu,193.5
+Masculino,Master 1,Marrom,Super-pesado,Breno Gomes,Dragões da Guarda,45.0
+Masculino,Master 1,Marrom,Pesadíssimo,Davi Siqueira,Dragões da Guarda,328.5
+Masculino,Master 1,Marrom,Pesadíssimo,Diego Pinheiro,Iracema Jiu-Jitsu,184.5
+Masculino,Master 1,Marrom,Pesadíssimo,Davi Holanda,Mandacaru BJJ,126.0
+Masculino,Master 1,Marrom,Pesadíssimo,Heitor Araújo,Fênix BJJ,103.5
+Masculino,Master 1,Marrom,Pesadíssimo,Rafael Bezerra,Águias da Ribeira,58.5
+Masculino,Master 1,Preta,Galo,Cícero Bezerra,Panteras da Arte Suave,346.5
+Masculino,Master 1,Preta,Galo,Marcos Araújo,Panteras da Arte Suave,328.5
+Masculino,Master 1,Preta,Pluma,Emanuel Barbosa,Litoral Leste BJJ,328.5
+Masculino,Master 1,Preta,Pluma,Gustavo Menezes,Dragões da Guarda,297.0
+Masculino,Master 1,Preta,Pluma,Wesley Albuquerque,Jangada Jiu-Jitsu,171.0
+Masculino,Master 1,Preta,Pluma,Igor Menezes,Panteras da Arte Suave,135.0
+Masculino,Master 1,Preta,Pluma,Rafael Batista,Sertão Fight Team,103.5
+Masculino,Master 1,Preta,Pluma,Thiago Correia,Dragões da Guarda,76.5
+Masculino,Master 1,Preta,Pena,Bruno Albuquerque,Águias da Ribeira,360.0
+Masculino,Master 1,Preta,Pena,Mateus Monteiro,Águias da Ribeira,229.5
+Masculino,Master 1,Preta,Pena,André Rocha,Leões do Tatame,171.0
+Masculino,Master 1,Preta,Pena,Caio Moreira,Litoral Leste BJJ,153.0
+Masculino,Master 1,Preta,Pena,Joaquim Pinheiro,Jangada Jiu-Jitsu,130.5
+Masculino,Master 1,Preta,Pena,Gustavo Bezerra,Litoral Leste BJJ,126.0
+Masculino,Master 1,Preta,Pena,Lucas Sampaio,Leões do Tatame,45.0
+Masculino,Master 1,Preta,Médio,Felipe Santos,Litoral Leste BJJ,315.0
+Masculino,Master 1,Preta,Médio,Wesley Correia,Jangada Jiu-Jitsu,315.0
+Masculino,Master 1,Preta,Médio,Pedro Moreira,Dragões da Guarda,153.0
+Masculino,Master 1,Preta,Médio,Levi Cavalcante,Mandacaru BJJ,81.0
+Masculino,Master 1,Preta,Médio,Davi Costa,Jangada Jiu-Jitsu,31.5
+Masculino,Master 1,Preta,Meio-pesado,Samuel Sampaio,Iracema Jiu-Jitsu,324.0
+Masculino,Master 1,Preta,Meio-pesado,Bruno Siqueira,Dragões da Guarda,157.5
+Masculino,Master 1,Preta,Pesado,Emanuel Santos,Sertão Fight Team,351.0
+Masculino,Master 1,Preta,Pesado,Lucas Pereira,Sertão Fight Team,256.5
+Masculino,Master 1,Preta,Super-pesado,Samuel Farias,Jangada Jiu-Jitsu,274.5
+Masculino,Master 1,Preta,Super-pesado,Thiago Nogueira,Mandacaru BJJ,202.5
+Masculino,Master 1,Preta,Super-pesado,Breno Costa,Sertão Fight Team,81.0
+Masculino,Master 1,Preta,Super-pesado,Igor Siqueira,Águias da Ribeira,67.5
+Masculino,Master 1,Preta,Super-pesado,Raul Freitas,Sertão Fight Team,63.0
+Masculino,Master 1,Preta,Pesadíssimo,Joaquim Sales,Fênix BJJ,324.0
+Masculino,Master 1,Preta,Pesadíssimo,Vinícius Siqueira,Iracema Jiu-Jitsu,189.0
+Masculino,Master 1,Preta,Pesadíssimo,Raul Sales,Sertão Fight Team,162.0
+Masculino,Master 1,Preta,Pesadíssimo,Lucas Holanda,Leões do Tatame,126.0
+Masculino,Master 1,Preta,Pesadíssimo,Pedro Cavalcante,Dragões da Guarda,27.0
+Feminino,Juvenil,Branca,Galo,Camila Barbosa,Fênix BJJ,337.5
+Feminino,Juvenil,Branca,Galo,Luana Sampaio,Jangada Jiu-Jitsu,279.0
+Feminino,Juvenil,Branca,Galo,Iara Moreira,Fênix BJJ,139.5
+Feminino,Juvenil,Branca,Pena,Júlia Pinheiro,Litoral Leste BJJ,256.5
+Feminino,Juvenil,Branca,Pena,Lívia Costa,Iracema Jiu-Jitsu,171.0
+Feminino,Juvenil,Branca,Leve,Manuela Teixeira,Águias da Ribeira,355.5
+Feminino,Juvenil,Branca,Leve,Bruna Correia,Litoral Leste BJJ,45.0
+Feminino,Juvenil,Branca,Meio-pesado,Camila Santos,Sertão Fight Team,328.5
+Feminino,Juvenil,Branca,Meio-pesado,Aline Lima,Águias da Ribeira,306.0
+Feminino,Juvenil,Branca,Meio-pesado,Iara Pinheiro,Jangada Jiu-Jitsu,256.5
+Feminino,Juvenil,Branca,Meio-pesado,Bruna Menezes,Fênix BJJ,252.0
+Feminino,Juvenil,Branca,Meio-pesado,Sofia Moreira,Jangada Jiu-Jitsu,130.5
+Feminino,Juvenil,Branca,Pesado,Natália Bezerra,Fênix BJJ,355.5
+Feminino,Juvenil,Branca,Pesado,Fernanda Pereira,Dragões da Guarda,243.0
+Feminino,Juvenil,Branca,Pesado,Lívia Gomes,Leões do Tatame,121.5
+Feminino,Juvenil,Azul,Galo,Júlia Sampaio,Mandacaru BJJ,324.0
+Feminino,Juvenil,Azul,Galo,Rebeca Moreira,Litoral Leste BJJ,234.0
+Feminino,Juvenil,Azul,Galo,Iara Rocha,Dragões da Guarda,175.5
+Feminino,Juvenil,Azul,Galo,Beatriz Batista,Jangada Jiu-Jitsu,36.0
+Feminino,Juvenil,Azul,Pluma,Manuela Santos,Dragões da Guarda,342.0
+Feminino,Juvenil,Azul,Pluma,Mariana Sampaio,Fênix BJJ,234.0
+Feminino,Juvenil,Azul,Pluma,Helena Silva,Iracema Jiu-Jitsu,229.5
+Feminino,Juvenil,Azul,Pluma,Bruna Siqueira,Dragões da Guarda,166.5
+Feminino,Juvenil,Azul,Pluma,Camila Rocha,Litoral Leste BJJ,72.0
+Feminino,Juvenil,Azul,Pena,Mariana Menezes,Leões do Tatame,288.0
+Feminino,Juvenil,Azul,Pena,Priscila Lima,Iracema Jiu-Jitsu,283.5
+Feminino,Juvenil,Azul,Pena,Marina Albuquerque,Iracema Jiu-Jitsu,166.5
+Feminino,Juvenil,Azul,Pena,Helena Santos,Fênix BJJ,148.5
+Feminino,Juvenil,Azul,Pena,Vitória Barbosa,Litoral Leste BJJ,63.0
+Feminino,Juvenil,Azul,Leve,Raquel Sales,Dragões da Guarda,49.5
+Feminino,Juvenil,Azul,Meio-pesado,Mariana Correia,Iracema Jiu-Jitsu,328.5
+Feminino,Juvenil,Azul,Meio-pesado,Isabella Batista,Sertão Fight Team,297.0
+Feminino,Juvenil,Azul,Meio-pesado,Beatriz Cavalcante,Panteras da Arte Suave,297.0
+Feminino,Juvenil,Azul,Meio-pesado,Débora Oliveira,Dragões da Guarda,261.0
+Feminino,Juvenil,Azul,Pesado,Sofia Albuquerque,Iracema Jiu-Jitsu,333.0
+Feminino,Juvenil,Azul,Pesado,Raquel Sampaio,Jangada Jiu-Jitsu,270.0
+Feminino,Juvenil,Azul,Pesado,Vitória Silva,Sertão Fight Team,229.5
+Feminino,Juvenil,Azul,Pesado,Ana Macêdo,Mandacaru BJJ,229.5
+Feminino,Juvenil,Azul,Pesado,Rebeca Macêdo,Panteras da Arte Suave,184.5
+Feminino,Juvenil,Azul,Pesado,Isabella Santos,Mandacaru BJJ,171.0
+Feminino,Juvenil,Azul,Pesado,Natália Oliveira,Águias da Ribeira,94.5
+Feminino,Juvenil,Azul,Pesado,Rebeca Albuquerque,Sertão Fight Team,31.5
+Feminino,Juvenil,Azul,Super-pesado,Luana Correia,Fênix BJJ,351.0
+Feminino,Juvenil,Azul,Super-pesado,Débora Sales,Dragões da Guarda,310.5
+Feminino,Juvenil,Azul,Super-pesado,Lívia Monteiro,Sertão Fight Team,175.5
+Feminino,Juvenil,Azul,Super-pesado,Débora Moreira,Panteras da Arte Suave,166.5
+Feminino,Juvenil,Azul,Super-pesado,Isabella Freitas,Águias da Ribeira,148.5
+Feminino,Juvenil,Azul,Super-pesado,Natália Teixeira,Águias da Ribeira,49.5
+Feminino,Juvenil,Roxa,Galo,Luana Menezes,Jangada Jiu-Jitsu,333.0
+Feminino,Juvenil,Roxa,Galo,Larissa Silva,Panteras da Arte Suave,229.5
+Feminino,Juvenil,Roxa,Galo,Bruna Rocha,Panteras da Arte Suave,216.0
+Feminino,Juvenil,Roxa,Galo,Beatriz Sales,Águias da Ribeira,157.5
+Feminino,Juvenil,Roxa,Galo,Vitória Holanda,Dragões da Guarda,76.5
+Feminino,Juvenil,Roxa,Pluma,Manuela Barbosa,Leões do Tatame,256.5
+Feminino,Juvenil,Roxa,Pluma,Larissa Santos,Fênix BJJ,54.0
+Feminino,Juvenil,Roxa,Pena,Tainá Silva,Leões do Tatame,139.5
+Feminino,Juvenil,Roxa,Pena,Yasmin Barbosa,Litoral Leste BJJ,112.5
+Feminino,Juvenil,Roxa,Pena,Clara Macêdo,Jangada Jiu-Jitsu,94.5
+Feminino,Juvenil,Roxa,Leve,Tainá Siqueira,Iracema Jiu-Jitsu,261.0
+Feminino,Juvenil,Roxa,Médio,Gabriela Gomes,Panteras da Arte Suave,319.5
+Feminino,Juvenil,Roxa,Médio,Rebeca Sampaio,Fênix BJJ,220.5
+Feminino,Juvenil,Roxa,Médio,Luana Brito,Dragões da Guarda,90.0
+Feminino,Juvenil,Roxa,Meio-pesado,Larissa Bezerra,Dragões da Guarda,355.5
+Feminino,Juvenil,Roxa,Meio-pesado,Manuela Holanda,Dragões da Guarda,31.5
+Feminino,Juvenil,Roxa,Pesado,Beatriz Menezes,Litoral Leste BJJ,90.0
+Feminino,Juvenil,Roxa,Pesado,Raquel Costa,Fênix BJJ,54.0
+Feminino,Juvenil,Roxa,Super-pesado,Luana Santos,Litoral Leste BJJ,306.0
+Feminino,Juvenil,Roxa,Super-pesado,Vitória Oliveira,Jangada Jiu-Jitsu,270.0
+Feminino,Juvenil,Roxa,Super-pesado,Iara Cavalcante,Dragões da Guarda,193.5
+Feminino,Juvenil,Roxa,Super-pesado,Bianca Pereira,Mandacaru BJJ,162.0
+Feminino,Juvenil,Roxa,Super-pesado,Marina Correia,Mandacaru BJJ,76.5
+Feminino,Adulto,Branca,Galo,Rebeca Holanda,Panteras da Arte Suave,234.0
+Feminino,Adulto,Branca,Galo,Gabriela Pereira,Iracema Jiu-Jitsu,220.5
+Feminino,Adulto,Branca,Galo,Raquel Monteiro,Iracema Jiu-Jitsu,162.0
+Feminino,Adulto,Branca,Galo,Letícia Pinheiro,Sertão Fight Team,108.0
+Feminino,Adulto,Branca,Galo,Priscila Siqueira,Águias da Ribeira,54.0
+Feminino,Adulto,Branca,Pluma,Priscila Silva,Águias da Ribeira,328.5
+Feminino,Adulto,Branca,Pluma,Ana Lima,Fênix BJJ,306.0
+Feminino,Adulto,Branca,Pluma,Isabella Bezerra,Leões do Tatame,220.5
+Feminino,Adulto,Branca,Pena,Clara Pereira,Fênix BJJ,346.5
+Feminino,Adulto,Branca,Pena,Raquel Bezerra,Leões do Tatame,328.5
+Feminino,Adulto,Branca,Pena,Beatriz Sampaio,Jangada Jiu-Jitsu,117.0
+Feminino,Adulto,Branca,Leve,Rebeca Araújo,Iracema Jiu-Jitsu,319.5
+Feminino,Adulto,Branca,Leve,Camila Cavalcante,Sertão Fight Team,315.0
+Feminino,Adulto,Branca,Leve,Júlia Siqueira,Panteras da Arte Suave,247.5
+Feminino,Adulto,Branca,Leve,Alice Barbosa,Mandacaru BJJ,180.0
+Feminino,Adulto,Branca,Leve,Sofia Batista,Águias da Ribeira,121.5
+Feminino,Adulto,Branca,Médio,Aline Moreira,Leões do Tatame,310.5
+Feminino,Adulto,Branca,Médio,Natália Pinheiro,Jangada Jiu-Jitsu,207.0
+Feminino,Adulto,Branca,Médio,Isabella Pinheiro,Mandacaru BJJ,189.0
+Feminino,Adulto,Branca,Médio,Marina Holanda,Iracema Jiu-Jitsu,184.5
+Feminino,Adulto,Branca,Médio,Luana Lima,Litoral Leste BJJ,76.5
+Feminino,Adulto,Branca,Médio,Marina Sales,Iracema Jiu-Jitsu,58.5
+Feminino,Adulto,Branca,Médio,Débora Gomes,Litoral Leste BJJ,40.5
+Feminino,Adulto,Branca,Meio-pesado,Camila Menezes,Sertão Fight Team,211.5
+Feminino,Adulto,Branca,Meio-pesado,Iara Brito,Fênix BJJ,99.0
+Feminino,Adulto,Branca,Pesado,Tainá Bezerra,Jangada Jiu-Jitsu,342.0
+Feminino,Adulto,Branca,Pesado,Gabriela Sales,Sertão Fight Team,193.5
+Feminino,Adulto,Branca,Super-pesado,Vitória Gomes,Águias da Ribeira,333.0
+Feminino,Adulto,Branca,Super-pesado,Clara Lima,Panteras da Arte Suave,234.0
+Feminino,Adulto,Branca,Super-pesado,Rebeca Rocha,Iracema Jiu-Jitsu,220.5
+Feminino,Adulto,Branca,Super-pesado,Gabriela Batista,Sertão Fight Team,144.0
+Feminino,Adulto,Branca,Super-pesado,Camila Lima,Fênix BJJ,139.5
+Feminino,Adulto,Azul,Galo,Yasmin Silva,Fênix BJJ,324.0
+Feminino,Adulto,Azul,Galo,Bruna Brito,Sertão Fight Team,99.0
+Feminino,Adulto,Azul,Pluma,Iara Monteiro,Panteras da Arte Suave,256.5
+Feminino,Adulto,Azul,Pluma,Mariana Sales,Sertão Fight Team,175.5
+Feminino,Adulto,Azul,Pluma,Letícia Silva,Dragões da Guarda,171.0
+Feminino,Adulto,Azul,Pluma,Tainá Freitas,Panteras da Arte Suave,135.0
+Feminino,Adulto,Azul,Leve,Camila Freitas,Águias da Ribeira,328.5
+Feminino,Adulto,Azul,Médio,Natália Farias,Leões do Tatame,270.0
+Feminino,Adulto,Azul,Médio,Lívia Cavalcante,Fênix BJJ,225.0
+Feminino,Adulto,Azul,Meio-pesado,Alice Freitas,Iracema Jiu-Jitsu,342.0
+Feminino,Adulto,Azul,Meio-pesado,Marina Bezerra,Fênix BJJ,283.5
+Feminino,Adulto,Azul,Pesado,Mariana Nogueira,Leões do Tatame,148.5
+Feminino,Adulto,Azul,Pesado,Marina Brito,Dragões da Guarda,108.0
+Feminino,Adulto,Azul,Pesado,Yasmin Cavalcante,Jangada Jiu-Jitsu,94.5
+Feminino,Adulto,Azul,Super-pesado,Bianca Sales,Águias da Ribeira,342.0
+Feminino,Adulto,Azul,Super-pesado,Mariana Teixeira,Dragões da Guarda,310.5
+Feminino,Adulto,Azul,Super-pesado,Bianca Santos,Dragões da Guarda,139.5
+Feminino,Adulto,Azul,Super-pesado,Débora Martins,Jangada Jiu-Jitsu,58.5
+Feminino,Adulto,Azul,Super-pesado,Marina Monteiro,Mandacaru BJJ,27.0
+Feminino,Adulto,Roxa,Galo,Iara Oliveira,Mandacaru BJJ,279.0
+Feminino,Adulto,Roxa,Galo,Bianca Gomes,Iracema Jiu-Jitsu,63.0
+Feminino,Adulto,Roxa,Galo,Bruna Martins,Mandacaru BJJ,54.0
+Feminino,Adulto,Roxa,Galo,Alice Menezes,Fênix BJJ,49.5
+Feminino,Adulto,Roxa,Pluma,Natália Sampaio,Leões do Tatame,351.0
+Feminino,Adulto,Roxa,Pluma,Priscila Batista,Fênix BJJ,333.0
+Feminino,Adulto,Roxa,Pluma,Isabella Sampaio,Panteras da Arte Suave,216.0
+Feminino,Adulto,Roxa,Pluma,Letícia Barbosa,Litoral Leste BJJ,126.0
+Feminino,Adulto,Roxa,Pena,Bianca Cavalcante,Leões do Tatame,283.5
+Feminino,Adulto,Roxa,Pena,Raquel Nogueira,Dragões da Guarda,265.5
+Feminino,Adulto,Roxa,Pena,Ana Oliveira,Litoral Leste BJJ,108.0
+Feminino,Adulto,Roxa,Pena,Manuela Menezes,Águias da Ribeira,58.5
+Feminino,Adulto,Roxa,Pena,Natália Barbosa,Jangada Jiu-Jitsu,31.5
+Feminino,Adulto,Roxa,Leve,Beatriz Holanda,Leões do Tatame,301.5
+Feminino,Adulto,Roxa,Leve,Isabella Pereira,Leões do Tatame,166.5
+Feminino,Adulto,Roxa,Leve,Aline Bezerra,Fênix BJJ,54.0
+Feminino,Adulto,Roxa,Médio,Júlia Holanda,Panteras da Arte Suave,315.0
+Feminino,Adulto,Roxa,Médio,Marina Freitas,Dragões da Guarda,202.5
+Feminino,Adulto,Roxa,Médio,Clara Pinheiro,Águias da Ribeira,202.5
+Feminino,Adulto,Roxa,Médio,Beatriz Martins,Litoral Leste BJJ,67.5
+Feminino,Adulto,Roxa,Meio-pesado,Vitória Bezerra,Dragões da Guarda,144.0
+Feminino,Adulto,Roxa,Meio-pesado,Letícia Rocha,Jangada Jiu-Jitsu,139.5
+Feminino,Adulto,Roxa,Meio-pesado,Helena Menezes,Dragões da Guarda,45.0
+Feminino,Adulto,Roxa,Meio-pesado,Sofia Bezerra,Jangada Jiu-Jitsu,40.5
+Feminino,Adulto,Roxa,Pesado,Alice Silva,Jangada Jiu-Jitsu,319.5
+Feminino,Adulto,Roxa,Pesado,Luana Rocha,Fênix BJJ,319.5
+Feminino,Adulto,Roxa,Pesado,Letícia Farias,Iracema Jiu-Jitsu,310.5
+Feminino,Adulto,Roxa,Pesado,Mariana Costa,Fênix BJJ,292.5
+Feminino,Adulto,Roxa,Pesado,Mariana Gomes,Iracema Jiu-Jitsu,243.0
+Feminino,Adulto,Marrom,Galo,Isabella Monteiro,Panteras da Arte Suave,306.0
+Feminino,Adulto,Marrom,Galo,Manuela Macêdo,Iracema Jiu-Jitsu,234.0
+Feminino,Adulto,Marrom,Galo,Camila Monteiro,Águias da Ribeira,211.5
+Feminino,Adulto,Marrom,Galo,Raquel Lima,Leões do Tatame,202.5
+Feminino,Adulto,Marrom,Galo,Isabella Martins,Leões do Tatame,90.0
+Feminino,Adulto,Marrom,Pluma,Vitória Moreira,Sertão Fight Team,216.0
+Feminino,Adulto,Marrom,Pluma,Letícia Bezerra,Leões do Tatame,211.5
+Feminino,Adulto,Marrom,Pena,Lívia Barbosa,Iracema Jiu-Jitsu,283.5
+Feminino,Adulto,Marrom,Pena,Manuela Correia,Dragões da Guarda,184.5
+Feminino,Adulto,Marrom,Pena,Raquel Santos,Dragões da Guarda,108.0
+Feminino,Adulto,Marrom,Pena,Larissa Correia,Panteras da Arte Suave,90.0
+Feminino,Adulto,Marrom,Pena,Júlia Costa,Mandacaru BJJ,49.5
+Feminino,Adulto,Marrom,Leve,Natália Moreira,Iracema Jiu-Jitsu,337.5
+Feminino,Adulto,Marrom,Leve,Gabriela Costa,Dragões da Guarda,310.5
+Feminino,Adulto,Marrom,Leve,Fernanda Lima,Leões do Tatame,229.5
+Feminino,Adulto,Marrom,Leve,Clara Sampaio,Águias da Ribeira,148.5
+Feminino,Adulto,Marrom,Médio,Camila Costa,Jangada Jiu-Jitsu,319.5
+Feminino,Adulto,Marrom,Médio,Bianca Pinheiro,Litoral Leste BJJ,292.5
+Feminino,Adulto,Marrom,Médio,Camila Bezerra,Jangada Jiu-Jitsu,256.5
+Feminino,Adulto,Marrom,Médio,Alice Martins,Leões do Tatame,103.5
+Feminino,Adulto,Marrom,Meio-pesado,Fernanda Siqueira,Panteras da Arte Suave,342.0
+Feminino,Adulto,Marrom,Meio-pesado,Marina Teixeira,Iracema Jiu-Jitsu,319.5
+Feminino,Adulto,Marrom,Meio-pesado,Iara Nogueira,Águias da Ribeira,265.5
+Feminino,Adulto,Marrom,Meio-pesado,Bruna Monteiro,Jangada Jiu-Jitsu,157.5
+Feminino,Adulto,Marrom,Meio-pesado,Gabriela Lima,Panteras da Arte Suave,72.0
+Feminino,Adulto,Marrom,Pesado,Lívia Bezerra,Sertão Fight Team,333.0
+Feminino,Adulto,Marrom,Pesado,Clara Rocha,Sertão Fight Team,229.5
+Feminino,Adulto,Marrom,Pesado,Larissa Moreira,Dragões da Guarda,162.0
+Feminino,Adulto,Marrom,Pesado,Bianca Monteiro,Águias da Ribeira,81.0
+Feminino,Adulto,Marrom,Super-pesado,Natália Sales,Leões do Tatame,328.5
+Feminino,Adulto,Marrom,Super-pesado,Iara Silva,Leões do Tatame,265.5
+Feminino,Adulto,Marrom,Super-pesado,Raquel Araújo,Iracema Jiu-Jitsu,256.5
+Feminino,Adulto,Marrom,Super-pesado,Marina Moreira,Panteras da Arte Suave,252.0
+Feminino,Adulto,Marrom,Super-pesado,Débora Araújo,Fênix BJJ,243.0
+Feminino,Adulto,Marrom,Super-pesado,Gabriela Farias,Águias da Ribeira,229.5
+Feminino,Adulto,Marrom,Super-pesado,Isabella Macêdo,Águias da Ribeira,180.0
+Feminino,Adulto,Preta,Galo,Luana Bezerra,Mandacaru BJJ,265.5
+Feminino,Adulto,Preta,Galo,Sofia Rocha,Litoral Leste BJJ,247.5
+Feminino,Adulto,Preta,Galo,Letícia Monteiro,Panteras da Arte Suave,216.0
+Feminino,Adulto,Preta,Galo,Letícia Menezes,Jangada Jiu-Jitsu,162.0
+Feminino,Adulto,Preta,Galo,Natália Monteiro,Litoral Leste BJJ,126.0
+Feminino,Adulto,Preta,Pluma,Rebeca Brito,Leões do Tatame,310.5
+Feminino,Adulto,Preta,Pluma,Débora Menezes,Leões do Tatame,279.0
+Feminino,Adulto,Preta,Pluma,Iara Sampaio,Iracema Jiu-Jitsu,279.0
+Feminino,Adulto,Preta,Pluma,Bruna Nogueira,Litoral Leste BJJ,193.5
+Feminino,Adulto,Preta,Pluma,Manuela Sampaio,Panteras da Arte Suave,54.0
+Feminino,Adulto,Preta,Pena,Clara Correia,Panteras da Arte Suave,247.5
+Feminino,Adulto,Preta,Pena,Marina Sampaio,Sertão Fight Team,184.5
+Feminino,Adulto,Preta,Pena,Isabella Araújo,Fênix BJJ,184.5
+Feminino,Adulto,Preta,Pena,Helena Pereira,Leões do Tatame,166.5
+Feminino,Adulto,Preta,Pena,Iara Pereira,Mandacaru BJJ,148.5
+Feminino,Adulto,Preta,Leve,Júlia Brito,Mandacaru BJJ,333.0
+Feminino,Adulto,Preta,Leve,Gabriela Monteiro,Iracema Jiu-Jitsu,288.0
+Feminino,Adulto,Preta,Leve,Manuela Gomes,Leões do Tatame,252.0
+Feminino,Adulto,Preta,Leve,Tainá Menezes,Leões do Tatame,211.5
+Feminino,Adulto,Preta,Leve,Clara Bezerra,Águias da Ribeira,130.5
+Feminino,Adulto,Preta,Médio,Marina Nogueira,Fênix BJJ,324.0
+Feminino,Adulto,Preta,Médio,Bianca Correia,Águias da Ribeira,319.5
+Feminino,Adulto,Preta,Médio,Isabella Lima,Sertão Fight Team,202.5
+Feminino,Adulto,Preta,Médio,Alice Bezerra,Jangada Jiu-Jitsu,193.5
+Feminino,Adulto,Preta,Médio,Luana Macêdo,Mandacaru BJJ,54.0
+Feminino,Adulto,Preta,Meio-pesado,Priscila Correia,Mandacaru BJJ,360.0
+Feminino,Adulto,Preta,Meio-pesado,Camila Silva,Águias da Ribeira,342.0
+Feminino,Adulto,Preta,Meio-pesado,Aline Sampaio,Leões do Tatame,333.0
+Feminino,Adulto,Preta,Meio-pesado,Larissa Cavalcante,Litoral Leste BJJ,121.5
+Feminino,Adulto,Preta,Meio-pesado,Débora Costa,Sertão Fight Team,121.5
+Feminino,Adulto,Preta,Meio-pesado,Aline Cavalcante,Iracema Jiu-Jitsu,112.5
+Feminino,Adulto,Preta,Meio-pesado,Priscila Rocha,Panteras da Arte Suave,63.0
+Feminino,Adulto,Preta,Pesado,Débora Freitas,Iracema Jiu-Jitsu,333.0
+Feminino,Adulto,Preta,Pesado,Débora Macêdo,Fênix BJJ,328.5
+Feminino,Adulto,Preta,Pesado,Priscila Costa,Jangada Jiu-Jitsu,315.0
+Feminino,Adulto,Preta,Pesado,Gabriela Araújo,Fênix BJJ,288.0
+Feminino,Adulto,Preta,Pesado,Manuela Moreira,Águias da Ribeira,63.0
+Feminino,Adulto,Preta,Super-pesado,Luana Pinheiro,Litoral Leste BJJ,337.5
+Feminino,Adulto,Preta,Super-pesado,Larissa Lima,Sertão Fight Team,324.0
+Feminino,Adulto,Preta,Super-pesado,Priscila Nogueira,Mandacaru BJJ,157.5
+Feminino,Adulto,Preta,Super-pesado,Letícia Oliveira,Litoral Leste BJJ,148.5
+Feminino,Adulto,Preta,Super-pesado,Rebeca Silva,Litoral Leste BJJ,54.0
+Feminino,Master 1,Branca,Galo,Larissa Gomes,Panteras da Arte Suave,49.5
+Feminino,Master 1,Branca,Pluma,Natália Costa,Leões do Tatame,225.0
+Feminino,Master 1,Branca,Pluma,Alice Santos,Litoral Leste BJJ,189.0
+Feminino,Master 1,Branca,Pluma,Mariana Macêdo,Águias da Ribeira,162.0
+Feminino,Master 1,Branca,Pluma,Marina Costa,Leões do Tatame,135.0
+Feminino,Master 1,Branca,Pluma,Bruna Cavalcante,Iracema Jiu-Jitsu,67.5
+Feminino,Master 1,Branca,Pena,Marina Barbosa,Panteras da Arte Suave,288.0
+Feminino,Master 1,Branca,Pena,Fernanda Oliveira,Iracema Jiu-Jitsu,94.5
+Feminino,Master 1,Branca,Leve,Beatriz Santos,Mandacaru BJJ,346.5
+Feminino,Master 1,Branca,Leve,Bianca Bezerra,Leões do Tatame,333.0
+Feminino,Master 1,Branca,Leve,Júlia Bezerra,Dragões da Guarda,319.5
+Feminino,Master 1,Branca,Leve,Débora Nogueira,Panteras da Arte Suave,220.5
+Feminino,Master 1,Branca,Médio,Gabriela Moreira,Mandacaru BJJ,328.5
+Feminino,Master 1,Branca,Médio,Marina Cavalcante,Iracema Jiu-Jitsu,108.0
+Feminino,Master 1,Branca,Médio,Lívia Pinheiro,Leões do Tatame,36.0
+Feminino,Master 1,Branca,Meio-pesado,Lívia Batista,Águias da Ribeira,265.5
+Feminino,Master 1,Branca,Meio-pesado,Iara Macêdo,Fênix BJJ,220.5
+Feminino,Master 1,Branca,Pesado,Alice Albuquerque,Panteras da Arte Suave,315.0
+Feminino,Master 1,Branca,Pesado,Alice Sampaio,Águias da Ribeira,139.5
+Feminino,Master 1,Branca,Pesado,Lívia Silva,Iracema Jiu-Jitsu,139.5
+Feminino,Master 1,Branca,Pesado,Mariana Silva,Leões do Tatame,135.0
+Feminino,Master 1,Branca,Pesado,Clara Farias,Sertão Fight Team,90.0
+Feminino,Master 1,Branca,Super-pesado,Bianca Albuquerque,Águias da Ribeira,202.5
+Feminino,Master 1,Branca,Super-pesado,Letícia Freitas,Águias da Ribeira,198.0
+Feminino,Master 1,Branca,Super-pesado,Aline Oliveira,Iracema Jiu-Jitsu,162.0
+Feminino,Master 1,Azul,Galo,Tainá Costa,Litoral Leste BJJ,256.5
+Feminino,Master 1,Azul,Galo,Tainá Gomes,Águias da Ribeira,184.5
+Feminino,Master 1,Azul,Galo,Gabriela Silva,Litoral Leste BJJ,139.5
+Feminino,Master 1,Azul,Galo,Lívia Teixeira,Mandacaru BJJ,117.0
+Feminino,Master 1,Azul,Pluma,Larissa Batista,Dragões da Guarda,216.0
+Feminino,Master 1,Azul,Pluma,Beatriz Correia,Litoral Leste BJJ,180.0
+Feminino,Master 1,Azul,Pluma,Luana Nogueira,Dragões da Guarda,54.0
+Feminino,Master 1,Azul,Pena,Alice Moreira,Mandacaru BJJ,324.0
+Feminino,Master 1,Azul,Médio,Bruna Sampaio,Sertão Fight Team,234.0
+Feminino,Master 1,Azul,Meio-pesado,Natália Santos,Iracema Jiu-Jitsu,225.0
+Feminino,Master 1,Azul,Meio-pesado,Raquel Menezes,Águias da Ribeira,180.0
+Feminino,Master 1,Azul,Meio-pesado,Bianca Batista,Leões do Tatame,162.0
+Feminino,Master 1,Azul,Meio-pesado,Natália Pereira,Litoral Leste BJJ,67.5
+Feminino,Master 1,Azul,Meio-pesado,Clara Costa,Sertão Fight Team,36.0
+Feminino,Master 1,Roxa,Galo,Helena Sales,Litoral Leste BJJ,288.0
+Feminino,Master 1,Roxa,Galo,Raquel Freitas,Dragões da Guarda,261.0
+Feminino,Master 1,Roxa,Galo,Tainá Rocha,Sertão Fight Team,211.5
+Feminino,Master 1,Roxa,Galo,Tainá Monteiro,Leões do Tatame,189.0
+Feminino,Master 1,Roxa,Galo,Clara Freitas,Águias da Ribeira,135.0
+Feminino,Master 1,Roxa,Galo,Yasmin Monteiro,Mandacaru BJJ,121.5
+Feminino,Master 1,Roxa,Galo,Fernanda Araújo,Panteras da Arte Suave,36.0
+Feminino,Master 1,Roxa,Pena,Isabella Siqueira,Litoral Leste BJJ,252.0
+Feminino,Master 1,Roxa,Médio,Rebeca Correia,Águias da Ribeira,265.5
+Feminino,Master 1,Roxa,Médio,Natália Martins,Iracema Jiu-Jitsu,148.5
+Feminino,Master 1,Roxa,Médio,Clara Oliveira,Mandacaru BJJ,54.0
+Feminino,Master 1,Roxa,Meio-pesado,Mariana Monteiro,Fênix BJJ,171.0
+Feminino,Master 1,Roxa,Meio-pesado,Luana Costa,Águias da Ribeira,58.5
+Feminino,Master 1,Roxa,Pesado,Natália Freitas,Dragões da Guarda,265.5
+Feminino,Master 1,Roxa,Pesado,Lívia Farias,Águias da Ribeira,211.5
+Feminino,Master 1,Roxa,Super-pesado,Ana Cavalcante,Águias da Ribeira,360.0
+Feminino,Master 1,Roxa,Super-pesado,Fernanda Rocha,Panteras da Arte Suave,153.0
+Feminino,Master 1,Marrom,Galo,Júlia Sales,Jangada Jiu-Jitsu,355.5
+Feminino,Master 1,Marrom,Galo,Fernanda Costa,Leões do Tatame,162.0
+Feminino,Master 1,Marrom,Galo,Letícia Martins,Sertão Fight Team,135.0
+Feminino,Master 1,Marrom,Galo,Aline Menezes,Fênix BJJ,121.5
+Feminino,Master 1,Marrom,Pluma,Priscila Bezerra,Mandacaru BJJ,283.5
+Feminino,Master 1,Marrom,Pena,Ana Bezerra,Dragões da Guarda,54.0
+Feminino,Master 1,Marrom,Pena,Júlia Albuquerque,Litoral Leste BJJ,31.5
+Feminino,Master 1,Marrom,Leve,Sofia Oliveira,Dragões da Guarda,315.0
+Feminino,Master 1,Marrom,Leve,Letícia Nogueira,Fênix BJJ,148.5
+Feminino,Master 1,Marrom,Leve,Ana Siqueira,Fênix BJJ,108.0
+Feminino,Master 1,Marrom,Médio,Ana Batista,Leões do Tatame,202.5
+Feminino,Master 1,Marrom,Médio,Camila Pinheiro,Panteras da Arte Suave,117.0
+Feminino,Master 1,Marrom,Médio,Bianca Brito,Panteras da Arte Suave,58.5
+Feminino,Master 1,Marrom,Meio-pesado,Marina Oliveira,Jangada Jiu-Jitsu,265.5
+Feminino,Master 1,Marrom,Meio-pesado,Tainá Lima,Sertão Fight Team,247.5
+Feminino,Master 1,Marrom,Meio-pesado,Luana Oliveira,Panteras da Arte Suave,99.0
+Feminino,Master 1,Marrom,Meio-pesado,Helena Freitas,Panteras da Arte Suave,81.0
+Feminino,Master 1,Marrom,Pesado,Clara Brito,Leões do Tatame,346.5
+Feminino,Master 1,Marrom,Pesado,Camila Pereira,Fênix BJJ,225.0
+Feminino,Master 1,Marrom,Pesado,Vitória Pereira,Litoral Leste BJJ,216.0
+Feminino,Master 1,Marrom,Super-pesado,Priscila Monteiro,Fênix BJJ,360.0
+Feminino,Master 1,Marrom,Super-pesado,Débora Monteiro,Litoral Leste BJJ,225.0
+Feminino,Master 1,Marrom,Super-pesado,Bianca Barbosa,Jangada Jiu-Jitsu,148.5
+Feminino,Master 1,Marrom,Super-pesado,Raquel Gomes,Iracema Jiu-Jitsu,126.0
+Feminino,Master 1,Preta,Galo,Larissa Sampaio,Mandacaru BJJ,261.0
+Feminino,Master 1,Preta,Galo,Natália Macêdo,Sertão Fight Team,225.0
+Feminino,Master 1,Preta,Galo,Natália Silva,Fênix BJJ,216.0
+Feminino,Master 1,Preta,Galo,Bianca Moreira,Mandacaru BJJ,175.5
+Feminino,Master 1,Preta,Galo,Gabriela Pinheiro,Leões do Tatame,108.0
+Feminino,Master 1,Preta,Galo,Lívia Nogueira,Sertão Fight Team,81.0
+Feminino,Master 1,Preta,Galo,Gabriela Teixeira,Dragões da Guarda,31.5
+Feminino,Master 1,Preta,Pena,Sofia Araújo,Iracema Jiu-Jitsu,346.5
+Feminino,Master 1,Preta,Pena,Aline Barbosa,Águias da Ribeira,58.5
+Feminino,Master 1,Preta,Leve,Iara Costa,Litoral Leste BJJ,337.5
+Feminino,Master 1,Preta,Leve,Luana Araújo,Mandacaru BJJ,283.5
+Feminino,Master 1,Preta,Leve,Rebeca Freitas,Jangada Jiu-Jitsu,171.0
+Feminino,Master 1,Preta,Leve,Sofia Freitas,Leões do Tatame,148.5
+Feminino,Master 1,Preta,Médio,Helena Teixeira,Sertão Fight Team,234.0
+Feminino,Master 1,Preta,Meio-pesado,Priscila Albuquerque,Leões do Tatame,211.5
+Feminino,Master 1,Preta,Meio-pesado,Fernanda Macêdo,Panteras da Arte Suave,108.0
+Feminino,Master 1,Preta,Meio-pesado,Débora Silva,Panteras da Arte Suave,103.5
+Feminino,Master 1,Preta,Meio-pesado,Luana Monteiro,Mandacaru BJJ,45.0
+Feminino,Master 1,Preta,Pesado,Larissa Brito,Águias da Ribeira,333.0
+Feminino,Master 1,Preta,Super-pesado,Larissa Holanda,Dragões da Guarda,301.5
+Feminino,Master 1,Preta,Super-pesado,Vitória Pinheiro,Jangada Jiu-Jitsu,297.0
+Feminino,Master 1,Preta,Super-pesado,Luana Siqueira,Litoral Leste BJJ,238.5
+Feminino,Master 1,Preta,Super-pesado,Júlia Menezes,Jangada Jiu-Jitsu,184.5
+Feminino,Master 1,Preta,Super-pesado,Priscila Gomes,Leões do Tatame,81.0

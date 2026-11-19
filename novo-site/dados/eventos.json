@@ -1,18 +1,24 @@
 {
-  "_aviso": "DADOS DE EXEMPLO. Substitua pelas datas e links reais do iLutas. Formato das datas: AAAA-MM-DD.",
-  "temporada": 2027,
+  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens.",
   "eventos": [
     {
-      "nome": "Ceará Summer de Jiu-Jitsu",
-      "etapa": "I Etapa do Campeonato Cearense",
-      "inicio": "2027-03-06",
-      "fim": "2027-03-07",
-      "local": "Ginásio Paulo Sarasate",
+      "id": "aberto-sesc-lutas-2026",
+      "nome": "Aberto Sesc Lutas",
+      "etapa": "Campeonato de Jiu-Jitsu",
+      "inicio": "2026-03-07",
+      "fim": "2026-03-08",
+      "local": "Ginásio do CFO",
+      "endereco": "",
       "cidade": "Fortaleza",
-      "imagem": "assets/img/ceara-summer-banner.jpg",
-      "inscricoes_abertas": true,
+      "modalidades": [],
+      "descricao": "Campeonato de jiu-jitsu do Aberto Sesc Lutas 2026, com a Federação de Jiu-Jitsu do Estado do Ceará.",
+      "imagem": "assets/img/eventos/aberto-sesc-lutas-2026.jpg",
+      "inscricoes_abertas": false,
+      "apoio": [
+        "Sesc"
+      ],
       "links": {
-        "inscricoes": "https://www.ilutas.com.br",
+        "inscricoes": "",
         "edital": "",
         "checagem": "",
         "cronograma": "",
@@ -21,48 +27,60 @@
       }
     },
     {
-      "nome": "Ceará Open de Jiu-Jitsu",
-      "etapa": "II Etapa do Campeonato Cearense",
-      "inicio": "2027-05-08",
-      "fim": "2027-05-09",
-      "local": "Ginásio Paulo Sarasate",
+      "id": "ceara-open-2026",
+      "nome": "Ceará Open",
+      "etapa": "Campeonato de Jiu-Jitsu",
+      "inicio": "2026-05-23",
+      "fim": "2026-05-24",
+      "local": "Ginásio do Sesc Fortaleza",
+      "endereco": "Rua Clarindo de Queiroz, 1740, Centro",
       "cidade": "Fortaleza",
-      "imagem": "",
+      "modalidades": [],
+      "descricao": "",
+      "imagem": "assets/img/eventos/ceara-open-2026.jpg",
       "inscricoes_abertas": false,
-      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+      "apoio": [
+        "Sesc"
+      ],
+      "links": {
+        "inscricoes": "",
+        "edital": "",
+        "checagem": "",
+        "cronograma": "",
+        "chaves": "",
+        "resultados": ""
+      }
     },
     {
-      "nome": "Fortaleza International Open IBJJF",
-      "etapa": "",
-      "inicio": "2027-06-11",
-      "fim": "2027-06-13",
-      "local": "Ginásio Paulo Sarasate",
+      "id": "ceara-pro-2026",
+      "nome": "Ceará Pro Jiu-Jitsu",
+      "etapa": "III Etapa do Campeonato Cearense de Jiu-Jitsu FJJCE",
+      "inicio": "2026-11-22",
+      "fim": "2026-11-22",
+      "local": "Ginásio Aécio de Borba",
       "cidade": "Fortaleza",
-      "imagem": "",
-      "inscricoes_abertas": false,
-      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
-    },
-    {
-      "nome": "Ceará Pró de Jiu-Jitsu",
-      "etapa": "III Etapa do Campeonato Cearense",
-      "inicio": "2027-08-07",
-      "fim": "2027-08-08",
-      "local": "Ginásio Paulo Sarasate",
-      "cidade": "Fortaleza",
-      "imagem": "",
-      "inscricoes_abertas": false,
-      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
-    },
-    {
-      "nome": "Nordeste Brasileiro de Jiu-Jitsu",
-      "etapa": "",
-      "inicio": "2027-11-13",
-      "fim": "2027-11-14",
-      "local": "Ginásio Paulo Sarasate",
-      "cidade": "Fortaleza",
-      "imagem": "",
-      "inscricoes_abertas": false,
-      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+      "modalidades": [
+        "Gi (com kimono)",
+        "No-Gi (sem kimono)"
+      ],
+      "descricao": "Terceira etapa do Campeonato Cearense, com disputas com e sem kimono no mesmo dia. Jiu-jitsu para todos.",
+      "imagem": "assets/img/eventos/ceara-pro-2026.jpg",
+      "inscricoes_abertas": true,
+      "apoio": [
+        "Sesc",
+        "Mesa Brasil Sesc",
+        "Prefeitura de Fortaleza, Secretaria Municipal de Esporte e Lazer",
+        "Sana Esportes"
+      ],
+      "links": {
+        "inscricoes": "https://www.ilutas.com.br/evento/ceara-pro-de-jiu-jitsu-gi-no-gi",
+        "edital": "",
+        "checagem": "",
+        "cronograma": "",
+        "chaves": "",
+        "resultados": ""
+      },
+      "endereco": ""
     }
   ]
 }
