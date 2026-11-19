@@ -4,17 +4,6 @@
  * lê o texto em noticias/<id>.md e monta a página.
  */
 
-function botoesCompartilhar(noticia) {
-  const endereco = location.href;
-  const whatsapp = `https://wa.me/?text=${encodeURIComponent(`${noticia.titulo} ${endereco}`)}`;
-  return `
-    <div class="compartilhar">
-      <span>Compartilhar:</span>
-      <a class="botao botao--contorno-escuro botao--pequeno" href="${whatsapp}" target="_blank" rel="noopener">WhatsApp</a>
-      <button class="botao botao--contorno-escuro botao--pequeno" type="button" data-copiar>Copiar link</button>
-    </div>`;
-}
-
 function montarNoticia(noticia, textoHTML, outras) {
   document.title = `${noticia.titulo} | FJJCE`;
   document.querySelector('meta[name="description"]').content = noticia.resumo || noticia.titulo;
@@ -49,20 +38,10 @@ function montarNoticia(noticia, textoHTML, outras) {
         ${noticia.imagem ? `<figure class="noticia-pagina__imagem"><img src="${escaparHTML(noticia.imagem)}" alt=""></figure>` : ''}
         <div class="texto-corrido">${textoHTML}</div>
         ${campeonato}
-        ${botoesCompartilhar(noticia)}
+        ${botoesCompartilhar(noticia.titulo, enderecoParaCompartilhar('noticia', noticia.id))}
       </div>
     </article>
     ${maisNoticias}`;
-
-  const copiar = document.querySelector('[data-copiar]');
-  copiar.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(location.href);
-      copiar.textContent = 'Link copiado';
-    } catch {
-      copiar.textContent = 'Copie o endereço da barra do navegador';
-    }
-  });
 }
 
 function naoEncontrada() {

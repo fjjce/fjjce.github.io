@@ -83,6 +83,8 @@ function montarEvento(evento) {
           <ul class="evento-pagina__docs">${documentos}</ul>
 
           ${apoio}
+
+          ${botoesCompartilhar(evento.nome, enderecoParaCompartilhar('evento', evento.id))}
         </div>
 
         ${evento.imagem ? `

@@ -822,3 +822,4 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
   font-weight: 700;
   font-size: .9rem;
 }
+.compartilhar__aviso { font-size: .95rem; color: var(--cinza-texto); }

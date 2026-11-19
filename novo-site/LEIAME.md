@@ -106,6 +106,18 @@ O `index.html` da pasta principal (fora de `novo-site`) só leva o visitante par
 A página antiga, de 2024, continua em `versao-2024.html` (bom para mostrar o antes e depois no portfólio).
 O `404.html` da pasta principal aparece quando alguém acessa um endereço que não existe.
 
+## Prévias no WhatsApp e Google (automático)
+
+Na hora de publicar, o GitHub roda o `ferramentas/gerar_paginas.py` (pasta principal), que:
+- cria em `novo-site/compartilhar/` uma página de prévia para cada campeonato e cada notícia,
+  com título, resumo e imagem. Os botões "WhatsApp" e "Copiar link" usam essas páginas,
+  então o link compartilhado aparece com o cartaz no WhatsApp;
+- cria o `novo-site/sitemap.xml` para o Google.
+
+Esses arquivos **só existem no site publicado**, não na sua pasta. No Live Server, os botões
+de compartilhar usam o endereço normal da página.
+Se o site ganhar domínio próprio, troque o endereço em `dados/site.json`.
+
 ## Dados de exemplo
 
 O ranking e duas das notícias (as marcadas com `"exemplo": true`) ainda são **exemplos**. Troque pelos dados reais e remova

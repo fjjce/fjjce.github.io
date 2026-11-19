@@ -36,3 +36,37 @@ function dataPorExtenso(texto) {
   const d = lerData(texto);
   return `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`;
 }
+
+// Endereço para compartilhar um campeonato ou notícia.
+// No site publicado, usa a página de prévia (compartilhar/...), que mostra título e imagem
+// no WhatsApp. No computador (Live Server), essas páginas não existem, então usa o endereço atual.
+function enderecoParaCompartilhar(tipo, id) {
+  const local = ['localhost', '127.0.0.1', ''].includes(location.hostname);
+  if (local) return location.href;
+  return new URL(`compartilhar/${tipo}-${encodeURIComponent(id)}.html`, location.href).href;
+}
+
+// Bloco com os botões "WhatsApp" e "Copiar link"
+function botoesCompartilhar(titulo, endereco) {
+  const whatsapp = `https://wa.me/?text=${encodeURIComponent(`${titulo} ${endereco}`)}`;
+  return `
+    <div class="compartilhar">
+      <span>Compartilhar:</span>
+      <a class="botao botao--contorno-escuro botao--pequeno" href="${whatsapp}" target="_blank" rel="noopener">WhatsApp</a>
+      <button class="botao botao--contorno-escuro botao--pequeno" type="button" data-copiar="${escaparHTML(endereco)}">Copiar link</button>
+      <span class="compartilhar__aviso" role="status" aria-live="polite"></span>
+    </div>`;
+}
+
+// Faz os botões "Copiar link" funcionarem em qualquer página
+document.addEventListener('click', async (e) => {
+  const botao = e.target.closest('[data-copiar]');
+  if (!botao) return;
+  const aviso = botao.parentElement.querySelector('.compartilhar__aviso');
+  try {
+    await navigator.clipboard.writeText(botao.dataset.copiar);
+    if (aviso) aviso.textContent = 'Link copiado.';
+  } catch {
+    if (aviso) aviso.textContent = 'Não foi possível copiar. Copie o endereço da barra do navegador.';
+  }
+});
