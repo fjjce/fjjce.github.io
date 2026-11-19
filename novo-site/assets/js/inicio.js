@@ -3,9 +3,9 @@
  * Monta a página inicial a partir dos arquivos da pasta dados/:
  *   dados/eventos.json   -> destaque do topo e próximos campeonatos
  *   dados/ranking.csv    -> prévia do ranking
- *   dados/noticias.json  -> últimas notícias
+ *   dados/noticias.json  -> últimas notícias (via noticias-dados.js)
  * Para atualizar o site, edite os arquivos de dados. Não é preciso mexer aqui.
- * Usa funções de util.js, eventos-dados.js e ranking-dados.js.
+ * Usa funções de util.js, eventos-dados.js, ranking-dados.js e noticias-dados.js.
  */
 
 /* ---------- destaque do topo ---------- */
@@ -102,14 +102,14 @@ function montarRanking({ info, atletas }) {
 /* ---------- notícias ---------- */
 
 async function montarNoticias() {
-  const dados = await (await fetch('dados/noticias.json')).json();
-  document.querySelector('[data-lista="noticias"]').innerHTML = dados.noticias.slice(0, 3).map((n, i) => `
-    <article class="noticia${i === 0 ? ' noticia--principal' : ''}">
-      <img src="${escaparHTML(n.imagem)}" alt="" loading="lazy" width="327" height="184">
+  const noticias = await carregarNoticias();
+  document.querySelector('[data-lista="noticias"]').innerHTML = noticias.slice(0, 3).map((n, i) => `
+    <article class="noticia${i === 0 ? ' noticia--principal' : ''}${n.imagem ? '' : ' noticia--sem-imagem'}">
+      ${n.imagem ? `<img src="${escaparHTML(n.imagem)}" alt="" loading="lazy" width="327" height="184">` : ''}
       <div class="noticia__texto">
         <time datetime="${escaparHTML(n.data)}">${dataPorExtenso(n.data)}</time>
-        <h3><a href="${escaparHTML(n.link)}">${escaparHTML(n.titulo)}</a></h3>
-        <p>${escaparHTML(n.resumo)}</p>
+        <h3><a href="${linkDaNoticia(n)}">${escaparHTML(n.titulo)}</a></h3>
+        <p>${escaparHTML(n.resumo || '')}</p>
       </div>
     </article>`).join('');
 }

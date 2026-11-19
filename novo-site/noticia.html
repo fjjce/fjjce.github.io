@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícia | FJJCE</title>
+  <meta name="description" content="Notícia da Federação de Jiu-Jitsu do Estado do Ceará.">
+
+  <meta property="og:title" content="Notícia | FJJCE">
+  <meta property="og:image" content="assets/img/logo-fjjce.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3A1214">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="preload" href="assets/fontes/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+
+  <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/noticias-dados.js" defer></script>
+  <script src="assets/js/noticia.js" defer></script>
+</head>
+<body>
+  <header data-incluir="partials/cabecalho.html"></header>
+
+  <!-- Conteúdo preenchido por noticia.js a partir de dados/noticias.json e noticias/<id>.md -->
+  <main id="conteudo" data-noticia>
+    <section class="pagina-topo">
+      <div class="container">
+        <p class="pagina-topo__voltar"><a href="noticias.html">Todas as notícias</a></p>
+        <h1 class="pagina-topo__titulo">Carregando…</h1>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" data-incluir="partials/rodape.html"></footer>
+</body>
+</html>

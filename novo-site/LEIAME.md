@@ -21,6 +21,9 @@ novo-site/
 ├── ranking.html          ranking completo (atletas e equipes)
 ├── campeonatos.html      lista de campeonatos (próximos e encerrados)
 ├── evento.html           página de um campeonato (evento.html?id=...)
+├── noticias.html         lista de notícias
+├── noticia.html          página de uma notícia (noticia.html?id=...)
+├── noticias/             texto de cada notícia (.md) e o _MODELO.md
 ├── partials/
 │   ├── cabecalho.html    menu (usado em todas as páginas)
 │   └── rodape.html       rodapé (usado em todas as páginas)
@@ -35,6 +38,8 @@ novo-site/
     ├── js/util.js        funções comuns (datas, textos)
     ├── js/eventos-dados.js lê os campeonatos (usado em 3 páginas)
     ├── js/campeonatos.js e js/evento.js  montam as páginas de campeonatos
+    ├── js/noticias-dados.js lê as notícias e converte o texto .md em HTML
+    ├── js/noticias.js e js/noticia.js    montam as páginas de notícias
     ├── js/inicio.js      monta a página inicial a partir de dados/
     ├── js/ranking-dados.js lê a planilha do ranking (usado nas duas páginas)
     ├── js/ranking.js     filtros, busca e abas da página de ranking
@@ -76,10 +81,19 @@ O site calcula sozinho as posições, os empates e o ranking por equipes.
 Os filtros da página de ranking ficam no endereço, então dá para mandar o link de uma
 categoria específica. Exemplo: `ranking.html?sexo=feminino&idade=adulto&faixa=azul`.
 
-**Notícias:** edite `dados/noticias.json`. A primeira da lista aparece em destaque.
-Para uma notícia levar à página de um campeonato, use `"link": "evento.html?id=..."`.
+**Nova notícia:**
+1. Se tiver foto, salve em `assets/img/noticias/` (nome sem espaços). Crie a pasta na primeira vez.
+2. Na pasta `noticias/`, copie o `_MODELO.md`, renomeie com um id curto
+   (ex.: `2026-11-23-resultado-ceara-pro.md`) e escreva o texto. O modelo mostra como fazer
+   negrito, subtítulos, listas, links, fotos e citações.
+3. Em `dados/noticias.json`, adicione um bloco no topo da lista com o mesmo `id` (sem o `.md`),
+   `titulo`, `resumo`, `data` e, se quiser, `imagem` e `campeonato` (o id do evento, que cria
+   o botão "Ver página do campeonato").
+
+As 3 notícias mais recentes aparecem na página inicial; todas aparecem em `noticias.html`.
+Para apagar uma notícia, tire o bloco do `noticias.json` e apague o `.md` correspondente.
 
 ## Dados de exemplo
 
-O ranking e duas das notícias ainda são **exemplos**. Troque pelos dados reais e remova
+O ranking e duas das notícias (as marcadas com `"exemplo": true`) ainda são **exemplos**. Troque pelos dados reais e remova
 o aviso no fim de `partials/rodape.html`. O campeonato cadastrado (Ceará Pro 2026) é real.

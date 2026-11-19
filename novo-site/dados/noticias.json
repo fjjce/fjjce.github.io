@@ -1,26 +1,29 @@
 {
-  "_ajuda": "A primeira notícia da lista aparece em destaque na página inicial. As notícias marcadas como exemplo devem ser trocadas por notícias reais.",
+  "_ajuda": "Uma notícia por bloco, a mais nova no topo. O texto completo fica em noticias/<id>.md. 'imagem' é opcional. Notícias com 'exemplo': true são fictícias e devem ser apagadas.",
   "noticias": [
     {
+      "id": "2026-11-19-ceara-pro-domingo",
       "titulo": "Ceará Pro Jiu-Jitsu é neste domingo, 22 de novembro",
       "resumo": "A III Etapa do Campeonato Cearense terá disputas com e sem kimono no Ginásio Aécio de Borba, em Fortaleza.",
       "data": "2026-11-19",
       "imagem": "assets/img/eventos/ceara-pro-2026.jpg",
-      "link": "evento.html?id=ceara-pro-2026"
+      "campeonato": "ceara-pro-2026"
     },
     {
-      "titulo": "IBJJF atualiza regras e golpes proibidos (exemplo)",
-      "resumo": "Veja o que muda no livro de regras e quais técnicas passam a ser permitidas em cada faixa e idade.",
+      "id": "exemplo-regras-ibjjf",
+      "titulo": "Livro de regras da IBJJF disponível no site",
+      "resumo": "O livro de regras está na área de documentos para consulta antes dos campeonatos.",
       "data": "2026-11-05",
       "imagem": "assets/img/noticia-regras.jpg",
-      "link": "#"
+      "exemplo": true
     },
     {
-      "titulo": "Tabela de peso da FJJCE (exemplo)",
+      "id": "exemplo-tabela-peso",
+      "titulo": "Tabela de peso da FJJCE",
       "resumo": "A tabela de pesos para juvenil, adulto e master está disponível para download na área de documentos.",
       "data": "2026-10-22",
       "imagem": "assets/img/capa-tabela-peso.png",
-      "link": "index.html#documentos"
+      "exemplo": true
     }
   ]
 }

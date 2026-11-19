@@ -56,7 +56,9 @@ function iniciarMenu() {
 /* Destaca no menu o link da página atual */
 function marcarLinkAtual() {
   let pagina = location.pathname.split('/').pop() || 'index.html';
-  if (pagina === 'evento.html') pagina = 'campeonatos.html'; // página de um evento fica dentro de Campeonatos
+  // páginas de detalhe acendem o item do menu da seção a que pertencem
+  if (pagina === 'evento.html') pagina = 'campeonatos.html';
+  if (pagina === 'noticia.html') pagina = 'noticias.html';
   document.querySelectorAll('.menu a').forEach((link) => {
     const destino = link.getAttribute('href').split('#')[0];
     if (destino === pagina && !link.hash) link.setAttribute('aria-current', 'page');

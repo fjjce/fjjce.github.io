@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícias | FJJCE</title>
+  <meta name="description" content="Notícias da Federação de Jiu-Jitsu do Estado do Ceará: campeonatos, resultados e comunicados.">
+
+  <meta property="og:title" content="Notícias | FJJCE">
+  <meta property="og:description" content="Notícias do jiu-jitsu cearense.">
+  <meta property="og:image" content="assets/img/logo-fjjce.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3A1214">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="preload" href="assets/fontes/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+
+  <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/util.js" defer></script>
+  <script src="assets/js/noticias-dados.js" defer></script>
+  <script src="assets/js/noticias.js" defer></script>
+</head>
+<body>
+  <header data-incluir="partials/cabecalho.html"></header>
+
+  <main id="conteudo">
+    <section class="pagina-topo" aria-labelledby="pagina-titulo">
+      <div class="container">
+        <h1 id="pagina-titulo" class="pagina-topo__titulo">Notícias</h1>
+        <p class="pagina-topo__texto">Campeonatos, resultados e comunicados da federação.</p>
+      </div>
+    </section>
+
+    <div class="faixa" aria-hidden="true"><span></span></div>
+
+    <section class="secao secao--compacta">
+      <div class="container">
+        <div class="noticias-grade" data-lista="noticias">
+          <p class="carregando">Carregando notícias…</p>
+        </div>
+        <p class="secao__rodape" data-mais hidden>
+          <button class="botao botao--contorno-escuro" type="button">Mostrar notícias anteriores</button>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" data-incluir="partials/rodape.html"></footer>
+</body>
+</html>
