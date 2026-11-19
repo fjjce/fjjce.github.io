@@ -823,3 +823,42 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
   font-size: .9rem;
 }
 .compartilhar__aviso { font-size: .95rem; color: var(--cinza-texto); }
+
+/* Aviso de ranking de demonstração */
+.aviso-demo {
+  margin: 0 0 1.5rem;
+  padding: .85rem 1.1rem;
+  border-left: 4px solid var(--ouro);
+  background: #FFF7DD;
+  color: var(--texto);
+  border-radius: var(--raio);
+}
+.secao--escura .aviso-demo { background: rgba(242, 181, 28, .14); color: var(--branco); }
+
+/* Resultados (pódios) na página do campeonato */
+.podio {
+  margin-bottom: .75rem;
+  background: var(--branco);
+  border: 1px solid var(--cinza-linha);
+  border-radius: var(--raio);
+}
+.podio summary {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.podio summary::marker { color: var(--vermelho); }
+.podio__qtd { margin-left: auto; font-weight: 400; font-size: .95rem; color: var(--cinza-texto); }
+.podio__tabela { overflow-x: auto; border-top: 1px solid var(--cinza-linha); }
+.podio table { width: 100%; min-width: 560px; border-collapse: collapse; }
+.podio th, .podio td { padding: .7rem 1.25rem; text-align: left; vertical-align: top; }
+.podio thead th { font-size: .85rem; font-weight: 600; color: var(--cinza-texto); }
+.podio tbody tr { border-top: 1px solid var(--cinza-claro); }
+.podio tbody th { font-weight: 600; white-space: nowrap; }
+.podio__nome { display: block; font-weight: 600; }
+.podio__equipe { display: block; margin-bottom: .35rem; font-size: .9rem; color: var(--cinza-texto); }
+.podio__vazio { color: var(--cinza-texto); }

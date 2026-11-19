@@ -43,6 +43,8 @@
     <section class="secao secao--compacta">
       <div class="container">
 
+        <div data-aviso></div>
+
         <div class="abas" role="tablist" aria-label="Tipo de ranking">
           <button class="abas__botao" type="button" role="tab" id="aba-atletas" aria-controls="painel-atletas" aria-selected="true">Atletas</button>
           <button class="abas__botao" type="button" role="tab" id="aba-equipes" aria-controls="painel-equipes" aria-selected="false" tabindex="-1">Equipes</button>
@@ -81,7 +83,7 @@
 
         <!-- EQUIPES -->
         <div id="painel-equipes" role="tabpanel" aria-labelledby="aba-equipes" hidden>
-          <p class="resultado-resumo">Soma dos pontos de todos os atletas de cada equipe, em todas as categorias.</p>
+          <p class="resultado-resumo" data-resumo-equipes>Soma dos pontos de todos os atletas de cada equipe, em todas as categorias.</p>
           <div class="ranking ranking--pagina ranking--uma-coluna" data-equipes></div>
         </div>
 

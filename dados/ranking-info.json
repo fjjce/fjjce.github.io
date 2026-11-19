@@ -1,6 +1,15 @@
 {
-  "_aviso": "Ranking com DADOS DE EXEMPLO. 'fonte' pode ser o arquivo local ou o link CSV de uma planilha do Google publicada na web.",
-  "temporada": 2027,
+  "_ajuda": "Configuração do ranking. O site soma os pontos a partir dos pódios em dados/resultados.csv.",
+  "temporada": 2026,
   "atualizado_em": "2026-11-19",
-  "fonte": "dados/ranking.csv"
+  "fonte": "dados/resultados.csv",
+
+  "_ajuda_exemplo": "Enquanto for true, o site mostra o aviso de que o ranking tem dados de demonstração. Mude para false quando os resultados forem reais.",
+  "exemplo": true,
+
+  "_ajuda_pontuacao": "Pontos por colocação. Padrão IBJJF: 1º = 9, 2º = 3, 3º = 1. Ajuste conforme a regra da federação.",
+  "pontuacao": { "1": 9, "2": 3, "3": 1 },
+
+  "_ajuda_etapas": "Campeonatos que contam para o ranking (o 'id' de cada um em eventos.json). Lista vazia = todos os campeonatos do arquivo de resultados contam.",
+  "etapas": []
 }

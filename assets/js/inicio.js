@@ -2,7 +2,7 @@
  * inicio.js
  * Monta a página inicial a partir dos arquivos da pasta dados/:
  *   dados/eventos.json   -> destaque do topo e próximos campeonatos
- *   dados/ranking.csv    -> prévia do ranking
+ *   dados/resultados.csv -> prévia do ranking (via ranking-dados.js)
  *   dados/noticias.json  -> últimas notícias (via noticias-dados.js)
  * Para atualizar o site, edite os arquivos de dados. Não é preciso mexer aqui.
  * Usa funções de util.js, eventos-dados.js, ranking-dados.js e noticias-dados.js.
@@ -60,6 +60,7 @@ function montarCalendario(eventos) {
 
 // Prévia: os 5 maiores pontuadores da faixa preta adulto, masculino e feminino.
 function montarRanking({ info, atletas }) {
+  document.querySelector('[data-aviso-ranking]').innerHTML = avisoDemonstracao(info);
   document.querySelector('[data-temporada-ranking]').textContent = info.temporada;
   if (info.atualizado_em) {
     document.querySelector('[data-ranking-atualizado]').textContent =
@@ -89,7 +90,7 @@ function montarRanking({ info, atletas }) {
               <th scope="row" class="ranking__pos">${a.posicao}</th>
               <td>
                 <span class="ranking__nome">${escaparHTML(a.atleta)}</span>
-                <span class="ranking__equipe">${escaparHTML(a.equipe)}, peso ${escaparHTML(a.peso.toLowerCase())}</span>
+                <span class="ranking__equipe">${escaparHTML(a.equipe)}, peso ${escaparHTML(a.peso.toLowerCase())}. ${medalhas(a)}</span>
               </td>
               <td class="ranking__pontos">${formatarPontos(a.pontos)}</td>
             </tr>`).join('')}

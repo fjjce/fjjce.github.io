@@ -43,7 +43,7 @@ function tabela({ titulo, faixa, linhas, colunaExtra, rotuloPos = 'Pos.', rotulo
           <th scope="row" class="ranking__pos">${a.posicao}</th>
           <td>
             <span class="ranking__nome">${escaparHTML(a.atleta)}</span>
-            <span class="ranking__equipe">${escaparHTML(colunaExtra ? colunaExtra(a) : a.equipe)}</span>
+            <span class="ranking__equipe">${escaparHTML(colunaExtra ? colunaExtra(a) : [a.equipe, medalhas(a)].filter(Boolean).join('. '))}</span>
           </td>
           <td class="ranking__pontos">${formatarPontos(a.pontos)}</td>
         </tr>`).join('')
@@ -88,7 +88,7 @@ function mostrar() {
         rotuloPos: 'Pos. na categoria',
         rotuloNome: 'Atleta e categoria',
         linhas: comPosicao,
-        colunaExtra: (a) => `${a.equipe}. ${a.sexo} ${a.idade.toLowerCase()}, faixa ${a.faixa.toLowerCase()}, ${a.peso.toLowerCase()}`,
+        colunaExtra: (a) => `${a.equipe}. ${a.sexo} ${a.idade.toLowerCase()}, faixa ${a.faixa.toLowerCase()}, ${a.peso.toLowerCase()}. ${medalhas(a)}`,
       })
       : '<p class="ranking__vazio">Nenhum atleta ou equipe encontrado. Confira a grafia ou busque só pelo sobrenome.</p>';
     salvarNoEndereco();
@@ -107,7 +107,7 @@ function mostrar() {
   const nomeFaixa = campos.faixa.selectedOptions[0]?.textContent || '';
   const descricao = `${campos.sexo.selectedOptions[0].textContent} ${campos.idade.selectedOptions[0].textContent.toLowerCase()}, faixa ${nomeFaixa.toLowerCase()}`;
 
-  resumo.textContent = `${descricao}: ${filtrados.length} atleta${filtrados.length === 1 ? '' : 's'} pontuando.`;
+  resumo.textContent = `${descricao}: ${filtrados.length} atleta${filtrados.length === 1 ? '' : 's'} com pontos.`;
   resultado.innerHTML = pesos.length
     ? pesos.map((p) => tabela({
       titulo: p,
@@ -124,7 +124,7 @@ function mostrarEquipes() {
     titulo: 'Ranking por equipes',
     rotuloNome: 'Equipe',
     linhas: rankingEquipes(todos),
-    colunaExtra: (e) => `${e.atletas} atleta${e.atletas === 1 ? '' : 's'} pontuando`,
+    colunaExtra: (e) => `${e.atletas} atleta${e.atletas === 1 ? '' : 's'} no pódio. ${medalhas(e)}`,
   });
 }
 
@@ -201,10 +201,11 @@ async function iniciar() {
   try {
     const { info, atletas } = await carregarRanking();
     todos = atletas;
+    document.querySelector('[data-aviso]').innerHTML = avisoDemonstracao(info);
     document.querySelectorAll('[data-temporada]').forEach((el) => { el.textContent = info.temporada; });
     if (info.atualizado_em) {
       document.querySelector('[data-atualizado]').textContent =
-        `Pontuação acumulada nas etapas do Campeonato Cearense. Atualizado em ${dataPorExtenso(info.atualizado_em)}.`;
+        `Pontos somados nos pódios dos campeonatos da temporada. Atualizado em ${dataPorExtenso(info.atualizado_em)}.`;
     }
     preencherSelect(campos.sexo, RANKING.sexos);
     preencherSelect(campos.idade, RANKING.idades.filter((i) => todos.some((a) => a.idade === i)));

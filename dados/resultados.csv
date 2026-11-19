@@ -1,0 +1,886 @@
+evento,sexo,idade,faixa,peso,colocacao,atleta,equipe
+exemplo-etapa-1,Masculino,Juvenil,Branca,Galo,1,Wesley Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Branca,Galo,2,Francisco Monteiro,Dragões da Guarda
+exemplo-etapa-1,Masculino,Juvenil,Branca,Galo,3,Vinícius Rocha,Dragões da Guarda
+exemplo-etapa-1,Masculino,Juvenil,Branca,Galo,3,Thiago Oliveira,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pena,1,Caio Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pena,2,Emanuel Barbosa,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pena,3,Diego Lima,Fênix BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pena,1,Emanuel Barbosa,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pena,2,Caio Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pena,3,Diego Lima,Fênix BJJ
+exemplo-etapa-1,Masculino,Juvenil,Branca,Leve,1,Davi Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Branca,Leve,2,Levi Bezerra,Sertão Fight Team
+exemplo-etapa-2,Masculino,Juvenil,Branca,Leve,1,Caio Nogueira,Leões do Tatame
+exemplo-etapa-2,Masculino,Juvenil,Branca,Leve,2,Levi Bezerra,Sertão Fight Team
+exemplo-etapa-2,Masculino,Juvenil,Branca,Leve,3,Davi Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Leve,3,Raul Brito,Fênix BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Médio,1,Breno Albuquerque,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Branca,Médio,2,Davi Menezes,Sertão Fight Team
+exemplo-etapa-2,Masculino,Juvenil,Branca,Médio,3,André Pereira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Meio-pesado,1,Bruno Santos,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Meio-pesado,2,Diego Brito,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Meio-pesado,3,Marcos Sampaio,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesado,1,Renan Correia,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesado,2,Ícaro Correia,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesado,3,Raul Batista,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesado,3,Bruno Siqueira,Dragões da Guarda
+exemplo-etapa-2,Masculino,Juvenil,Branca,Super-pesado,1,Samuel Bezerra,Águias da Ribeira
+exemplo-etapa-2,Masculino,Juvenil,Branca,Super-pesado,2,Lucas Silva,Dragões da Guarda
+exemplo-etapa-2,Masculino,Juvenil,Branca,Super-pesado,3,Diego Pereira,Fênix BJJ
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pesadíssimo,1,Otávio Freitas,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pesadíssimo,2,Pedro Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pesadíssimo,3,Antônio Rocha,Leões do Tatame
+exemplo-etapa-1,Masculino,Juvenil,Branca,Pesadíssimo,3,André Lima,Dragões da Guarda
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesadíssimo,1,Antônio Rocha,Leões do Tatame
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesadíssimo,2,Otávio Freitas,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Branca,Pesadíssimo,3,Pedro Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Galo,1,Lucas Rocha,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Galo,2,Felipe Brito,Dragões da Guarda
+exemplo-etapa-1,Masculino,Juvenil,Azul,Galo,3,Breno Farias,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Azul,Galo,1,Breno Farias,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Azul,Galo,2,Lucas Rocha,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Azul,Galo,3,Felipe Brito,Dragões da Guarda
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pluma,1,Pedro Pinheiro,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pluma,2,Vinícius Sales,Sertão Fight Team
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pena,1,Lucas Siqueira,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pena,2,Felipe Siqueira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pena,3,Heitor Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pena,1,Lucas Siqueira,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pena,2,Felipe Siqueira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pena,3,Heitor Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Leve,1,Caio Farias,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Leve,2,Heitor Teixeira,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesado,1,Levi Menezes,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesado,2,André Menezes,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesado,3,Bruno Pereira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesado,3,Ícaro Barbosa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Juvenil,Azul,Super-pesado,1,Gustavo Menezes,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Super-pesado,2,Igor Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Super-pesado,3,Lucas Freitas,Águias da Ribeira
+exemplo-etapa-1,Masculino,Juvenil,Azul,Super-pesado,3,Marcos Albuquerque,Sertão Fight Team
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesadíssimo,1,Marcos Gomes,Leões do Tatame
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesadíssimo,2,Carlos Costa,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesadíssimo,3,Cícero Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Juvenil,Azul,Pesadíssimo,3,Felipe Menezes,Fênix BJJ
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pesadíssimo,1,Felipe Menezes,Fênix BJJ
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pesadíssimo,2,Carlos Costa,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Azul,Pesadíssimo,3,Marcos Gomes,Leões do Tatame
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Galo,1,Bruno Holanda,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Galo,2,Igor Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pluma,1,Otávio Sampaio,Águias da Ribeira
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pluma,2,Heitor Menezes,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pluma,3,Emanuel Teixeira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pluma,3,Wesley Holanda,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pena,1,Francisco Menezes,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pena,2,Bruno Macêdo,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pena,3,Cícero Siqueira,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pena,3,Ícaro Martins,Águias da Ribeira
+exemplo-etapa-1,Masculino,Juvenil,Roxa,Leve,1,Caio Costa,Dragões da Guarda
+exemplo-etapa-1,Masculino,Juvenil,Roxa,Leve,2,Mateus Martins,Águias da Ribeira
+exemplo-etapa-1,Masculino,Juvenil,Roxa,Leve,3,Mateus Costa,Fênix BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Médio,1,Mateus Pereira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Médio,2,Raul Lima,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Juvenil,Roxa,Meio-pesado,1,Mateus Santos,Leões do Tatame
+exemplo-etapa-1,Masculino,Juvenil,Roxa,Meio-pesado,2,Igor Moreira,Dragões da Guarda
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Super-pesado,1,Lucas Brito,Águias da Ribeira
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Super-pesado,2,Raul Holanda,Sertão Fight Team
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Super-pesado,3,Rafael Macêdo,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Super-pesado,3,André Siqueira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pesadíssimo,1,Lucas Santos,Leões do Tatame
+exemplo-etapa-2,Masculino,Juvenil,Roxa,Pesadíssimo,2,Ícaro Lima,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Branca,Galo,1,Davi Macêdo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Branca,Galo,2,Wesley Brito,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Branca,Pluma,1,Marcos Lima,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Branca,Pluma,2,Rafael Moreira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Branca,Pluma,3,Samuel Freitas,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Branca,Pluma,3,Mateus Bezerra,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Pluma,1,Mateus Bezerra,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Pluma,2,Rafael Moreira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Pluma,3,Thiago Pereira,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Branca,Pluma,3,Marcos Lima,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Branca,Pena,1,Thiago Brito,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Branca,Pena,2,Rafael Pereira,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Branca,Pena,3,Antônio Nogueira,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Branca,Pena,3,Pedro Costa,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Pena,1,Rafael Pereira,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Branca,Pena,2,Thiago Brito,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Branca,Pena,3,Antônio Nogueira,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Branca,Leve,1,Bruno Barbosa,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Branca,Leve,2,Vinícius Menezes,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Leve,1,Davi Martins,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Leve,2,Vinícius Menezes,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Leve,3,Carlos Silva,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Leve,3,Bruno Barbosa,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Médio,1,Rafael Cavalcante,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Branca,Médio,2,Pedro Menezes,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Branca,Meio-pesado,1,Felipe Albuquerque,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Branca,Meio-pesado,2,Felipe Batista,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Branca,Meio-pesado,3,Igor Sales,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Meio-pesado,1,Diego Moreira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Meio-pesado,2,Igor Sales,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Meio-pesado,3,Felipe Batista,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Meio-pesado,3,Felipe Albuquerque,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Branca,Pesado,1,Davi Moreira,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Branca,Pesado,2,Renan Pereira,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Branca,Pesado,3,Carlos Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesado,1,Breno Costa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesado,2,Renan Pereira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesado,3,Gustavo Farias,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesado,3,Davi Moreira,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Branca,Super-pesado,1,Cícero Moreira,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Branca,Super-pesado,2,Renan Farias,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Branca,Super-pesado,3,Mateus Oliveira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Super-pesado,1,Renan Farias,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Branca,Super-pesado,2,Mateus Oliveira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Branca,Super-pesado,3,Cícero Moreira,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesadíssimo,1,André Santos,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Branca,Pesadíssimo,2,Pedro Cavalcante,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Azul,Galo,1,Pedro Santos,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Azul,Galo,2,Emanuel Albuquerque,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Azul,Galo,1,Pedro Santos,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Azul,Galo,2,Joaquim Sales,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Azul,Galo,3,Emanuel Albuquerque,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Azul,Pluma,1,Heitor Bezerra,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Azul,Pluma,2,Mateus Macêdo,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Azul,Pluma,3,Thiago Araújo,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Azul,Pena,1,Carlos Macêdo,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Pena,2,Vinícius Brito,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Azul,Pena,3,Marcos Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Azul,Pena,3,Gustavo Silva,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Pena,1,Davi Pinheiro,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Azul,Pena,2,Marcos Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Azul,Pena,3,Vinícius Brito,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Azul,Pena,3,Gustavo Silva,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Leve,1,Heitor Nogueira,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Azul,Leve,2,Felipe Gomes,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Azul,Leve,1,Lucas Albuquerque,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Leve,2,Heitor Nogueira,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Azul,Médio,1,Cícero Pinheiro,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Azul,Médio,2,Ícaro Farias,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Médio,3,Wesley Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Azul,Médio,3,Cícero Macêdo,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Meio-pesado,1,Levi Freitas,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Azul,Meio-pesado,2,Thiago Pinheiro,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Azul,Meio-pesado,3,Davi Pereira,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Azul,Meio-pesado,3,Heitor Martins,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Azul,Pesado,1,Diego Martins,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Azul,Pesado,2,Francisco Sampaio,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Pesado,3,Felipe Bezerra,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Pesado,3,Antônio Sales,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesado,1,André Brito,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesado,2,Diego Martins,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesado,3,Antônio Sales,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesado,3,Francisco Sampaio,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Azul,Super-pesado,1,Carlos Martins,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Azul,Super-pesado,2,Bruno Menezes,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Azul,Super-pesado,3,Lucas Pinheiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Super-pesado,1,Carlos Martins,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Azul,Super-pesado,2,Lucas Pinheiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Super-pesado,3,Bruno Menezes,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesadíssimo,1,Igor Siqueira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesadíssimo,2,Emanuel Siqueira,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Azul,Pesadíssimo,3,Antônio Pinheiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Roxa,Galo,1,Vinícius Correia,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Roxa,Galo,2,Felipe Freitas,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Roxa,Galo,3,Pedro Brito,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pluma,1,Mateus Farias,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pluma,2,Emanuel Pinheiro,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pluma,1,Thiago Batista,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pluma,2,Mateus Farias,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pluma,3,Emanuel Pinheiro,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pena,1,Heitor Santos,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pena,2,Carlos Menezes,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pena,3,Raul Pereira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Roxa,Médio,1,Emanuel Nogueira,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Roxa,Médio,2,Gustavo Gomes,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Roxa,Médio,3,Samuel Correia,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Roxa,Meio-pesado,1,Mateus Menezes,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Meio-pesado,2,Ícaro Silva,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Meio-pesado,3,Francisco Costa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Roxa,Meio-pesado,3,Carlos Albuquerque,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Roxa,Meio-pesado,1,Francisco Costa,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Roxa,Meio-pesado,2,Mateus Menezes,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pesado,1,Antônio Silva,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pesado,2,Gustavo Macêdo,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesado,1,Felipe Sampaio,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesado,2,Antônio Silva,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Super-pesado,1,Diego Bezerra,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Roxa,Super-pesado,2,Raul Moreira,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pesadíssimo,1,Marcos Correia,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Roxa,Pesadíssimo,2,Wesley Monteiro,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesadíssimo,1,Davi Sales,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesadíssimo,2,Raul Macêdo,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesadíssimo,3,Samuel Araújo,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Roxa,Pesadíssimo,3,Wesley Monteiro,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Galo,1,Cícero Sampaio,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Galo,2,Samuel Teixeira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Galo,1,Cícero Sampaio,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Galo,2,Cícero Sales,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Marrom,Galo,3,Mateus Correia,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pluma,1,Bruno Brito,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pluma,2,Wesley Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pluma,3,Marcos Freitas,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pluma,3,Igor Barbosa,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pluma,1,Igor Barbosa,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pluma,2,Thiago Martins,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pena,1,Levi Martins,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pena,2,Pedro Sampaio,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pena,3,Heitor Macêdo,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pena,1,Heitor Macêdo,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pena,2,Pedro Sampaio,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pena,3,Levi Martins,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Leve,1,Caio Pereira,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Leve,2,Marcos Macêdo,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Leve,3,Ícaro Oliveira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Marrom,Leve,3,Vinícius Teixeira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Leve,1,Marcos Macêdo,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Leve,2,Caio Pereira,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Marrom,Leve,3,Vinícius Teixeira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Leve,3,Ícaro Brito,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Marrom,Médio,1,Heitor Lima,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Marrom,Médio,2,Igor Monteiro,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Marrom,Médio,1,Otávio Moreira,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Marrom,Médio,2,Heitor Lima,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Marrom,Médio,3,Francisco Silva,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Marrom,Meio-pesado,1,Francisco Freitas,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Meio-pesado,2,Lucas Araújo,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Meio-pesado,3,Cícero Pereira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Marrom,Meio-pesado,3,Lucas Barbosa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesado,1,André Pinheiro,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesado,2,Thiago Nogueira,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesado,3,Wesley Araújo,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pesado,1,Thiago Nogueira,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pesado,2,André Pinheiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Pesado,3,Wesley Araújo,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Marrom,Super-pesado,1,Heitor Costa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Marrom,Super-pesado,2,Vinícius Cavalcante,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Marrom,Super-pesado,3,Samuel Pinheiro,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Marrom,Super-pesado,3,Rafael Oliveira,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Marrom,Super-pesado,1,Ícaro Holanda,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Marrom,Super-pesado,2,Rafael Oliveira,Sertão Fight Team
+exemplo-etapa-2,Masculino,Adulto,Marrom,Super-pesado,3,Marcos Pereira,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Marrom,Super-pesado,3,Heitor Costa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesadíssimo,1,Renan Rocha,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesadíssimo,2,Renan Siqueira,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesadíssimo,3,Otávio Correia,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Marrom,Pesadíssimo,3,Igor Araújo,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Galo,1,Renan Santos,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Galo,2,Wesley Silva,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Preta,Galo,3,Davi Silva,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Preta,Galo,3,Mateus Pinheiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Galo,1,Wesley Silva,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Preta,Galo,2,Heitor Sales,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Galo,3,Davi Silva,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Preta,Galo,3,Renan Santos,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Pluma,1,Igor Bezerra,Águias da Ribeira
+exemplo-etapa-1,Masculino,Adulto,Preta,Pluma,2,Raul Farias,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Pluma,3,Joaquim Menezes,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pluma,3,Levi Cavalcante,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Preta,Pluma,1,Igor Oliveira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Pluma,2,Levi Cavalcante,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Preta,Pluma,3,Igor Bezerra,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Preta,Pluma,3,Raul Farias,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Pena,1,Breno Oliveira,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pena,2,Otávio Cavalcante,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pena,3,Joaquim Batista,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Preta,Pena,3,Renan Lima,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Pena,1,Otávio Cavalcante,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Pena,2,Samuel Costa,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Pena,3,André Sales,Águias da Ribeira
+exemplo-etapa-2,Masculino,Adulto,Preta,Pena,3,Renan Lima,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Leve,1,Otávio Bezerra,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Leve,2,Emanuel Moreira,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Preta,Leve,3,Renan Moreira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Leve,3,André Correia,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Preta,Leve,1,Renan Moreira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Leve,2,André Correia,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Preta,Leve,3,André Silva,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Leve,3,Emanuel Moreira,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Preta,Médio,1,Joaquim Nogueira,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Médio,2,Diego Menezes,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Preta,Médio,1,Diego Menezes,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Preta,Médio,2,Carlos Siqueira,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Preta,Médio,3,Vinícius Sampaio,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Preta,Médio,3,Joaquim Nogueira,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Meio-pesado,1,Igor Brito,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Meio-pesado,2,Caio Sales,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Meio-pesado,3,Davi Lima,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Meio-pesado,3,Carlos Brito,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Preta,Meio-pesado,1,Davi Lima,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Meio-pesado,2,Caio Sales,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Meio-pesado,3,Igor Brito,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesado,1,Felipe Lima,Sertão Fight Team
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesado,2,Vinícius Freitas,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesado,3,Wesley Bezerra,Dragões da Guarda
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesado,3,Igor Sampaio,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesado,1,Breno Gomes,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesado,2,Wesley Bezerra,Dragões da Guarda
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesado,3,Vinícius Freitas,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Super-pesado,1,Samuel Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Super-pesado,2,Joaquim Correia,Leões do Tatame
+exemplo-etapa-1,Masculino,Adulto,Preta,Super-pesado,3,Otávio Araújo,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Adulto,Preta,Super-pesado,3,Carlos Bezerra,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Adulto,Preta,Super-pesado,1,Samuel Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Super-pesado,2,Joaquim Correia,Leões do Tatame
+exemplo-etapa-2,Masculino,Adulto,Preta,Super-pesado,3,Raul Silva,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesadíssimo,1,Pedro Batista,Fênix BJJ
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesadíssimo,2,Lucas Bezerra,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Adulto,Preta,Pesadíssimo,3,Levi Monteiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesadíssimo,1,Pedro Batista,Fênix BJJ
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesadíssimo,2,Igor Lima,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Adulto,Preta,Pesadíssimo,3,Ícaro Albuquerque,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Branca,Galo,1,Heitor Batista,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Branca,Galo,2,Carlos Teixeira,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Branca,Galo,3,Levi Araújo,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Branca,Galo,3,Cícero Menezes,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Branca,Pena,1,Lucas Costa,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Branca,Pena,2,Mateus Albuquerque,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Branca,Pena,1,Caio Silva,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Branca,Pena,2,Mateus Albuquerque,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Branca,Pena,3,Lucas Costa,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Branca,Pena,3,Heitor Silva,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Branca,Leve,1,Caio Monteiro,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Branca,Leve,2,Rafael Correia,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Branca,Leve,3,Breno Brito,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Branca,Leve,3,Antônio Brito,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Branca,Leve,1,Breno Brito,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Branca,Leve,2,Antônio Brito,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Branca,Leve,3,Rafael Correia,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Branca,Pesado,1,Levi Silva,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Branca,Pesado,2,Davi Siqueira,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Branca,Super-pesado,1,Lucas Sampaio,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Branca,Super-pesado,2,Felipe Costa,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Branca,Super-pesado,3,Carlos Lima,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Branca,Super-pesado,3,Thiago Albuquerque,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Branca,Super-pesado,1,Vinícius Nogueira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Branca,Super-pesado,2,Felipe Costa,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Branca,Pesadíssimo,1,Davi Farias,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Branca,Pesadíssimo,2,Diego Pinheiro,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Branca,Pesadíssimo,3,Raul Oliveira,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Azul,Galo,1,Lucas Macêdo,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Galo,2,Bruno Costa,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Azul,Galo,3,André Freitas,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Galo,3,Rafael Sampaio,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Pena,1,Thiago Farias,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Pena,2,Emanuel Freitas,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Azul,Pena,3,Vinícius Gomes,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Pena,3,Davi Santos,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Master 1,Azul,Leve,1,Davi Gomes,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Leve,2,Lucas Batista,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Leve,3,Rafael Albuquerque,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Azul,Meio-pesado,1,Cícero Albuquerque,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Azul,Meio-pesado,2,Bruno Correia,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Meio-pesado,3,Vinícius Albuquerque,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Meio-pesado,1,Pedro Teixeira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Meio-pesado,2,Gustavo Albuquerque,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Azul,Meio-pesado,3,Cícero Albuquerque,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Meio-pesado,3,Vinícius Albuquerque,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Azul,Super-pesado,1,Bruno Nogueira,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Super-pesado,2,Igor Costa,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Azul,Super-pesado,1,Igor Costa,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Azul,Super-pesado,2,Pedro Rocha,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Azul,Super-pesado,3,Antônio Albuquerque,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Azul,Super-pesado,3,Bruno Nogueira,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Pesadíssimo,1,Joaquim Holanda,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Azul,Pesadíssimo,2,Raul Freitas,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Azul,Pesadíssimo,3,Emanuel Brito,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pluma,1,Wesley Pereira,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pluma,2,Rafael Araújo,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pluma,3,Cícero Bezerra,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pluma,3,Renan Sampaio,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Roxa,Leve,1,Joaquim Siqueira,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Master 1,Roxa,Leve,2,Ícaro Pinheiro,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Roxa,Leve,3,Raul Sales,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Roxa,Leve,1,Otávio Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Roxa,Leve,2,Pedro Macêdo,Dragões da Guarda
+exemplo-etapa-2,Masculino,Master 1,Roxa,Médio,1,André Monteiro,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Roxa,Médio,2,Felipe Barbosa,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Roxa,Médio,3,Caio Sampaio,Panteras da Arte Suave
+exemplo-etapa-1,Masculino,Master 1,Roxa,Meio-pesado,1,André Rocha,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Roxa,Meio-pesado,2,Lucas Gomes,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Roxa,Meio-pesado,1,Lucas Gomes,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Roxa,Meio-pesado,2,Samuel Nogueira,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesado,1,Wesley Barbosa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesado,2,Levi Oliveira,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesado,3,Ícaro Nogueira,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesado,3,Gustavo Moreira,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Roxa,Super-pesado,1,Bruno Albuquerque,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Roxa,Super-pesado,2,Vinícius Holanda,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Roxa,Super-pesado,3,Wesley Rocha,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Roxa,Super-pesado,3,Renan Brito,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesadíssimo,1,Joaquim Sampaio,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesadíssimo,2,Vinícius Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesadíssimo,3,Pedro Monteiro,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Roxa,Pesadíssimo,3,Mateus Barbosa,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Galo,1,Caio Holanda,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Galo,2,Caio Rocha,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Marrom,Galo,3,Antônio Costa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Marrom,Galo,3,Renan Menezes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Galo,1,Caio Holanda,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Galo,2,Caio Rocha,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Marrom,Galo,3,Renan Menezes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Galo,3,Antônio Costa,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pluma,1,Wesley Albuquerque,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pluma,2,Mateus Nogueira,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pluma,3,Cícero Martins,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pluma,3,Emanuel Holanda,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pluma,1,Cícero Martins,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pluma,2,Emanuel Lima,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pluma,3,Mateus Nogueira,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pena,1,Otávio Rocha,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pena,2,Heitor Brito,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pena,3,Joaquim Brito,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Marrom,Leve,1,Breno Macêdo,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Leve,2,Samuel Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Marrom,Leve,3,Pedro Silva,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Leve,3,Bruno Moreira,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Marrom,Leve,1,Heitor Gomes,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Leve,2,Breno Macêdo,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Leve,3,Samuel Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Leve,3,Pedro Silva,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Médio,1,Thiago Lima,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Médio,2,Bruno Araújo,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Marrom,Meio-pesado,1,Mateus Batista,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Marrom,Meio-pesado,2,Diego Holanda,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Meio-pesado,3,Gustavo Martins,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Meio-pesado,3,André Araújo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesado,1,Otávio Macêdo,Águias da Ribeira
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesado,2,Antônio Monteiro,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesado,3,Vinícius Oliveira,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesado,3,Diego Cavalcante,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesado,1,Felipe Teixeira,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesado,2,Antônio Monteiro,Fênix BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesado,3,Davi Sampaio,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesado,3,Vinícius Oliveira,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Marrom,Super-pesado,1,Felipe Macêdo,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Marrom,Super-pesado,2,Gustavo Barbosa,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Marrom,Super-pesado,3,Wesley Cavalcante,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Marrom,Super-pesado,3,Bruno Silva,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Super-pesado,1,Wesley Cavalcante,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Marrom,Super-pesado,2,Gustavo Barbosa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Super-pesado,3,Bruno Silva,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Super-pesado,3,Francisco Moreira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesadíssimo,1,Pedro Bezerra,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Marrom,Pesadíssimo,2,Thiago Sampaio,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesadíssimo,1,Cícero Cavalcante,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesadíssimo,2,Pedro Bezerra,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Marrom,Pesadíssimo,3,Thiago Sampaio,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Pluma,1,Joaquim Barbosa,Sertão Fight Team
+exemplo-etapa-2,Masculino,Master 1,Preta,Pluma,2,Vinícius Lima,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Pluma,3,Breno Monteiro,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Preta,Pena,1,Raul Menezes,Litoral Leste BJJ
+exemplo-etapa-1,Masculino,Master 1,Preta,Pena,2,Lucas Monteiro,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Preta,Pena,3,Levi Costa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Pena,1,Levi Costa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Pena,2,Emanuel Farias,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Preta,Pena,3,Raul Menezes,Litoral Leste BJJ
+exemplo-etapa-2,Masculino,Master 1,Preta,Pena,3,Lucas Monteiro,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Preta,Leve,1,Igor Cavalcante,Jangada Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Preta,Leve,2,Ícaro Costa,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Preta,Leve,1,Igor Cavalcante,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Leve,2,Breno Pereira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Masculino,Master 1,Preta,Leve,3,Ícaro Costa,Águias da Ribeira
+exemplo-etapa-2,Masculino,Master 1,Preta,Médio,1,Emanuel Bezerra,Panteras da Arte Suave
+exemplo-etapa-2,Masculino,Master 1,Preta,Médio,2,Carlos Freitas,Dragões da Guarda
+exemplo-etapa-1,Masculino,Master 1,Preta,Pesado,1,Igor Menezes,Sertão Fight Team
+exemplo-etapa-1,Masculino,Master 1,Preta,Pesado,2,Wesley Martins,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Preta,Super-pesado,1,Carlos Pereira,Leões do Tatame
+exemplo-etapa-1,Masculino,Master 1,Preta,Super-pesado,2,André Cavalcante,Iracema Jiu-Jitsu
+exemplo-etapa-1,Masculino,Master 1,Preta,Super-pesado,3,Joaquim Silva,Mandacaru BJJ
+exemplo-etapa-2,Masculino,Master 1,Preta,Super-pesado,1,Carlos Pereira,Leões do Tatame
+exemplo-etapa-2,Masculino,Master 1,Preta,Super-pesado,2,Joaquim Silva,Mandacaru BJJ
+exemplo-etapa-1,Masculino,Master 1,Preta,Pesadíssimo,1,Igor Macêdo,Fênix BJJ
+exemplo-etapa-1,Masculino,Master 1,Preta,Pesadíssimo,2,Cícero Brito,Sertão Fight Team
+exemplo-etapa-2,Feminino,Juvenil,Branca,Pluma,1,Tainá Nogueira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Juvenil,Branca,Pluma,2,Iara Albuquerque,Fênix BJJ
+exemplo-etapa-2,Feminino,Juvenil,Branca,Pluma,3,Rebeca Freitas,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pena,1,Gabriela Bezerra,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pena,2,Rebeca Rocha,Dragões da Guarda
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pena,3,Manuela Oliveira,Leões do Tatame
+exemplo-etapa-1,Feminino,Juvenil,Branca,Médio,1,Bianca Bezerra,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Juvenil,Branca,Médio,2,Gabriela Sampaio,Dragões da Guarda
+exemplo-etapa-1,Feminino,Juvenil,Branca,Médio,3,Gabriela Martins,Sertão Fight Team
+exemplo-etapa-1,Feminino,Juvenil,Branca,Médio,3,Mariana Silva,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Branca,Médio,1,Gabriela Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Juvenil,Branca,Médio,2,Gabriela Sampaio,Dragões da Guarda
+exemplo-etapa-2,Feminino,Juvenil,Branca,Médio,3,Bianca Bezerra,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Juvenil,Branca,Médio,3,Mariana Silva,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pesado,1,Ana Barbosa,Dragões da Guarda
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pesado,2,Letícia Menezes,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pesado,3,Larissa Barbosa,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Branca,Pesado,3,Isabella Brito,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Branca,Pesado,1,Isabella Brito,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Branca,Pesado,2,Ana Barbosa,Dragões da Guarda
+exemplo-etapa-1,Feminino,Juvenil,Branca,Super-pesado,1,Raquel Bezerra,Fênix BJJ
+exemplo-etapa-1,Feminino,Juvenil,Branca,Super-pesado,2,Raquel Freitas,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Branca,Super-pesado,3,Beatriz Barbosa,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Juvenil,Branca,Super-pesado,3,Alice Bezerra,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Branca,Super-pesado,1,Raquel Bezerra,Fênix BJJ
+exemplo-etapa-2,Feminino,Juvenil,Branca,Super-pesado,2,Sofia Martins,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Juvenil,Branca,Super-pesado,3,Beatriz Barbosa,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Juvenil,Branca,Super-pesado,3,Raquel Freitas,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Azul,Galo,1,Helena Moreira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Juvenil,Azul,Galo,2,Beatriz Silva,Águias da Ribeira
+exemplo-etapa-1,Feminino,Juvenil,Azul,Galo,3,Lívia Siqueira,Dragões da Guarda
+exemplo-etapa-2,Feminino,Juvenil,Azul,Pena,1,Gabriela Freitas,Dragões da Guarda
+exemplo-etapa-2,Feminino,Juvenil,Azul,Pena,2,Mariana Gomes,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Juvenil,Azul,Pena,3,Lívia Nogueira,Águias da Ribeira
+exemplo-etapa-1,Feminino,Juvenil,Azul,Meio-pesado,1,Manuela Lima,Águias da Ribeira
+exemplo-etapa-1,Feminino,Juvenil,Azul,Meio-pesado,2,Gabriela Farias,Fênix BJJ
+exemplo-etapa-2,Feminino,Juvenil,Azul,Meio-pesado,1,Alice Sales,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Juvenil,Azul,Meio-pesado,2,Manuela Lima,Águias da Ribeira
+exemplo-etapa-2,Feminino,Juvenil,Azul,Meio-pesado,3,Sofia Batista,Dragões da Guarda
+exemplo-etapa-2,Feminino,Juvenil,Azul,Meio-pesado,3,Gabriela Farias,Fênix BJJ
+exemplo-etapa-1,Feminino,Juvenil,Azul,Pesado,1,Raquel Costa,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Juvenil,Azul,Pesado,2,Beatriz Rocha,Leões do Tatame
+exemplo-etapa-1,Feminino,Juvenil,Azul,Pesado,3,Sofia Costa,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Azul,Super-pesado,1,Mariana Teixeira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Azul,Super-pesado,2,Beatriz Monteiro,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Azul,Super-pesado,3,Júlia Gomes,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Galo,1,Bianca Macêdo,Dragões da Guarda
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Galo,2,Raquel Cavalcante,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Galo,3,Mariana Rocha,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Pluma,1,Lívia Araújo,Fênix BJJ
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Pluma,2,Manuela Monteiro,Dragões da Guarda
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Pluma,3,Manuela Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Leve,1,Aline Gomes,Fênix BJJ
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Leve,2,Lívia Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Leve,3,Rebeca Santos,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Leve,3,Tainá Teixeira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Meio-pesado,1,Bianca Farias,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Meio-pesado,2,Marina Bezerra,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Super-pesado,1,Lívia Moreira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Super-pesado,2,Marina Lima,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Super-pesado,3,Natália Pereira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Juvenil,Roxa,Super-pesado,3,Luana Silva,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Super-pesado,1,Luana Silva,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Super-pesado,2,Natália Pereira,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Juvenil,Roxa,Super-pesado,3,Lívia Moreira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Branca,Galo,1,Fernanda Silva,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Branca,Galo,2,Fernanda Pinheiro,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Galo,1,Camila Freitas,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Branca,Galo,2,Fernanda Silva,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Branca,Pluma,1,Raquel Holanda,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Branca,Pluma,2,Larissa Teixeira,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Branca,Pluma,3,Vitória Martins,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Branca,Pluma,3,Raquel Sampaio,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Pluma,1,Larissa Teixeira,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Pluma,2,Raquel Sampaio,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Pluma,3,Manuela Albuquerque,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Branca,Pena,1,Sofia Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Branca,Pena,2,Helena Albuquerque,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Branca,Pena,3,Natália Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Branca,Pena,3,Bruna Nogueira,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Branca,Pena,1,Helena Albuquerque,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Branca,Pena,2,Bruna Nogueira,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Branca,Pena,3,Sofia Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Branca,Pena,3,Natália Holanda,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Branca,Médio,1,Clara Albuquerque,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Branca,Médio,2,Fernanda Martins,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Branca,Médio,3,Luana Freitas,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Branca,Médio,3,Manuela Barbosa,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Branca,Médio,1,Manuela Barbosa,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Branca,Médio,2,Clara Albuquerque,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Médio,3,Luana Freitas,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Médio,3,Fernanda Martins,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Meio-pesado,1,Gabriela Pereira,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Meio-pesado,2,Manuela Batista,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Meio-pesado,3,Alice Santos,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Branca,Pesado,1,Bruna Batista,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Branca,Pesado,2,Priscila Oliveira,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Branca,Pesado,3,Alice Costa,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Pesado,1,Isabella Silva,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Branca,Pesado,2,Alice Costa,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Branca,Pesado,3,Priscila Oliveira,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Super-pesado,1,Aline Siqueira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Branca,Super-pesado,2,Débora Araújo,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Branca,Super-pesado,3,Aline Correia,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Azul,Galo,1,Natália Sampaio,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Galo,2,Débora Sampaio,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Azul,Galo,1,Débora Holanda,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Galo,2,Débora Sampaio,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Adulto,Azul,Pluma,1,Bruna Macêdo,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Azul,Pluma,2,Gabriela Gomes,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Pena,1,Aline Holanda,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Pena,2,Beatriz Lima,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Azul,Pena,3,Vitória Correia,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Leve,1,Iara Barbosa,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Leve,2,Helena Santos,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Leve,3,Vitória Freitas,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Leve,1,Helena Santos,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Leve,2,Ana Oliveira,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Leve,3,Vitória Freitas,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Leve,3,Mariana Nogueira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Médio,1,Mariana Freitas,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Azul,Médio,2,Raquel Menezes,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Azul,Médio,3,Gabriela Rocha,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Azul,Médio,3,Beatriz Gomes,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Médio,1,Gabriela Rocha,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Azul,Médio,2,Mariana Freitas,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Azul,Médio,3,Raquel Menezes,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Azul,Médio,3,Aline Moreira,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Azul,Meio-pesado,1,Sofia Santos,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Azul,Meio-pesado,2,Yasmin Farias,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Azul,Meio-pesado,1,Yasmin Farias,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Azul,Meio-pesado,2,Vitória Rocha,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Azul,Meio-pesado,3,Ana Martins,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Azul,Meio-pesado,3,Sofia Santos,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Azul,Pesado,1,Yasmin Siqueira,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Azul,Pesado,2,Helena Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Pesado,1,Isabella Pinheiro,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Pesado,2,Alice Nogueira,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Azul,Pesado,3,Rebeca Albuquerque,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Azul,Pesado,3,Yasmin Siqueira,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Azul,Super-pesado,1,Iara Santos,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Azul,Super-pesado,2,Letícia Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Azul,Super-pesado,3,Bianca Siqueira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Azul,Super-pesado,3,Letícia Araújo,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Azul,Super-pesado,1,Iara Santos,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Super-pesado,2,Letícia Sampaio,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Azul,Super-pesado,3,Bianca Siqueira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Roxa,Galo,1,Luana Albuquerque,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Roxa,Galo,2,Débora Menezes,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pluma,1,Yasmin Santos,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pluma,2,Yasmin Batista,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pluma,3,Beatriz Batista,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pluma,3,Fernanda Batista,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pluma,1,Yasmin Batista,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pluma,2,Larissa Sampaio,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pluma,3,Fernanda Batista,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pluma,3,Beatriz Batista,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pena,1,Clara Farias,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pena,2,Bianca Pereira,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pena,3,Mariana Batista,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pena,1,Bianca Santos,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pena,2,Bianca Pereira,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pena,3,Mariana Batista,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Roxa,Leve,1,Júlia Oliveira,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Adulto,Roxa,Leve,2,Larissa Bezerra,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Roxa,Leve,3,Manuela Pinheiro,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Leve,1,Manuela Pinheiro,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Leve,2,Júlia Oliveira,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Roxa,Leve,3,Larissa Bezerra,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Roxa,Médio,1,Débora Pereira,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Médio,2,Ana Nogueira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Roxa,Médio,3,Lívia Santos,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Médio,3,Alice Batista,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Roxa,Médio,1,Débora Pereira,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Médio,2,Lívia Santos,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Médio,3,Alice Batista,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Roxa,Meio-pesado,1,Isabella Monteiro,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Meio-pesado,2,Sofia Barbosa,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Roxa,Meio-pesado,1,Débora Freitas,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Meio-pesado,2,Sofia Barbosa,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Roxa,Meio-pesado,3,Isabella Monteiro,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pesado,1,Sofia Nogueira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Roxa,Pesado,2,Marina Santos,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pesado,1,Sofia Nogueira,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pesado,2,Marina Santos,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pesado,3,Luana Gomes,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Roxa,Pesado,3,Natália Martins,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Roxa,Super-pesado,1,Marina Gomes,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Roxa,Super-pesado,2,Bianca Martins,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Roxa,Super-pesado,3,Natália Moreira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Roxa,Super-pesado,3,Alice Correia,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Roxa,Super-pesado,1,Natália Moreira,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Roxa,Super-pesado,2,Bianca Martins,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Roxa,Super-pesado,3,Alice Correia,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Roxa,Super-pesado,3,Marina Gomes,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pluma,1,Yasmin Monteiro,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pluma,2,Rebeca Farias,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pluma,3,Luana Barbosa,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pena,1,Priscila Pinheiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pena,2,Aline Santos,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pena,3,Rebeca Siqueira,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pena,3,Beatriz Pereira,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Adulto,Marrom,Leve,1,Aline Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Marrom,Leve,2,Camila Barbosa,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Marrom,Leve,3,Manuela Martins,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Leve,1,Manuela Martins,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Leve,2,Camila Barbosa,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Leve,3,Aline Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Marrom,Médio,1,Bianca Moreira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Adulto,Marrom,Médio,2,Bruna Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Marrom,Médio,3,Alice Freitas,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Adulto,Marrom,Médio,3,Yasmin Martins,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Marrom,Meio-pesado,1,Júlia Monteiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Marrom,Meio-pesado,2,Bianca Albuquerque,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Marrom,Meio-pesado,3,Isabella Bezerra,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Meio-pesado,1,Débora Albuquerque,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Marrom,Meio-pesado,2,Isabella Bezerra,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Meio-pesado,3,Bianca Albuquerque,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Marrom,Pesado,1,Alice Gomes,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Marrom,Pesado,2,Alice Teixeira,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pesado,1,Alice Araújo,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pesado,2,Raquel Oliveira,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Pesado,3,Alice Teixeira,Fênix BJJ
+exemplo-etapa-1,Feminino,Adulto,Marrom,Super-pesado,1,Mariana Pereira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Marrom,Super-pesado,2,Camila Brito,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Marrom,Super-pesado,3,Lívia Silva,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Marrom,Super-pesado,1,Larissa Monteiro,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Marrom,Super-pesado,2,Júlia Barbosa,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Marrom,Super-pesado,3,Mariana Pereira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Galo,1,Beatriz Menezes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Galo,2,Clara Santos,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Galo,3,Alice Silva,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Galo,3,Larissa Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Preta,Galo,1,Larissa Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Preta,Galo,2,Clara Santos,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Galo,3,Camila Teixeira,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Galo,3,Alice Silva,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Pluma,1,Ana Holanda,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Preta,Pluma,2,Raquel Pereira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Pluma,3,Mariana Albuquerque,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Adulto,Preta,Pluma,1,Ana Holanda,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Preta,Pluma,2,Mariana Albuquerque,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Pena,1,Bianca Araújo,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Pena,2,Débora Bezerra,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Pena,3,Rebeca Costa,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Preta,Pena,1,Débora Bezerra,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Preta,Pena,2,Bianca Freitas,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Leve,1,Alice Sampaio,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Preta,Leve,2,Gabriela Teixeira,Águias da Ribeira
+exemplo-etapa-1,Feminino,Adulto,Preta,Leve,3,Helena Freitas,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Preta,Leve,3,Isabella Farias,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Leve,1,Alice Sampaio,Águias da Ribeira
+exemplo-etapa-2,Feminino,Adulto,Preta,Leve,2,Helena Freitas,Leões do Tatame
+exemplo-etapa-2,Feminino,Adulto,Preta,Leve,3,Luana Siqueira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Adulto,Preta,Médio,1,Manuela Moreira,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Médio,2,Rebeca Araújo,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Médio,3,Aline Batista,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Médio,1,Aline Batista,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Médio,2,Tainá Siqueira,Sertão Fight Team
+exemplo-etapa-2,Feminino,Adulto,Preta,Médio,3,Manuela Moreira,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Preta,Médio,3,Rebeca Araújo,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Meio-pesado,1,Júlia Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Meio-pesado,2,Raquel Gomes,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Meio-pesado,3,Débora Pinheiro,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Preta,Meio-pesado,3,Luana Lima,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Preta,Meio-pesado,1,Luana Lima,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Preta,Meio-pesado,2,Débora Pinheiro,Leões do Tatame
+exemplo-etapa-1,Feminino,Adulto,Preta,Pesado,1,Alice Barbosa,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Pesado,2,Lívia Batista,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Pesado,3,Alice Lima,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Pesado,3,Fernanda Menezes,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Pesado,1,Alice Barbosa,Dragões da Guarda
+exemplo-etapa-2,Feminino,Adulto,Preta,Pesado,2,Fernanda Menezes,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Pesado,3,Alice Lima,Dragões da Guarda
+exemplo-etapa-1,Feminino,Adulto,Preta,Super-pesado,1,Tainá Gomes,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Super-pesado,2,Larissa Albuquerque,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Adulto,Preta,Super-pesado,3,Gabriela Oliveira,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Super-pesado,1,Rebeca Oliveira,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Super-pesado,2,Tainá Pinheiro,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Adulto,Preta,Super-pesado,3,Gabriela Oliveira,Fênix BJJ
+exemplo-etapa-2,Feminino,Adulto,Preta,Super-pesado,3,Raquel Albuquerque,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Branca,Pluma,1,Lívia Brito,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Branca,Pluma,2,Luana Nogueira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Branca,Pena,1,Mariana Sampaio,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Branca,Pena,2,Helena Costa,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Branca,Pena,3,Beatriz Sales,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Branca,Pena,1,Helena Costa,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Branca,Pena,2,Beatriz Sales,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Branca,Pena,3,Mariana Sampaio,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Branca,Super-pesado,1,Marina Silva,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Branca,Super-pesado,2,Bruna Pereira,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Branca,Super-pesado,3,Larissa Nogueira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Master 1,Azul,Galo,1,Manuela Pereira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Azul,Galo,2,Mariana Macêdo,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Azul,Galo,3,Ana Araújo,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Azul,Pluma,1,Isabella Nogueira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Azul,Pluma,2,Fernanda Barbosa,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Azul,Pluma,3,Débora Lima,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Azul,Pena,1,Marina Farias,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Azul,Pena,2,Gabriela Costa,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Azul,Leve,1,Ana Santos,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Azul,Leve,2,Sofia Monteiro,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Master 1,Azul,Leve,3,Iara Teixeira,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Azul,Leve,3,Isabella Menezes,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Master 1,Azul,Médio,1,Vitória Menezes,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Azul,Médio,2,Priscila Costa,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Azul,Médio,3,Bianca Oliveira,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Azul,Meio-pesado,1,Aline Silva,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Master 1,Azul,Meio-pesado,2,Yasmin Nogueira,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Azul,Meio-pesado,1,Aline Silva,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Azul,Meio-pesado,2,Bianca Lima,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Azul,Meio-pesado,3,Yasmin Costa,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Azul,Meio-pesado,3,Yasmin Nogueira,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Master 1,Azul,Pesado,1,Iara Costa,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Azul,Pesado,2,Vitória Santos,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Azul,Pesado,3,Letícia Brito,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Azul,Pesado,3,Larissa Menezes,Dragões da Guarda
+exemplo-etapa-2,Feminino,Master 1,Roxa,Pluma,1,Bruna Freitas,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Master 1,Roxa,Pluma,2,Lívia Freitas,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Roxa,Pluma,3,Yasmin Moreira,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Roxa,Pluma,3,Alice Rocha,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Roxa,Leve,1,Alice Pinheiro,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Roxa,Leve,2,Lívia Martins,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Roxa,Leve,3,Bruna Brito,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Roxa,Leve,3,Sofia Silva,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Roxa,Médio,1,Lívia Pereira,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Roxa,Médio,2,Alice Cavalcante,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Roxa,Médio,3,Marina Nogueira,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Roxa,Meio-pesado,1,Lívia Rocha,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Roxa,Meio-pesado,2,Lívia Farias,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Roxa,Meio-pesado,3,Tainá Martins,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Roxa,Meio-pesado,3,Lívia Teixeira,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Roxa,Meio-pesado,1,Lívia Teixeira,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Roxa,Meio-pesado,2,Lívia Rocha,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Roxa,Pesado,1,Júlia Sales,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Roxa,Pesado,2,Fernanda Araújo,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Roxa,Pesado,3,Priscila Albuquerque,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Roxa,Pesado,3,Tainá Menezes,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Roxa,Super-pesado,1,Luana Correia,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Roxa,Super-pesado,2,Vitória Pereira,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Roxa,Super-pesado,3,Luana Santos,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Marrom,Galo,1,Letícia Correia,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Master 1,Marrom,Galo,2,Lívia Pinheiro,Sertão Fight Team
+exemplo-etapa-2,Feminino,Master 1,Marrom,Galo,3,Gabriela Monteiro,Águias da Ribeira
+exemplo-etapa-2,Feminino,Master 1,Marrom,Pluma,1,Ana Rocha,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Marrom,Pluma,2,Aline Albuquerque,Águias da Ribeira
+exemplo-etapa-2,Feminino,Master 1,Marrom,Pluma,3,Camila Martins,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Master 1,Marrom,Pena,1,Beatriz Albuquerque,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Marrom,Pena,2,Fernanda Costa,Leões do Tatame
+exemplo-etapa-1,Feminino,Master 1,Marrom,Pena,3,Sofia Lima,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Marrom,Leve,1,Vitória Oliveira,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Marrom,Leve,2,Bruna Sampaio,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Marrom,Leve,3,Tainá Oliveira,Iracema Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Marrom,Leve,3,Letícia Monteiro,Jangada Jiu-Jitsu
+exemplo-etapa-1,Feminino,Master 1,Marrom,Médio,1,Priscila Batista,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Marrom,Médio,2,Bruna Monteiro,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Marrom,Médio,3,Manuela Macêdo,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Marrom,Médio,3,Luana Menezes,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Marrom,Meio-pesado,1,Natália Santos,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Marrom,Meio-pesado,2,Gabriela Pinheiro,Águias da Ribeira
+exemplo-etapa-2,Feminino,Master 1,Marrom,Meio-pesado,3,Clara Monteiro,Leões do Tatame
+exemplo-etapa-2,Feminino,Master 1,Marrom,Super-pesado,1,Iara Freitas,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Master 1,Marrom,Super-pesado,2,Natália Barbosa,Leões do Tatame
+exemplo-etapa-2,Feminino,Master 1,Marrom,Super-pesado,3,Mariana Sales,Fênix BJJ
+exemplo-etapa-1,Feminino,Master 1,Preta,Galo,1,Marina Pereira,Panteras da Arte Suave
+exemplo-etapa-1,Feminino,Master 1,Preta,Galo,2,Lívia Menezes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Master 1,Preta,Galo,1,Lívia Menezes,Jangada Jiu-Jitsu
+exemplo-etapa-2,Feminino,Master 1,Preta,Galo,2,Helena Barbosa,Águias da Ribeira
+exemplo-etapa-2,Feminino,Master 1,Preta,Galo,3,Marina Pereira,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Preta,Pluma,1,Bruna Araújo,Águias da Ribeira
+exemplo-etapa-2,Feminino,Master 1,Preta,Pluma,2,Luana Farias,Fênix BJJ
+exemplo-etapa-2,Feminino,Master 1,Preta,Pluma,3,Bianca Pinheiro,Iracema Jiu-Jitsu
+exemplo-etapa-2,Feminino,Master 1,Preta,Pluma,3,Priscila Teixeira,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Preta,Pena,1,Natália Macêdo,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Preta,Pena,2,Yasmin Lima,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Master 1,Preta,Pena,3,Sofia Araújo,Dragões da Guarda
+exemplo-etapa-2,Feminino,Master 1,Preta,Pena,1,Sofia Araújo,Dragões da Guarda
+exemplo-etapa-2,Feminino,Master 1,Preta,Pena,2,Yasmin Lima,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Preta,Pena,3,Natália Macêdo,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Preta,Leve,1,Clara Barbosa,Águias da Ribeira
+exemplo-etapa-1,Feminino,Master 1,Preta,Leve,2,Alice Menezes,Sertão Fight Team
+exemplo-etapa-1,Feminino,Master 1,Preta,Leve,3,Beatriz Sampaio,Leões do Tatame
+exemplo-etapa-2,Feminino,Master 1,Preta,Médio,1,Tainá Brito,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Preta,Médio,2,Yasmin Macêdo,Litoral Leste BJJ
+exemplo-etapa-2,Feminino,Master 1,Preta,Médio,3,Clara Gomes,Dragões da Guarda
+exemplo-etapa-2,Feminino,Master 1,Preta,Médio,3,Isabella Albuquerque,Dragões da Guarda
+exemplo-etapa-1,Feminino,Master 1,Preta,Meio-pesado,1,Helena Nogueira,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Preta,Meio-pesado,2,Clara Nogueira,Mandacaru BJJ
+exemplo-etapa-1,Feminino,Master 1,Preta,Meio-pesado,3,Natália Menezes,Litoral Leste BJJ
+exemplo-etapa-1,Feminino,Master 1,Preta,Meio-pesado,3,Letícia Holanda,Panteras da Arte Suave
+exemplo-etapa-2,Feminino,Master 1,Preta,Pesado,1,Clara Oliveira,Mandacaru BJJ
+exemplo-etapa-2,Feminino,Master 1,Preta,Pesado,2,Luana Batista,Iracema Jiu-Jitsu

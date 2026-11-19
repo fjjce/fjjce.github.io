@@ -30,8 +30,8 @@ Projeto-FJJCE/
 │   └── rodape.html       rodapé (usado em todas as páginas)
 ├── dados/                ← é aqui que o site é atualizado
 │   ├── eventos.json      calendário de campeonatos
-│   ├── ranking.csv       ranking: uma linha por atleta (abre no Excel/Planilhas)
-│   ├── ranking-info.json temporada, data de atualização e de onde ler o ranking
+│   ├── resultados.csv    pódios de cada campeonato (abre no Excel); o ranking é calculado daqui
+│   ├── ranking-info.json temporada, tabela de pontos e quais campeonatos contam
 │   ├── noticias.json     lista de notícias
 │   ├── documentos.json   documentos da página de regras e documentos
 │   └── site.json         endereço público do site (prévias e Google)
@@ -44,7 +44,7 @@ Projeto-FJJCE/
     ├── js/noticias-dados.js lê as notícias e converte o texto .md em HTML
     ├── js/noticias.js e js/noticia.js    montam as páginas de notícias
     ├── js/inicio.js      monta a página inicial a partir de dados/
-    ├── js/ranking-dados.js lê a planilha do ranking (usado nas duas páginas)
+    ├── js/ranking-dados.js lê os pódios e calcula o ranking (usado em 3 páginas)
     ├── js/ranking.js     filtros, busca e abas da página de ranking
     ├── fontes/           Bebas Neue e Barlow (licença OFL)
     ├── img/              imagens gerais
@@ -67,19 +67,37 @@ O site faz o resto sozinho: o topo da página inicial mostra o próximo campeona
 se não houver nenhum marcado), e os eventos passam para "Encerrados" no dia seguinte.
 Depois do campeonato, coloque o link de `resultados` para aparecer o botão "Ver resultados".
 
-**Ranking:** o ranking é uma planilha com as colunas
-`sexo, idade, faixa, peso, atleta, equipe, pontos` (uma linha por atleta).
-O site calcula sozinho as posições, os empates e o ranking por equipes.
+**Ranking (automático a partir dos pódios):** você não digita pontos. Depois de cada
+campeonato, cadastre os pódios em `dados/resultados.csv`, uma linha por atleta medalhista:
 
-- Valores aceitos: sexo `Masculino`/`Feminino`; idade `Juvenil`, `Adulto`, `Master 1`;
-  faixa `Branca`, `Azul`, `Roxa`, `Marrom`, `Preta`; peso `Galo`, `Pluma`, `Pena`, `Leve`,
-  `Médio`, `Meio-pesado`, `Pesado`, `Super-pesado`, `Pesadíssimo`.
-- **Pelo Excel:** abra `dados/ranking.csv`, edite e salve como **CSV UTF-8** (senão os acentos quebram).
-- **Pelo Google Planilhas (recomendado para a federação):** importe o `ranking.csv` numa planilha,
-  vá em Arquivo > Compartilhar > Publicar na Web, escolha a aba e o formato CSV, copie o link
-  e cole no campo `"fonte"` de `dados/ranking-info.json`. A partir daí, quem edita a planilha
-  atualiza o site, sem mexer em código.
-- Atualize também `"atualizado_em"` em `dados/ranking-info.json`.
+```
+evento,sexo,idade,faixa,peso,colocacao,atleta,equipe
+ceara-pro-2026,Masculino,Adulto,Preta,Leve,1,Nome do Atleta,Nome da Equipe
+ceara-pro-2026,Masculino,Adulto,Preta,Leve,2,Outro Atleta,Outra Equipe
+ceara-pro-2026,Masculino,Adulto,Preta,Leve,3,Terceiro,Equipe
+ceara-pro-2026,Masculino,Adulto,Preta,Leve,3,Outro Terceiro,Equipe
+```
+
+- `evento` é o `id` do campeonato em `dados/eventos.json`.
+- Valores aceitos: sexo `Masculino`/`Feminino`; idade `Juvenil`, `Adulto`, `Master 1` a `Master 4`;
+  faixa `Branca`, `Azul`, `Roxa`, `Marrom`, `Preta`; peso `Galo`, `Pluma`, `Pena`, `Leve`, `Médio`,
+  `Meio-pesado`, `Pesado`, `Super-pesado`, `Pesadíssimo`, `Absoluto`. Escreva sempre igual,
+  com acento e letra maiúscula, para o mesmo atleta somar pontos entre as etapas.
+- Pode ter dois 3º lugares na mesma categoria (como na IBJJF).
+- Pelo **Excel**: abra o arquivo, edite e salve como **CSV UTF-8** (senão os acentos quebram).
+  Também dá para editar direto no VS Code.
+
+O site então:
+- soma os pontos de cada atleta na categoria e de cada equipe, conta ouros, pratas e bronzes
+  e desempata por número de ouros;
+- mostra os pódios na página do campeonato, na seção **Resultados**.
+
+Em `dados/ranking-info.json`:
+- `pontuacao`: pontos por colocação (padrão IBJJF: 1º = 9, 2º = 3, 3º = 1). Ajuste conforme a federação;
+- `etapas`: lista de ids dos campeonatos que contam para o ranking (vazia = todos contam);
+- `temporada` e `atualizado_em`: aparecem no site;
+- `exemplo`: deixe `true` enquanto o arquivo tiver os dados de demonstração e mude para `false`
+  quando colocar os resultados reais (o aviso de "Ranking de demonstração" some).
 
 Os filtros da página de ranking ficam no endereço, então dá para mandar o link de uma
 categoria específica. Exemplo: `ranking.html?sexo=feminino&idade=adulto&faixa=azul`.
@@ -122,7 +140,24 @@ Esses arquivos **só existem no site publicado**, não na sua pasta. No Live Ser
 de compartilhar usam o endereço normal da página.
 Se o site ganhar domínio próprio, troque o endereço em `dados/site.json`.
 
+## Roteiro depois de cada campeonato
+
+1. **Resultados:** pegue o resultado no iLutas e cadastre os pódios em `dados/resultados.csv`.
+   Na primeira vez, apague as linhas de demonstração (as que começam com `exemplo-etapa`) e mude
+   `"exemplo"` para `false` em `dados/ranking-info.json`.
+2. **Data do ranking:** atualize `"atualizado_em"` em `dados/ranking-info.json`.
+3. **Página do campeonato:** em `dados/eventos.json`, cole no campeonato o link `resultados` do iLutas
+   (e, se tiver, `chaves`). O botão "Ver resultados" aparece no topo da página inicial.
+4. **Fotos:** salve 2 ou 3 fotos em `assets/img/noticias/` (nome sem espaços, de preferência
+   com no máximo 1.600 pixels de largura).
+5. **Notícia:** copie o `noticias/_MODELO.md`, escreva o texto (campeões de destaque, equipe campeã,
+   agradecimentos aos apoiadores) e cadastre no topo de `dados/noticias.json`, com
+   `"campeonato": "id-do-evento"`.
+6. **Próximo campeonato:** se já houver data, cadastre em `dados/eventos.json`, com o cartaz.
+7. **Conferir no Live Server**, salvar no GitHub e ver se a aba Actions ficou verde.
+8. **Divulgar:** use o botão WhatsApp da notícia para mandar nos grupos.
+
 ## Dados de exemplo
 
-O ranking e duas das notícias (as marcadas com `"exemplo": true`) ainda são **exemplos**. Troque pelos dados reais e remova
+O ranking (`"exemplo": true` em `ranking-info.json`) e duas das notícias (as marcadas com `"exemplo": true`) ainda são **exemplos**. Troque pelos dados reais e remova
 o aviso no fim de `partials/rodape.html`. O campeonato cadastrado (Ceará Pro 2026) é real.

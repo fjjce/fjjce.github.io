@@ -2,6 +2,7 @@
  * evento.js
  * Página evento.html?id=ceara-pro-2026
  * Procura o campeonato pelo "id" em dados/eventos.json e monta a página.
+ * Se houver pódios desse campeonato em dados/resultados.csv, mostra os resultados.
  */
 
 function mapa(evento) {
@@ -98,6 +99,86 @@ function montarEvento(evento) {
     </section>`;
 }
 
+/* ---------- resultados (pódios) ---------- */
+
+function nomesNaColocacao(lista, colocacao) {
+  const nomes = lista.filter((r) => r.colocacao === colocacao);
+  if (!nomes.length) return '<span class="podio__vazio">-</span>';
+  return nomes.map((r) => `<span class="podio__nome">${escaparHTML(r.atleta)}</span><span class="podio__equipe">${escaparHTML(r.equipe)}</span>`).join('');
+}
+
+async function montarResultados(evento) {
+  let resultados;
+  try {
+    const info = await (await fetch('dados/ranking-info.json')).json();
+    resultados = (await carregarResultados(info)).filter((r) => r.evento === evento.id);
+  } catch (erro) {
+    console.error(erro);
+    return;
+  }
+  if (!resultados.length) return;
+
+  // Agrupa por sexo + idade + faixa, na ordem das listas do ranking
+  const ordem = (lista, valor) => { const i = lista.indexOf(valor); return i < 0 ? 99 : i; };
+  const grupos = new Map();
+  resultados.forEach((r) => {
+    const chave = `${r.sexo}|${r.idade}|${r.faixa}`;
+    if (!grupos.has(chave)) grupos.set(chave, []);
+    grupos.get(chave).push(r);
+  });
+  const chaves = [...grupos.keys()].sort((a, b) => {
+    const [sa, ia, fa] = a.split('|');
+    const [sb, ib, fb] = b.split('|');
+    return ordem(RANKING.sexos, sa) - ordem(RANKING.sexos, sb)
+      || ordem(RANKING.idades, ia) - ordem(RANKING.idades, ib)
+      || ordem(RANKING.faixas, fb) - ordem(RANKING.faixas, fa); // faixa preta primeiro
+  });
+
+  const blocos = chaves.map((chave) => {
+    const [sexo, idade, faixa] = chave.split('|');
+    const lista = grupos.get(chave);
+    const pesos = [...new Set(lista.map((r) => r.peso))]
+      .sort((a, b) => ordem(RANKING.pesos, a) - ordem(RANKING.pesos, b));
+    const linhas = pesos.map((peso) => {
+      const doPeso = lista.filter((r) => r.peso === peso);
+      return `
+        <tr>
+          <th scope="row">${escaparHTML(peso)}</th>
+          <td>${nomesNaColocacao(doPeso, 1)}</td>
+          <td>${nomesNaColocacao(doPeso, 2)}</td>
+          <td>${nomesNaColocacao(doPeso, 3)}</td>
+        </tr>`;
+    }).join('');
+    return `
+      <details class="podio">
+        <summary>
+          <span class="faixa-cor faixa-cor--${slug(faixa)}" aria-hidden="true"></span>
+          ${escaparHTML(sexo)} ${escaparHTML(idade.toLowerCase())}, faixa ${escaparHTML(faixa.toLowerCase())}
+          <span class="podio__qtd">${pesos.length} categoria${pesos.length === 1 ? '' : 's'}</span>
+        </summary>
+        <div class="podio__tabela" tabindex="0" role="region" aria-label="Pódios: ${escaparHTML(sexo)} ${escaparHTML(idade.toLowerCase())}, faixa ${escaparHTML(faixa.toLowerCase())}">
+          <table>
+            <thead><tr><th scope="col">Peso</th><th scope="col">Campeão</th><th scope="col">Vice</th><th scope="col">3º lugar</th></tr></thead>
+            <tbody>${linhas}</tbody>
+          </table>
+        </div>
+      </details>`;
+  }).join('');
+
+  const secao = document.createElement('section');
+  secao.className = 'secao secao--cinza';
+  secao.setAttribute('aria-labelledby', 'resultados-titulo');
+  secao.innerHTML = `
+    <div class="container">
+      <div class="secao__cabeca">
+        <h2 id="resultados-titulo">Resultados</h2>
+        <p>Pódio de cada categoria. Toque em uma categoria para ver os medalhistas.</p>
+      </div>
+      ${blocos}
+    </div>`;
+  document.querySelector('[data-evento]').appendChild(secao);
+}
+
 function naoEncontrado() {
   document.querySelector('[data-evento]').innerHTML = `
     <section class="pagina-topo">
@@ -114,8 +195,10 @@ async function iniciar() {
   try {
     const eventos = await carregarEventos();
     const evento = eventos.find((e) => e.id === id);
-    if (evento) montarEvento(evento);
-    else naoEncontrado();
+    if (evento) {
+      montarEvento(evento);
+      montarResultados(evento);
+    } else naoEncontrado();
   } catch (erro) {
     console.error(erro);
     naoEncontrado();
