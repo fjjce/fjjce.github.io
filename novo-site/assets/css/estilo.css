@@ -499,7 +499,7 @@ h1, h2, h3 { margin: 0; line-height: 1.1; }
   transition: border-color .2s;
 }
 .documento:hover { border-color: var(--vermelho); }
-.documento img { width: 96px; height: 96px; object-fit: cover; object-position: top; border-radius: 2px; }
+.documento img { flex: none; width: 96px; height: 96px; object-fit: cover; object-position: top; border-radius: 2px; }
 .documento__titulo { display: block; font-weight: 700; font-size: 1.15rem; }
 .documento:hover .documento__titulo { color: var(--vermelho); }
 .documento__detalhe { display: block; margin-top: .2rem; color: var(--cinza-texto); font-size: .95rem; }
@@ -806,3 +806,19 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
 }
 .compartilhar span { font-weight: 600; }
 .noticia--sem-imagem { grid-template-columns: 1fr; }
+
+/* ---------- 10. Documentos ---------- */
+.documento--grande { align-items: flex-start; }
+.documento__descricao { display: block; margin-top: .3rem; color: var(--cinza-texto); font-size: .98rem; line-height: 1.45; }
+.documento__icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 80px;
+  border: 2px solid var(--vermelho);
+  border-radius: 2px;
+  color: var(--vermelho);
+  font-weight: 700;
+  font-size: .9rem;
+}

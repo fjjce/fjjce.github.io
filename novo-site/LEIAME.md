@@ -21,6 +21,7 @@ novo-site/
 ├── ranking.html          ranking completo (atletas e equipes)
 ├── campeonatos.html      lista de campeonatos (próximos e encerrados)
 ├── evento.html           página de um campeonato (evento.html?id=...)
+├── documentos.html       regras, tabelas e editais
 ├── noticias.html         lista de notícias
 ├── noticia.html          página de uma notícia (noticia.html?id=...)
 ├── noticias/             texto de cada notícia (.md) e o _MODELO.md
@@ -92,6 +93,18 @@ categoria específica. Exemplo: `ranking.html?sexo=feminino&idade=adulto&faixa=a
 
 As 3 notícias mais recentes aparecem na página inicial; todas aparecem em `noticias.html`.
 Para apagar uma notícia, tire o bloco do `noticias.json` e apague o `.md` correspondente.
+
+**Novo documento (estatuto, formulário, nova tabela de peso):**
+salve o PDF em `assets/docs/` (nome sem espaços) e adicione um bloco em `dados/documentos.json`
+dentro do grupo certo (ou crie um grupo novo, como "Filiação" ou "Estatuto"). O tamanho do
+arquivo aparece sozinho. Os **editais** não precisam ser cadastrados aqui: basta colocar o link
+`edital` no campeonato, em `dados/eventos.json`, que ele aparece na página de documentos.
+
+## Endereço do site
+
+O `index.html` da pasta principal (fora de `novo-site`) só leva o visitante para `novo-site/`.
+A página antiga, de 2024, continua em `versao-2024.html` (bom para mostrar o antes e depois no portfólio).
+O `404.html` da pasta principal aparece quando alguém acessa um endereço que não existe.
 
 ## Dados de exemplo
 
