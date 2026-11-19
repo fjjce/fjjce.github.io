@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FJJCE | Federação de Jiu-Jitsu do Estado do Ceará</title>
+  <meta name="description" content="Campeonatos, ranking, regras e notícias da Federação de Jiu-Jitsu do Estado do Ceará (FJJCE).">
+
+  <!-- Aparência do link quando compartilhado (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:title" content="FJJCE | Federação de Jiu-Jitsu do Estado do Ceará">
+  <meta property="og:description" content="Campeonatos, ranking, regras e notícias do jiu-jitsu cearense.">
+  <meta property="og:image" content="assets/img/logo-fjjce.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#3A1214">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+
+  <link rel="preload" href="assets/fontes/bebas-neue-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+
+  <script src="assets/js/componentes.js" defer></script>
+  <script src="assets/js/inicio.js" defer></script>
+</head>
+<body>
+  <header data-incluir="partials/cabecalho.html"></header>
+
+  <main id="conteudo">
+
+    <!-- DESTAQUE: próximo campeonato (preenchido por inicio.js a partir de dados/eventos.json) -->
+    <section class="destaque" aria-labelledby="destaque-titulo">
+      <div class="destaque__grade container">
+        <div class="destaque__texto">
+          <p class="destaque__rotulo">Próximo campeonato</p>
+          <h1 id="destaque-titulo" class="destaque__titulo" data-destaque="nome">Federação de Jiu-Jitsu do Estado do Ceará</h1>
+          <p class="destaque__etapa" data-destaque="etapa"></p>
+          <dl class="destaque__info">
+            <div>
+              <dt>Data</dt>
+              <dd data-destaque="data">—</dd>
+            </div>
+            <div>
+              <dt>Local</dt>
+              <dd data-destaque="local">—</dd>
+            </div>
+          </dl>
+          <div class="destaque__acoes" data-destaque="acoes"></div>
+        </div>
+        <figure class="destaque__cartaz" data-destaque="cartaz" hidden>
+          <img src="" alt="" width="682" height="860">
+        </figure>
+      </div>
+    </section>
+
+    <div class="faixa" aria-hidden="true"><span></span></div>
+
+    <!-- CALENDÁRIO -->
+    <section id="calendario" class="secao" aria-labelledby="calendario-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="calendario-titulo">Calendário <span data-temporada></span></h2>
+          <p>Inscrições, editais e chaves de cada campeonato. As inscrições são feitas pelo iLutas.</p>
+        </div>
+        <ol class="calendario" data-lista="eventos">
+          <li class="carregando">Carregando campeonatos…</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- RANKING -->
+    <section id="ranking" class="secao secao--escura" aria-labelledby="ranking-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="ranking-titulo">Ranking <span data-temporada-ranking></span></h2>
+          <p data-ranking-atualizado>Pontuação acumulada nas etapas do Campeonato Cearense.</p>
+        </div>
+        <div class="ranking" data-lista="ranking"></div>
+        <p class="ranking__mais"><a class="botao botao--contorno" href="#ranking">Ver ranking completo</a></p>
+      </div>
+    </section>
+
+    <!-- NOTÍCIAS -->
+    <section id="noticias" class="secao" aria-labelledby="noticias-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="noticias-titulo">Notícias</h2>
+        </div>
+        <div class="noticias" data-lista="noticias"></div>
+      </div>
+    </section>
+
+    <!-- DOCUMENTOS -->
+    <section id="documentos" class="secao secao--cinza" aria-labelledby="documentos-titulo">
+      <div class="container">
+        <div class="secao__cabeca">
+          <h2 id="documentos-titulo">Regras e documentos</h2>
+          <p>Consulte antes de se inscrever. Os arquivos abrem em PDF.</p>
+        </div>
+        <ul class="documentos">
+          <li>
+            <a class="documento" href="assets/docs/regras-ibjjf-2024.pdf" target="_blank" rel="noopener">
+              <img src="assets/img/capa-regras-ibjjf.png" alt="" width="300" height="388" loading="lazy">
+              <span class="documento__texto">
+                <span class="documento__titulo">Livro de regras IBJJF</span>
+                <span class="documento__detalhe">PDF, 4,3 MB</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="documento" href="assets/docs/tabela-peso-fjjce-2023.pdf" target="_blank" rel="noopener">
+              <img src="assets/img/capa-tabela-peso.png" alt="" width="544" height="388" loading="lazy">
+              <span class="documento__texto">
+                <span class="documento__titulo">Tabela de peso FJJCE</span>
+                <span class="documento__detalhe">PDF, 0,9 MB</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape" data-incluir="partials/rodape.html"></footer>
+</body>
+</html>

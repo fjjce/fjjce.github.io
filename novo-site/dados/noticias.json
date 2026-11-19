@@ -1,0 +1,26 @@
+{
+  "_aviso": "DADOS DE EXEMPLO. Substitua pelas notícias reais da federação.",
+  "noticias": [
+    {
+      "titulo": "Inscrições abertas para o Ceará Summer 2027",
+      "resumo": "Primeiro lote com valor promocional. Garanta a vaga da sua equipe na I Etapa do Campeonato Cearense.",
+      "data": "2026-11-18",
+      "imagem": "assets/img/noticia-ceara-summer.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "IBJJF atualiza regras e golpes proibidos",
+      "resumo": "Veja o que muda no livro de regras e quais técnicas passam a ser permitidas em cada faixa e idade.",
+      "data": "2026-11-05",
+      "imagem": "assets/img/noticia-regras.jpg",
+      "link": "#"
+    },
+    {
+      "titulo": "Nova tabela de peso da FJJCE",
+      "resumo": "A tabela de pesos para juvenil, adulto e master já está disponível para download na área de documentos.",
+      "data": "2026-10-22",
+      "imagem": "assets/img/capa-tabela-peso.png",
+      "link": "#documentos"
+    }
+  ]
+}

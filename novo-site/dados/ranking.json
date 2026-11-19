@@ -1,0 +1,31 @@
+{
+  "_aviso": "DADOS DE EXEMPLO (nomes e equipes fictícios). Substitua pelo ranking oficial.",
+  "temporada": 2027,
+  "atualizado_em": "2026-11-19",
+  "categorias": [
+    {
+      "id": "masc-adulto-preta",
+      "titulo": "Masculino adulto",
+      "faixa": "preta",
+      "atletas": [
+        { "nome": "André Oliveira", "equipe": "Leões do Tatame", "pontos": 372.0 },
+        { "nome": "Bruno Silva", "equipe": "Dragões da Guarda", "pontos": 299.5 },
+        { "nome": "Carlos Santos", "equipe": "Fênix BJJ", "pontos": 291.0 },
+        { "nome": "Rafael Pereira", "equipe": "Panteras da Arte Suave", "pontos": 270.0 },
+        { "nome": "Marcos Costa", "equipe": "Águias da Ribeira", "pontos": 258.5 }
+      ]
+    },
+    {
+      "id": "fem-adulto-preta",
+      "titulo": "Feminino adulto",
+      "faixa": "preta",
+      "atletas": [
+        { "nome": "Camila Rocha", "equipe": "Fênix BJJ", "pontos": 341.5 },
+        { "nome": "Bruna Teixeira", "equipe": "Leões do Tatame", "pontos": 318.0 },
+        { "nome": "Clara Menezes", "equipe": "Águias da Ribeira", "pontos": 276.5 },
+        { "nome": "Isabella Pereira", "equipe": "Dragões da Guarda", "pontos": 244.0 },
+        { "nome": "Marina Costa", "equipe": "Panteras da Arte Suave", "pontos": 212.0 }
+      ]
+    }
+  ]
+}

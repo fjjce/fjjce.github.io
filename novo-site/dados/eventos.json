@@ -1,0 +1,68 @@
+{
+  "_aviso": "DADOS DE EXEMPLO. Substitua pelas datas e links reais do iLutas. Formato das datas: AAAA-MM-DD.",
+  "temporada": 2027,
+  "eventos": [
+    {
+      "nome": "Ceará Summer de Jiu-Jitsu",
+      "etapa": "I Etapa do Campeonato Cearense",
+      "inicio": "2027-03-06",
+      "fim": "2027-03-07",
+      "local": "Ginásio Paulo Sarasate",
+      "cidade": "Fortaleza",
+      "imagem": "assets/img/ceara-summer-banner.jpg",
+      "inscricoes_abertas": true,
+      "links": {
+        "inscricoes": "https://www.ilutas.com.br",
+        "edital": "",
+        "checagem": "",
+        "cronograma": "",
+        "chaves": "",
+        "resultados": ""
+      }
+    },
+    {
+      "nome": "Ceará Open de Jiu-Jitsu",
+      "etapa": "II Etapa do Campeonato Cearense",
+      "inicio": "2027-05-08",
+      "fim": "2027-05-09",
+      "local": "Ginásio Paulo Sarasate",
+      "cidade": "Fortaleza",
+      "imagem": "",
+      "inscricoes_abertas": false,
+      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+    },
+    {
+      "nome": "Fortaleza International Open IBJJF",
+      "etapa": "",
+      "inicio": "2027-06-11",
+      "fim": "2027-06-13",
+      "local": "Ginásio Paulo Sarasate",
+      "cidade": "Fortaleza",
+      "imagem": "",
+      "inscricoes_abertas": false,
+      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+    },
+    {
+      "nome": "Ceará Pró de Jiu-Jitsu",
+      "etapa": "III Etapa do Campeonato Cearense",
+      "inicio": "2027-08-07",
+      "fim": "2027-08-08",
+      "local": "Ginásio Paulo Sarasate",
+      "cidade": "Fortaleza",
+      "imagem": "",
+      "inscricoes_abertas": false,
+      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+    },
+    {
+      "nome": "Nordeste Brasileiro de Jiu-Jitsu",
+      "etapa": "",
+      "inicio": "2027-11-13",
+      "fim": "2027-11-14",
+      "local": "Ginásio Paulo Sarasate",
+      "cidade": "Fortaleza",
+      "imagem": "",
+      "inscricoes_abertas": false,
+      "links": { "inscricoes": "", "edital": "", "checagem": "", "cronograma": "", "chaves": "", "resultados": "" }
+    }
+  ]
+}
