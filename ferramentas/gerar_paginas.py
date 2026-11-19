@@ -6,12 +6,13 @@ Não é preciso rodar no computador.
 O que faz:
 1. Completa as etiquetas de prévia (og:image, og:url) com o endereço completo,
    que é o formato que o WhatsApp, o Instagram e o Facebook entendem.
-2. Cria uma página de prévia para cada campeonato e cada notícia, em novo-site/compartilhar/.
+2. Cria uma página de prévia para cada campeonato e cada notícia, em compartilhar/.
    O WhatsApp não roda JavaScript, então ele lê essas páginas para mostrar título e imagem.
    Quem clica no link é levado na hora para a página de verdade.
-3. Cria o novo-site/sitemap.xml, a lista de páginas que ajuda o Google a encontrar o site.
+3. Cria o sitemap.xml, a lista de páginas que ajuda o Google a encontrar o site.
 
-Uso: python3 ferramentas/gerar_paginas.py novo-site
+Uso: python3 ferramentas/gerar_paginas.py .
+(o site fica na pasta principal; "novo-site" ainda é aceito por compatibilidade)
 """
 import html
 import json
@@ -21,8 +22,9 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin, quote
 
-PASTA_SITE = Path(sys.argv[1] if len(sys.argv) > 1 else "novo-site")
-RAIZ = PASTA_SITE.parent
+PASTA_SITE = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
+if not (PASTA_SITE / "dados" / "site.json").exists():
+    PASTA_SITE = Path(".")  # o site agora fica na pasta principal
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
          "agosto", "setembro", "outubro", "novembro", "dezembro"]
@@ -33,8 +35,7 @@ def ler_json(nome):
 
 
 SITE = ler_json("site.json")
-BASE = SITE["endereco"].rstrip("/") + "/"           # .../novo-site/
-BASE_RAIZ = urljoin(BASE, "../")                   # .../Projeto-FJJCE/
+BASE = SITE["endereco"].rstrip("/") + "/"
 IMAGEM_PADRAO = "assets/img/compartilhar-fjjce.jpg"
 
 
@@ -57,7 +58,7 @@ def periodo(inicio, fim):
 # ---------- 1. Endereços completos nas etiquetas de prévia ----------
 
 def completar_etiquetas(arquivo: Path):
-    endereco_pagina = urljoin(BASE_RAIZ, arquivo.relative_to(RAIZ).as_posix())
+    endereco_pagina = urljoin(BASE, arquivo.relative_to(PASTA_SITE).as_posix())
     if endereco_pagina.endswith("/index.html"):
         endereco_pagina = endereco_pagina[: -len("index.html")]  # endereço curto, sem index.html
     texto = arquivo.read_text(encoding="utf-8")
@@ -120,8 +121,8 @@ def pagina_previa(nome_arquivo, titulo, descricao, imagem, destino, tipo="articl
 
 
 def main():
-    for arquivo in list(PASTA_SITE.glob("*.html")) + [RAIZ / "index.html"]:
-        if arquivo.exists():
+    for arquivo in PASTA_SITE.glob("*.html"):
+        if arquivo.name != "404.html":
             completar_etiquetas(arquivo)
 
     eventos = ler_json("eventos.json")["eventos"]
@@ -141,7 +142,7 @@ def main():
     # ---------- 3. Sitemap ----------
     hoje = date.today().isoformat()
     enderecos = [(urljoin(BASE, p.name), hoje) for p in sorted(PASTA_SITE.glob("*.html"))
-                 if p.name not in ("evento.html", "noticia.html")]
+                 if p.name not in ("evento.html", "noticia.html", "404.html")]
     enderecos += [(urljoin(BASE, f'evento.html?id={quote(e["id"])}'), hoje) for e in eventos]
     enderecos += [(urljoin(BASE, f'noticia.html?id={quote(n["id"])}'), n["data"])
                   for n in noticias if not n.get("exemplo")]

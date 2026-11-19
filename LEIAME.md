@@ -1,7 +1,7 @@
-# Site FJJCE — nova versão
+# Site FJJCE
 
-Nova versão da página inicial da Federação de Jiu-Jitsu do Estado do Ceará.
-A versão antiga (`index.html` e `style.css` na pasta de cima) continua intacta.
+Site da Federação de Jiu-Jitsu do Estado do Ceará.
+A primeira versão, de 2024, está guardada na pasta `versao-2024/`.
 
 ## Como abrir no computador
 
@@ -9,14 +9,14 @@ O site lê os dados de arquivos `.json`, então **não funciona com duplo clique
 Abra com um servidor local:
 
 1. No VS Code, instale a extensão **Live Server**.
-2. Abra a pasta `novo-site`, clique com o botão direito no `index.html` e escolha **Open with Live Server**.
+2. Abra a pasta do projeto, clique com o botão direito no `index.html` e escolha **Open with Live Server**.
 
 No GitHub Pages funciona normalmente.
 
 ## Estrutura
 
 ```
-novo-site/
+Projeto-FJJCE/
 ├── index.html            página inicial
 ├── ranking.html          ranking completo (atletas e equipes)
 ├── campeonatos.html      lista de campeonatos (próximos e encerrados)
@@ -32,7 +32,9 @@ novo-site/
 │   ├── eventos.json      calendário de campeonatos
 │   ├── ranking.csv       ranking: uma linha por atleta (abre no Excel/Planilhas)
 │   ├── ranking-info.json temporada, data de atualização e de onde ler o ranking
-│   └── noticias.json     notícias
+│   ├── noticias.json     lista de notícias
+│   ├── documentos.json   documentos da página de regras e documentos
+│   └── site.json         endereço público do site (prévias e Google)
 └── assets/
     ├── css/estilo.css
     ├── js/componentes.js carrega cabeçalho/rodapé e o menu do celular
@@ -102,17 +104,19 @@ arquivo aparece sozinho. Os **editais** não precisam ser cadastrados aqui: bast
 
 ## Endereço do site
 
-O `index.html` da pasta principal (fora de `novo-site`) só leva o visitante para `novo-site/`.
-A página antiga, de 2024, continua em `versao-2024.html` (bom para mostrar o antes e depois no portfólio).
-O `404.html` da pasta principal aparece quando alguém acessa um endereço que não existe.
+O site fica na pasta principal do projeto. Outros arquivos dessa pasta:
+- `404.html`: aparece quando alguém acessa um endereço que não existe;
+- `versao-2024/`: a primeira versão do site, guardada para o portfólio (antes e depois);
+- `ferramentas/`: o programa que o GitHub roda na publicação (ver abaixo);
+- `.github/workflows/static.yml`: a configuração da publicação no GitHub.
 
 ## Prévias no WhatsApp e Google (automático)
 
 Na hora de publicar, o GitHub roda o `ferramentas/gerar_paginas.py` (pasta principal), que:
-- cria em `novo-site/compartilhar/` uma página de prévia para cada campeonato e cada notícia,
+- cria em `compartilhar/` uma página de prévia para cada campeonato e cada notícia,
   com título, resumo e imagem. Os botões "WhatsApp" e "Copiar link" usam essas páginas,
   então o link compartilhado aparece com o cartaz no WhatsApp;
-- cria o `novo-site/sitemap.xml` para o Google.
+- cria o `sitemap.xml` para o Google.
 
 Esses arquivos **só existem no site publicado**, não na sua pasta. No Live Server, os botões
 de compartilhar usam o endereço normal da página.
