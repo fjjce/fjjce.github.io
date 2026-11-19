@@ -19,9 +19,8 @@
     <a id="inicio" href="/">Ir para a página inicial</a>
   </main>
   <script>
-    // No endereço do GitHub o site fica em /Projeto-FJJCE/; com o domínio próprio, fica na raiz.
-    var base = location.pathname.indexOf('/Projeto-FJJCE') === 0 ? '/Projeto-FJJCE/' : '/';
-    document.getElementById('inicio').href = base;
+    // O site fica na raiz do endereço (fjjce.github.io ou o domínio próprio).
+    document.getElementById('inicio').href = '/';
   </script>
 </body>
 </html>
