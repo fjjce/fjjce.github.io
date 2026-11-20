@@ -1,5 +1,5 @@
 {
-  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens.",
+  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens. 'prazo_inscricoes' (opcional, AAAA-MM-DD) fecha as inscrições sozinho depois dessa data. Texto extra do campeonato (premiação, horários etc.) vai em eventos/<id>.md.",
   "eventos": [
     {
       "id": "aberto-sesc-lutas-2026",
@@ -63,9 +63,10 @@
         "Gi (com kimono)",
         "No-Gi (sem kimono)"
       ],
-      "descricao": "Terceira etapa do Campeonato Cearense, com disputas com e sem kimono no mesmo dia. Jiu-jitsu para todos.",
+      "descricao": "Terceira etapa do Campeonato Cearense, com disputas com kimono (Gi) e sem kimono (No-Gi) no mesmo dia. R$ 6.000,00 em premiações para as equipes.",
       "imagem": "assets/img/eventos/ceara-pro-2026.jpg",
       "inscricoes_abertas": true,
+      "prazo_inscricoes": "2026-11-18",
       "apoio": [
         "Sesc",
         "Mesa Brasil Sesc",

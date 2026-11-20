@@ -29,8 +29,10 @@ function montarDestaque(evento, jaAconteceu) {
     if (resultados) {
       acoes.push(`<a class="botao botao--ouro" href="${escaparHTML(resultados.url)}" target="_blank" rel="noopener">Ver resultados</a>`);
     }
-  } else if (evento.inscricoes_abertas && achar('inscricoes')) {
+  } else if (estadoInscricoes(evento) === 'abertas' && achar('inscricoes')) {
     acoes.push(`<a class="botao botao--ouro" href="${escaparHTML(achar('inscricoes').url)}" target="_blank" rel="noopener">Inscrever-se no iLutas</a>`);
+  } else if (estadoInscricoes(evento) === 'encerradas') {
+    acoes.push('<span class="destaque__aviso">Inscrições encerradas</span>');
   } else {
     acoes.push('<span class="destaque__aviso">Inscrições em breve</span>');
   }
@@ -60,6 +62,11 @@ function montarCalendario(eventos) {
 
 // Prévia: os 5 maiores pontuadores da faixa preta adulto, masculino e feminino.
 function montarRanking({ info, atletas }) {
+  // Enquanto o ranking não for publicado, a seção some da página inicial
+  if (info.publicado === false || !atletas.length) {
+    document.getElementById('ranking').hidden = true;
+    return;
+  }
   document.querySelector('[data-aviso-ranking]').innerHTML = avisoDemonstracao(info);
   document.querySelector('[data-temporada-ranking]').textContent = info.temporada;
   if (info.atualizado_em) {

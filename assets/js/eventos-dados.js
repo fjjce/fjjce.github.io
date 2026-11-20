@@ -45,12 +45,22 @@ function formatarPeriodo(inicio, fim) {
   return `${i.getDate()} de ${MESES[i.getMonth()]} a ${f.getDate()} de ${MESES[f.getMonth()]} de ${ano}`;
 }
 
+// Inscrições: 'abertas', 'encerradas' ou 'em-breve'.
+// Com "prazo_inscricoes" preenchido, as inscrições fecham sozinhas no dia seguinte ao prazo.
+function estadoInscricoes(evento) {
+  if (evento.prazo_inscricoes && lerData(evento.prazo_inscricoes) < hoje()) return 'encerradas';
+  if (evento.inscricoes_abertas) return 'abertas';
+  return 'em-breve';
+}
+
 function situacao(evento) {
   const inicio = lerData(evento.inicio);
   const fim = fimDo(evento);
   if (fim < hoje()) return { classe: 'encerrado', texto: 'Encerrado' };
   if (inicio <= hoje()) return { classe: 'hoje', texto: 'É hoje' };
-  if (evento.inscricoes_abertas) return { classe: 'aberto', texto: 'Inscrições abertas' };
+  const insc = estadoInscricoes(evento);
+  if (insc === 'abertas') return { classe: 'aberto', texto: 'Inscrições abertas' };
+  if (insc === 'encerradas') return { classe: 'em-breve', texto: 'Inscrições encerradas' };
   return { classe: 'em-breve', texto: 'Em breve' };
 }
 
@@ -68,11 +78,14 @@ function itemDeEvento(evento) {
   const dias = i.getTime() === f.getTime() ? `${i.getDate()}` : `${i.getDate()}–${f.getDate()}`;
   const st = situacao(evento);
   // depois do campeonato, o link de inscrição não faz mais sentido
-  const links = linksDoEvento(evento).filter((l) => !(st.classe === 'encerrado' && l.chave === 'inscricoes'));
+  // link de inscrição só aparece enquanto as inscrições estão abertas
+  const links = linksDoEvento(evento).filter((l) => l.chave !== 'inscricoes' || estadoInscricoes(evento) === 'abertas');
   const linksHtml = links.length
     ? `<ul class="evento__links">${links.map((l) =>
       `<li><a href="${escaparHTML(l.url)}" target="_blank" rel="noopener">${escaparHTML(l.texto)}</a></li>`).join('')}</ul>`
-    : `<p class="evento__pendente">${st.classe === 'encerrado' ? 'Resultados serão publicados aqui.' : 'Edital e inscrições serão divulgados aqui.'}</p>`;
+    : `<p class="evento__pendente">${st.classe === 'encerrado' ? 'Resultados serão publicados aqui.'
+      : estadoInscricoes(evento) === 'encerradas' ? 'Chaves e cronograma serão divulgados aqui.'
+        : 'Edital e inscrições serão divulgados aqui.'}</p>`;
 
   return `
     <li class="evento evento--${st.classe}">

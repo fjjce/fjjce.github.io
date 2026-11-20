@@ -2,6 +2,7 @@
  * evento.js
  * Página evento.html?id=ceara-pro-2026
  * Procura o campeonato pelo "id" em dados/eventos.json e monta a página.
+ * Se existir o arquivo eventos/<id>.md, mostra a seção "Informações do campeonato".
  * Se houver pódios desse campeonato em dados/resultados.csv, mostra os resultados.
  */
 
@@ -27,8 +28,11 @@ function montarEvento(evento) {
     acao = `<a class="botao botao--ouro" href="${escaparHTML(links.resultados)}" target="_blank" rel="noopener">Ver resultados</a>`;
   } else if (passou) {
     acao = '<p class="evento-pagina__aviso">Campeonato encerrado. Os resultados serão publicados aqui.</p>';
-  } else if (evento.inscricoes_abertas && links.inscricoes) {
-    acao = `<a class="botao botao--ouro" href="${escaparHTML(links.inscricoes)}" target="_blank" rel="noopener">Inscrever-se no iLutas</a>`;
+  } else if (estadoInscricoes(evento) === 'abertas' && links.inscricoes) {
+    acao = `<a class="botao botao--ouro" href="${escaparHTML(links.inscricoes)}" target="_blank" rel="noopener">Inscrever-se no iLutas</a>`
+      + (evento.prazo_inscricoes ? `<p class="evento-pagina__prazo">Inscrições até ${dataPorExtenso(evento.prazo_inscricoes)}.</p>` : '');
+  } else if (estadoInscricoes(evento) === 'encerradas') {
+    acao = `<p class="evento-pagina__aviso">Inscrições encerradas${evento.prazo_inscricoes ? ` em ${dataPorExtenso(evento.prazo_inscricoes)}` : ''}.</p>`;
   } else {
     acao = '<p class="evento-pagina__aviso">As inscrições ainda não abriram.</p>';
   }
@@ -80,6 +84,8 @@ function montarEvento(evento) {
 
           ${evento.descricao ? `<p class="evento-pagina__descricao">${escaparHTML(evento.descricao)}</p>` : ''}
 
+          <div data-informacoes></div>
+
           <h2 class="evento-pagina__subtitulo">Documentos do campeonato</h2>
           <ul class="evento-pagina__docs">${documentos}</ul>
 
@@ -97,6 +103,21 @@ function montarEvento(evento) {
         </figure>` : ''}
       </div>
     </section>`;
+}
+
+/* ---------- informações do campeonato (texto em eventos/<id>.md) ---------- */
+
+async function montarInformacoes(evento) {
+  try {
+    const resposta = await fetch(`eventos/${encodeURIComponent(evento.id)}.md`);
+    if (!resposta.ok) return; // campeonato sem arquivo de informações
+    const html = markdownParaHTML(await resposta.text());
+    document.querySelector('[data-informacoes]').innerHTML = `
+      <h2 class="evento-pagina__subtitulo">Informações do campeonato</h2>
+      <div class="texto-corrido texto-corrido--evento">${html}</div>`;
+  } catch (erro) {
+    console.error(erro);
+  }
 }
 
 /* ---------- resultados (pódios) ---------- */
@@ -197,6 +218,7 @@ async function iniciar() {
     const evento = eventos.find((e) => e.id === id);
     if (evento) {
       montarEvento(evento);
+      montarInformacoes(evento);
       montarResultados(evento);
     } else naoEncontrado();
   } catch (erro) {

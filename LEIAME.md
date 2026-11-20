@@ -25,6 +25,7 @@ Projeto-FJJCE/
 ├── noticias.html         lista de notícias
 ├── noticia.html          página de uma notícia (noticia.html?id=...)
 ├── noticias/             texto de cada notícia (.md) e o _MODELO.md
+├── eventos/              informações extras de cada campeonato (.md) e o _MODELO.md
 ├── partials/
 │   ├── cabecalho.html    menu (usado em todas as páginas)
 │   └── rodape.html       rodapé (usado em todas as páginas)
@@ -62,6 +63,11 @@ Projeto-FJJCE/
    - `imagem`: caminho do cartaz; `modalidades`, `descricao` e `apoio` são opcionais;
    - `links`: cole os links do iLutas conforme forem saindo. Link vazio (`""`) aparece como "Em breve".
 3. Use `"inscricoes_abertas": true` quando as inscrições abrirem.
+   Com `"prazo_inscricoes": "AAAA-MM-DD"`, o site fecha as inscrições sozinho depois dessa data
+   (o botão some e aparece "Inscrições encerradas"). Se o prazo for prorrogado, é só mudar a data.
+4. **Informações do campeonato** (premiação, valores, horários, regras do evento): copie
+   `eventos/_MODELO.md`, renomeie com o id do campeonato (ex.: `eventos/ceara-open-2027.md`) e escreva.
+   O texto aparece na página do campeonato, na seção "Informações do campeonato".
 
 O site faz o resto sozinho: o topo da página inicial mostra o próximo campeonato (ou o último,
 se não houver nenhum marcado), e os eventos passam para "Encerrados" no dia seguinte.

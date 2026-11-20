@@ -4,14 +4,15 @@ Neste domingo, **22 de novembro**, acontece o **Ceará Pro Jiu-Jitsu**, III Etap
 
 O Ceará Pro terá disputas **com kimono (Gi)** e **sem kimono (No-Gi)** no mesmo evento.
 
-## Inscrições
+## Premiação para as equipes
 
-As inscrições são feitas pelo iLutas:
+O campeonato vale **R$ 6.000,00 em premiações** para as equipes: R$ 4.000,00 para a equipe campeã Gi e R$ 2.000,00 para a equipe campeã No-Gi. A premiação está condicionada à participação de mais de 500 atletas inscritos.
 
-- [Página do Ceará Pro no iLutas](https://www.ilutas.com.br/evento/ceara-pro-de-jiu-jitsu-gi-no-gi)
-- [Detalhes do campeonato no site da federação](evento.html?id=ceara-pro-2026)
+## Inscrições encerradas
 
-Antes de se inscrever, confira a categoria de peso na [tabela de peso](assets/docs/tabela-peso-fjjce-2023.pdf) e as regras no [livro de regras IBJJF](assets/docs/regras-ibjjf-2024.pdf).
+As inscrições, prorrogadas até quarta-feira, 18 de novembro, já foram encerradas. Veja todos os detalhes na [página do campeonato](evento.html?id=ceara-pro-2026).
+
+Antes de lutar, confira a categoria de peso na [tabela de peso](assets/docs/tabela-peso-fjjce-2023.pdf) e as regras no [livro de regras IBJJF](assets/docs/regras-ibjjf-2024.pdf).
 
 ## Apoio
 

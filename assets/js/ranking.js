@@ -200,6 +200,14 @@ document.addEventListener('click', (e) => {
 async function iniciar() {
   try {
     const { info, atletas } = await carregarRanking();
+    document.querySelectorAll('[data-temporada]').forEach((el) => { el.textContent = info.temporada; });
+
+    // Ranking ainda não publicado: mostra o aviso e para por aqui
+    if (info.publicado === false || !atletas.length) {
+      document.querySelector('[data-conteudo-ranking]').hidden = true;
+      document.querySelector('[data-em-breve]').hidden = false;
+      return;
+    }
     todos = atletas;
     document.querySelector('[data-aviso]').innerHTML = avisoDemonstracao(info);
     document.querySelectorAll('[data-temporada]').forEach((el) => { el.textContent = info.temporada; });

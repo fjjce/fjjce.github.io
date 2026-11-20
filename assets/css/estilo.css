@@ -511,7 +511,7 @@ h1, h2, h3 { margin: 0; line-height: 1.1; }
 
 .rodape__conteudo {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 1fr));
   gap: 2.5rem;
   padding-block: 3.5rem 2.5rem;
 }
@@ -862,3 +862,13 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
 .podio__nome { display: block; font-weight: 600; }
 .podio__equipe { display: block; margin-bottom: .35rem; font-size: .9rem; color: var(--cinza-texto); }
 .podio__vazio { color: var(--cinza-texto); }
+
+/* Informações do campeonato */
+.evento-pagina__prazo { margin: .6rem 0 0; font-size: .95rem; color: var(--cinza-texto); }
+.texto-corrido--evento { font-size: 1.05rem; }
+.texto-corrido--evento h3 { margin-top: 1.4em; }
+
+/* Aviso de conteúdo que ainda vai ser publicado */
+.em-breve { max-width: 640px; padding: 2rem 0 1rem; }
+.em-breve h2 { font-family: var(--fonte-titulo); font-weight: 400; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.05; }
+.em-breve p { color: var(--cinza-texto); }

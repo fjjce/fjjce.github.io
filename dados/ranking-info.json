@@ -4,8 +4,11 @@
   "atualizado_em": "2026-11-19",
   "fonte": "dados/resultados.csv",
 
-  "_ajuda_exemplo": "Enquanto for true, o site mostra o aviso de que o ranking tem dados de demonstração. Mude para false quando os resultados forem reais.",
-  "exemplo": true,
+  "_ajuda_publicado": "false = a página de ranking mostra 'será publicado em breve' e a prévia some da página inicial. Mude para true quando os resultados reais estiverem no arquivo.",
+  "publicado": false,
+
+  "_ajuda_exemplo": "true = mostra o aviso de 'Ranking de demonstração' (para testes).",
+  "exemplo": false,
 
   "_ajuda_pontuacao": "Pontos por colocação. Padrão IBJJF: 1º = 9, 2º = 3, 3º = 1. Ajuste conforme a regra da federação.",
   "pontuacao": { "1": 9, "2": 3, "3": 1 },
