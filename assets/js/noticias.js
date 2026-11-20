@@ -16,7 +16,7 @@ async function iniciar() {
     const mostrarMais = () => {
       const proximas = noticias.slice(mostradas, mostradas + POR_VEZ);
       if (mostradas === 0) area.innerHTML = '';
-      area.insertAdjacentHTML('beforeend', proximas.map(cartaoDeNoticia).join(''));
+      area.insertAdjacentHTML('beforeend', proximas.map((n, i) => cartaoDeNoticia(n, mostradas === 0 && i === 0)).join(''));
       mostradas += proximas.length;
       blocoMais.hidden = mostradas >= noticias.length;
     };

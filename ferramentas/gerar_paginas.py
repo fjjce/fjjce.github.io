@@ -10,6 +10,11 @@ O que faz:
    O WhatsApp não roda JavaScript, então ele lê essas páginas para mostrar título e imagem.
    Quem clica no link é levado na hora para a página de verdade.
 3. Cria o sitemap.xml, a lista de páginas que ajuda o Google a encontrar o site.
+7. Liga o contador de visitas (GoatCounter), se o código estiver em dados/site.json ("contador").
+   Só no site publicado: as visitas do Live Server não contam.
+6. Coloca o cabeçalho e o rodapé (pasta partials/) direto dentro de cada página.
+   No computador eles são carregados pelo componentes.js; no site publicado já vêm prontos,
+   o que deixa a página mais rápida e evita que ela "pule" enquanto carrega.
 5. Coloca um número de versão nos arquivos de estilo e de JavaScript (estilo.css?v=...),
    para o celular baixar a versão nova a cada publicação, em vez de usar a antiga guardada.
 4. Cria um arquivo de agenda (.ics) para cada campeonato, em agenda/.
@@ -179,9 +184,42 @@ def versionar(arquivo: Path):
         arquivo.write_text(novo, encoding="utf-8")
 
 
+# ---------- 6. Cabeçalho e rodapé dentro de cada página ----------
+
+def embutir_partes(arquivo: Path):
+    texto = arquivo.read_text(encoding="utf-8")
+
+    def trocar(m):
+        abertura, tag, caminho = m.group(1), m.group(2), m.group(3)
+        parte = PASTA_SITE / caminho
+        if not parte.exists():
+            return m.group(0)
+        return f"{abertura}>{parte.read_text(encoding='utf-8')}</{tag}>"
+
+    novo = re.sub(r'(<(header|footer)[^>]*?data-incluir="([^"]+)"[^>]*)></\2>', trocar, texto)
+    if novo != texto:
+        arquivo.write_text(novo, encoding="utf-8")
+
+
+# ---------- 7. Contador de visitas ----------
+
+def ligar_contador(arquivo: Path):
+    codigo = re.sub(r"[^a-z0-9-]", "", SITE.get("contador", "").strip().lower())
+    if not codigo:
+        return
+    texto = arquivo.read_text(encoding="utf-8")
+    if "goatcounter" in texto:
+        return
+    script = (f'  <script data-goatcounter="https://{codigo}.goatcounter.com/count" '
+              'async src="https://gc.zgo.at/count.js"></script>\n</head>')
+    arquivo.write_text(texto.replace("</head>", script, 1), encoding="utf-8")
+
+
 def main():
     for arquivo in PASTA_SITE.glob("*.html"):
         versionar(arquivo)
+        embutir_partes(arquivo)
+        ligar_contador(arquivo)
 
     for arquivo in PASTA_SITE.glob("*.html"):
         if arquivo.name != "404.html":

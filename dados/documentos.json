@@ -9,14 +9,14 @@
           "titulo": "Livro de regras IBJJF",
           "descricao": "Regras de luta, pontuação, golpes proibidos por faixa e idade, uniforme.",
           "arquivo": "assets/docs/regras-ibjjf-2024.pdf",
-          "capa": "assets/img/capa-regras-ibjjf.png",
+          "capa": "assets/img/capa-regras-ibjjf.jpg",
           "ano": "2024"
         },
         {
           "titulo": "Tabela de peso FJJCE",
           "descricao": "Limites de peso por categoria para juvenil, adulto e master, masculino e feminino.",
           "arquivo": "assets/docs/tabela-peso-fjjce-2023.pdf",
-          "capa": "assets/img/capa-tabela-peso.png",
+          "capa": "assets/img/capa-tabela-peso.jpg",
           "ano": "2023"
         }
       ]

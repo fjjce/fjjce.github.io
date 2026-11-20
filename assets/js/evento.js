@@ -110,7 +110,7 @@ function montarEvento(evento) {
         ${evento.imagem ? `
         <figure class="evento-pagina__cartaz">
           <a href="${escaparHTML(evento.imagem)}" target="_blank" rel="noopener">
-            <img src="${escaparHTML(evento.imagem)}" alt="Cartaz do ${escaparHTML(evento.nome)}" width="1080" height="1069">
+            <img src="${escaparHTML(evento.imagem)}" alt="Cartaz do ${escaparHTML(evento.nome)}" width="1080" height="1069" fetchpriority="high">
           </a>
           <figcaption>Toque no cartaz para ampliar.</figcaption>
         </figure>` : ''}

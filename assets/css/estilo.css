@@ -147,6 +147,11 @@ h1, h2, h3 { margin: 0; line-height: 1.1; }
 .selo--encerrado { border: 1.5px solid var(--cinza-linha); color: var(--cinza-texto); }
 
 /* ---------- 4. Cabeçalho e menu ---------- */
+/* Reserva o espaço do cabeçalho e segura o rodapé lá embaixo enquanto a página carrega,
+   para o conteúdo não "pular" */
+header[data-incluir]:empty { display: block; min-height: 4.3rem; background: var(--vinho-profundo); }
+#conteudo { min-height: 100vh; }
+
 .topo {
   position: sticky;
   top: 0;
@@ -305,8 +310,13 @@ h1, h2, h3 { margin: 0; line-height: 1.1; }
   font-weight: 600;
   color: var(--ouro);
 }
-.destaque__cartaz { margin: 0; justify-self: end; max-width: 340px; }
+.destaque__cartaz { margin: 0; justify-self: end; width: 100%; max-width: 340px; }
+/* Guardam o lugar do texto do destaque enquanto os dados carregam */
+.destaque__etapa:empty { min-height: 1.6em; }
+.destaque__acoes:empty { min-height: 3rem; }
 .destaque__cartaz img {
+  width: 100%;
+  aspect-ratio: auto 1 / 1; /* guarda o lugar do cartaz enquanto ele carrega */
   border-radius: var(--raio);
   box-shadow: 0 24px 50px rgba(0, 0, 0, .45);
 }
@@ -762,6 +772,8 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
 .noticia-pagina__imagem { margin: 0 0 2.5rem; }
 .noticia-pagina__imagem img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 6 / 5; /* tamanho fixo: o texto não "pula" quando a imagem carrega */
   max-height: 640px;
   object-fit: contain;
   background: var(--cinza-claro);

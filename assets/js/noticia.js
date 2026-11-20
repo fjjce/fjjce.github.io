@@ -16,7 +16,7 @@ function montarNoticia(noticia, textoHTML, outras) {
     ? `<section class="secao secao--cinza" aria-labelledby="outras-titulo">
         <div class="container">
           <div class="secao__cabeca"><h2 id="outras-titulo">Outras notícias</h2></div>
-          <div class="noticias-grade">${outras.map(cartaoDeNoticia).join('')}</div>
+          <div class="noticias-grade">${outras.map((n) => cartaoDeNoticia(n)).join('')}</div>
         </div>
       </section>`
     : '';

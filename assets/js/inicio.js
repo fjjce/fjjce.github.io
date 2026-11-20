@@ -49,6 +49,8 @@ function montarDestaque(evento, jaAconteceu) {
     img.src = evento.imagem;
     img.alt = `Cartaz do ${evento.nome}`;
     figura.hidden = false;
+  } else {
+    campo('cartaz').hidden = true;
   }
 }
 
@@ -136,8 +138,10 @@ async function iniciar() {
     const ultimo = encerrados(eventos)[0];
     if (proximo) montarDestaque(proximo, false);
     else if (ultimo) montarDestaque(ultimo, true);
+    else document.querySelector('[data-destaque="cartaz"]').hidden = true;
   } catch (erro) {
     console.error(erro);
+    document.querySelector('[data-destaque="cartaz"]').hidden = true;
     document.querySelector('[data-lista="eventos"]').innerHTML =
       '<li class="carregando">Não foi possível carregar os campeonatos. Abra o site por um servidor (ex.: Live Server).</li>';
   }

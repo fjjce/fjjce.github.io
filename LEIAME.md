@@ -154,11 +154,28 @@ Na hora de publicar, o GitHub roda o `ferramentas/gerar_paginas.py` (pasta princ
 - cria em `compartilhar/` uma página de prévia para cada campeonato e cada notícia,
   com título, resumo e imagem. Os botões "WhatsApp" e "Copiar link" usam essas páginas,
   então o link compartilhado aparece com o cartaz no WhatsApp;
-- cria o `sitemap.xml` para o Google.
+- cria o `sitemap.xml` para o Google;
+- cria em `agenda/` o arquivo de agenda de cada campeonato (botão "iPhone e outros");
+- coloca o cabeçalho e o rodapé direto dentro de cada página (fica mais rápido);
+- coloca um número de versão nos arquivos `.css` e `.js`, para o celular sempre pegar a versão nova;
+- liga o contador de visitas, se ele estiver configurado (veja abaixo).
 
 Esses arquivos **só existem no site publicado**, não na sua pasta. No Live Server, os botões
 de compartilhar usam o endereço normal da página.
 Se o site ganhar domínio próprio, troque o endereço em `dados/site.json`.
+
+## Contador de visitas (GoatCounter)
+
+O contador é gratuito, não usa cookies e não guarda dados pessoais dos visitantes.
+Para ligar: crie a conta em goatcounter.com, escolha um código (ex.: `fjjce`) e coloque esse
+código em `dados/site.json`, no campo `"contador"`. Para ver as visitas, entre em
+`https://<código>.goatcounter.com`. Só contam as visitas do site publicado.
+
+## Imagens
+
+Cartazes e fotos: no máximo **1080 px** de largura e, de preferência, abaixo de **200 KB**.
+Se a imagem vier maior (foto de celular costuma ter 3 a 5 MB), reduza antes em squoosh.app
+(formato MozJPEG, qualidade 80). Imagem pesada deixa o site lento no celular.
 
 ## Roteiro depois de cada campeonato
 

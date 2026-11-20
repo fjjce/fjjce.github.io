@@ -101,12 +101,13 @@ function markdownParaHTML(md) {
 }
 
 // Cartão usado na lista de notícias (noticias.html)
-function cartaoDeNoticia(n) {
+// destaque = true na primeira notícia da página: a imagem carrega na hora, sem esperar
+function cartaoDeNoticia(n, destaque = false) {
   return `
     <article class="noticia-cartao">
       <a class="noticia-cartao__imagem" href="${linkDaNoticia(n)}" tabindex="-1" aria-hidden="true">
         ${n.imagem
-    ? `<img src="${escaparHTML(n.imagem)}" alt="" loading="lazy" width="640" height="360">`
+    ? `<img src="${escaparHTML(n.imagem)}" alt="" ${destaque === true ? 'fetchpriority="high"' : 'loading="lazy"'} width="640" height="360">`
     : '<span class="noticia-cartao__sem-imagem"><img src="assets/img/logo-fjjce-96.png" alt="" width="72" height="70"></span>'}
       </a>
       <time datetime="${escaparHTML(n.data)}">${dataPorExtenso(n.data)}</time>

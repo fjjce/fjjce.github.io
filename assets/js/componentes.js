@@ -12,6 +12,7 @@
 async function incluirPartes() {
   const alvos = document.querySelectorAll('[data-incluir]');
   await Promise.all([...alvos].map(async (el) => {
+    if (el.children.length) return; // no site publicado, já vem pronto (ferramentas/gerar_paginas.py)
     try {
       const resposta = await fetch(el.dataset.incluir);
       if (!resposta.ok) throw new Error(resposta.status);
