@@ -77,7 +77,7 @@ Depois do campeonato, coloque o link de `resultados` para aparecer o botão "Ver
 
 1. **Saíram as chaves ou o cronograma no iLutas:** em `dados/eventos.json`, cole o link em
    `"chaves"`, `"cronograma"` ou `"checagem"` dentro de `links`. O site troca sozinho o aviso
-   "Inscrições encerradas" pelos botões "Ver chaves", "Ver cronograma" e "Ver checagem de peso",
+   "Inscrições encerradas" pelos botões "Ver chaves", "Ver cronograma" e "Ver checagem" (lista de inscritos),
    na página do campeonato e no topo da página inicial.
 2. **Depois do campeonato:** cole o link em `"resultados"` (aparece o botão "Ver resultados").
 3. **Notícia de resultados:** copie `noticias/_MODELO-resultados.md`, preencha e cadastre em

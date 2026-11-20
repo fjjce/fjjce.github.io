@@ -7,7 +7,7 @@
 const NOMES_LINKS = {
   inscricoes: 'Inscrições',
   edital: 'Edital',
-  checagem: 'Checagem de peso',
+  checagem: 'Checagem (lista de inscritos)',
   cronograma: 'Cronograma',
   chaves: 'Chaves',
   resultados: 'Resultados',
@@ -104,11 +104,12 @@ function itemDeEvento(evento) {
 
 // Depois que as inscrições fecham: os documentos do dia, na ordem em que o atleta precisa deles
 const DOCUMENTOS_DO_DIA = ['chaves', 'cronograma', 'checagem'];
+const TEXTO_BOTAO = { chaves: 'Ver chaves', cronograma: 'Ver cronograma', checagem: 'Ver checagem' };
 
 function documentosDoDia(evento) {
   const links = evento.links || {};
   return DOCUMENTOS_DO_DIA.filter((chave) => links[chave])
-    .map((chave) => ({ chave, texto: `Ver ${NOMES_LINKS[chave].toLowerCase()}`, url: links[chave] }));
+    .map((chave) => ({ chave, texto: TEXTO_BOTAO[chave], url: links[chave] }));
 }
 
 /* ---------- Adicionar à agenda ---------- */

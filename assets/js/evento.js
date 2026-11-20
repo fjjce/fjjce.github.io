@@ -38,7 +38,7 @@ function montarEvento(evento) {
     if (doDia.length) {
       acao = `<div class="evento-pagina__botoes">${doDia.map((d, i) =>
         `<a class="botao ${i === 0 ? 'botao--ouro' : 'botao--contorno-escuro'}" href="${escaparHTML(d.url)}" target="_blank" rel="noopener">${d.texto}</a>`).join('')}</div>
-        <p class="evento-pagina__prazo">${encerradas}</p>`;
+        <p class="evento-pagina__prazo">${encerradas}${links.chaves ? '' : ' Chaves e cronograma serão divulgados em breve, primeiro no iLutas e depois no Instagram da federação.'}</p>`;
     } else {
       acao = `<p class="evento-pagina__aviso">${encerradas}</p>
         <p class="evento-pagina__prazo">Chaves e cronograma serão divulgados em breve, primeiro no iLutas e depois no Instagram da federação.</p>
