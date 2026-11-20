@@ -4,9 +4,9 @@ Neste domingo, **22 de novembro**, acontece o **Ceará Pro Jiu-Jitsu**, III Etap
 
 O Ceará Pro terá disputas **com kimono (Gi)** e **sem kimono (No-Gi)** no mesmo evento.
 
-## Premiação para as equipes
+## Premiação
 
-O campeonato vale **R$ 6.000,00 em premiações** para as equipes: R$ 4.000,00 para a equipe campeã Gi e R$ 2.000,00 para a equipe campeã No-Gi. A premiação está condicionada à participação de mais de 500 atletas inscritos.
+Medalhas para o 1º, 2º e 3º lugar de cada categoria e premiação geral por equipes. A premiação em dinheiro para as equipes está condicionada à participação de **mais de 500 atletas inscritos** no campeonato.
 
 ## Inscrições encerradas
 

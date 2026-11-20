@@ -1,11 +1,6 @@
-### Premiação para as equipes
+### Premiação
 
-**R$ 6.000,00 em premiações** para as equipes campeãs:
-
-- **Equipe campeã Gi (com kimono):** R$ 4.000,00
-- **Equipe campeã No-Gi (sem kimono):** R$ 2.000,00
-
-A premiação em dinheiro está condicionada à participação de **mais de 500 atletas inscritos** no campeonato.
+Medalhas para o 1º, 2º e 3º lugar de cada categoria e premiação geral por equipes. A premiação em dinheiro para as equipes está condicionada à participação de **mais de 500 atletas inscritos** no campeonato.
 
 ### Inscrições
 
