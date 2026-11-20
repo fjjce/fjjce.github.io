@@ -32,7 +32,18 @@ function montarEvento(evento) {
     acao = `<a class="botao botao--ouro" href="${escaparHTML(links.inscricoes)}" target="_blank" rel="noopener">Inscrever-se no iLutas</a>`
       + (evento.prazo_inscricoes ? `<p class="evento-pagina__prazo">Inscrições até ${dataPorExtenso(evento.prazo_inscricoes)}.</p>` : '');
   } else if (estadoInscricoes(evento) === 'encerradas') {
-    acao = `<p class="evento-pagina__aviso">Inscrições encerradas${evento.prazo_inscricoes ? ` em ${dataPorExtenso(evento.prazo_inscricoes)}` : ''}.</p>`;
+    // Inscrições fechadas: chaves, cronograma e checagem viram os botões principais
+    const doDia = documentosDoDia(evento);
+    const encerradas = `Inscrições encerradas${evento.prazo_inscricoes ? ` em ${dataPorExtenso(evento.prazo_inscricoes)}` : ''}.`;
+    if (doDia.length) {
+      acao = `<div class="evento-pagina__botoes">${doDia.map((d, i) =>
+        `<a class="botao ${i === 0 ? 'botao--ouro' : 'botao--contorno-escuro'}" href="${escaparHTML(d.url)}" target="_blank" rel="noopener">${d.texto}</a>`).join('')}</div>
+        <p class="evento-pagina__prazo">${encerradas}</p>`;
+    } else {
+      acao = `<p class="evento-pagina__aviso">${encerradas}</p>
+        <p class="evento-pagina__prazo">Chaves e cronograma serão divulgados em breve, primeiro no iLutas e depois no Instagram da federação.</p>
+        ${links.inscricoes ? `<div class="evento-pagina__botoes"><a class="botao botao--contorno-escuro" href="${escaparHTML(links.inscricoes)}" target="_blank" rel="noopener">Acompanhar no iLutas</a></div>` : ''}`;
+    }
   } else {
     acao = '<p class="evento-pagina__aviso">As inscrições ainda não abriram.</p>';
   }
@@ -81,6 +92,8 @@ function montarEvento(evento) {
           </dl>
 
           <div class="evento-pagina__acao">${acao}</div>
+
+          ${passou ? '' : botoesAgenda(evento, location.href)}
 
           ${evento.descricao ? `<p class="evento-pagina__descricao">${escaparHTML(evento.descricao)}</p>` : ''}
 

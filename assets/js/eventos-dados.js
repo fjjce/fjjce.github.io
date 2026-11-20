@@ -101,3 +101,71 @@ function itemDeEvento(evento) {
       <span class="selo selo--${st.classe}">${st.texto}</span>
     </li>`;
 }
+
+// Depois que as inscrições fecham: os documentos do dia, na ordem em que o atleta precisa deles
+const DOCUMENTOS_DO_DIA = ['chaves', 'cronograma', 'checagem'];
+
+function documentosDoDia(evento) {
+  const links = evento.links || {};
+  return DOCUMENTOS_DO_DIA.filter((chave) => links[chave])
+    .map((chave) => ({ chave, texto: `Ver ${NOMES_LINKS[chave].toLowerCase()}`, url: links[chave] }));
+}
+
+/* ---------- Adicionar à agenda ---------- */
+
+// Datas no formato da agenda (AAAAMMDD). O fim é o dia seguinte ao último dia,
+// porque é assim que as agendas marcam eventos de dia inteiro.
+function datasDaAgenda(evento) {
+  const formatar = (d) => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+  const depois = new Date(fimDo(evento));
+  depois.setDate(depois.getDate() + 1);
+  return { inicio: formatar(lerData(evento.inicio)), fim: formatar(depois) };
+}
+
+function lugarDaAgenda(evento) {
+  return [evento.local, evento.endereco, evento.cidade].filter(Boolean).join(', ');
+}
+
+function linkGoogleAgenda(evento, endereco) {
+  const d = datasDaAgenda(evento);
+  const parametros = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: evento.nome,
+    dates: `${d.inicio}/${d.fim}`,
+    location: lugarDaAgenda(evento),
+    details: `${evento.etapa ? `${evento.etapa}. ` : ''}Mais informações: ${endereco}`,
+  });
+  return `https://calendar.google.com/calendar/render?${parametros}`;
+}
+
+// Arquivo .ics: abre na agenda do iPhone, do Outlook e de outros aplicativos
+function linkArquivoAgenda(evento, endereco) {
+  const d = datasDaAgenda(evento);
+  const texto = (t) => String(t).replace(/\\/g, '\\\\').replace(/([,;])/g, '\\$1').replace(/\n/g, '\\n');
+  const linhas = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//FJJCE//Site//PT-BR',
+    'BEGIN:VEVENT',
+    `UID:${evento.id}@fjjce`,
+    `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '')}`,
+    `DTSTART;VALUE=DATE:${d.inicio}`,
+    `DTEND;VALUE=DATE:${d.fim}`,
+    `SUMMARY:${texto(evento.nome)}`,
+    `LOCATION:${texto(lugarDaAgenda(evento))}`,
+    `DESCRIPTION:${texto(`${evento.etapa ? `${evento.etapa}. ` : ''}Mais informações: ${endereco}`)}`,
+    `URL:${endereco}`,
+    'END:VEVENT',
+    'END:VCALENDAR',
+  ];
+  return `data:text/calendar;charset=utf-8,${encodeURIComponent(linhas.join('\r\n'))}`;
+}
+
+function botoesAgenda(evento, endereco) {
+  return `
+    <div class="agenda">
+      <span>Adicionar à agenda:</span>
+      <a class="botao botao--contorno-escuro botao--pequeno" href="${escaparHTML(linkGoogleAgenda(evento, endereco))}" target="_blank" rel="noopener">Google Agenda</a>
+      <a class="botao botao--contorno-escuro botao--pequeno" href="${linkArquivoAgenda(evento, endereco)}" download="${escaparHTML(evento.id)}.ics">iPhone e outros</a>
+    </div>`;
+}

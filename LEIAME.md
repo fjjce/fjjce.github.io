@@ -73,6 +73,20 @@ O site faz o resto sozinho: o topo da página inicial mostra o próximo campeona
 se não houver nenhum marcado), e os eventos passam para "Encerrados" no dia seguinte.
 Depois do campeonato, coloque o link de `resultados` para aparecer o botão "Ver resultados".
 
+**Semana do campeonato (passo a passo):**
+
+1. **Saíram as chaves ou o cronograma no iLutas:** em `dados/eventos.json`, cole o link em
+   `"chaves"`, `"cronograma"` ou `"checagem"` dentro de `links`. O site troca sozinho o aviso
+   "Inscrições encerradas" pelos botões "Ver chaves", "Ver cronograma" e "Ver checagem de peso",
+   na página do campeonato e no topo da página inicial.
+2. **Depois do campeonato:** cole o link em `"resultados"` (aparece o botão "Ver resultados").
+3. **Notícia de resultados:** copie `noticias/_MODELO-resultados.md`, preencha e cadastre em
+   `dados/noticias.json` (pode usar o cartaz do campeonato ou uma foto do pódio como imagem).
+4. Salve, faça o commit e sincronize.
+
+A página do campeonato também tem os botões **Adicionar à agenda** (Google Agenda e
+"iPhone e outros"). Eles aparecem sozinhos até o dia do campeonato, com a data e o local de `eventos.json`.
+
 **Ranking (automático a partir dos pódios):** você não digita pontos. Depois de cada
 campeonato, cadastre os pódios em `dados/resultados.csv`, uma linha por atleta medalhista:
 

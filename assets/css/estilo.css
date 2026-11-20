@@ -864,6 +864,10 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
 .podio__vazio { color: var(--cinza-texto); }
 
 /* Informações do campeonato */
+.evento-pagina__botoes { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+.evento-pagina__botoes:first-child { margin-top: 0; }
+.agenda { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin: -.5rem 0 2rem; }
+.agenda span { font-weight: 600; }
 .evento-pagina__prazo { margin: .6rem 0 0; font-size: .95rem; color: var(--cinza-texto); }
 .texto-corrido--evento { font-size: 1.05rem; }
 .texto-corrido--evento h3 { margin-top: 1.4em; }
