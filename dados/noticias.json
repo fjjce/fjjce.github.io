@@ -2,6 +2,14 @@
   "_ajuda": "Uma notícia por bloco, a mais nova no topo. O texto completo fica em noticias/<id>.md. 'imagem' e 'campeonato' são opcionais.",
   "noticias": [
     {
+      "id": "2026-11-20-ceara-pro-chaves-cronograma",
+      "titulo": "Chaves e cronograma do Ceará Pro saem em breve",
+      "resumo": "As chaves e o cronograma da III Etapa do Campeonato Cearense serão publicados primeiro no iLutas e depois no Instagram da federação.",
+      "data": "2026-11-20",
+      "imagem": "assets/img/eventos/ceara-pro-2026.jpg",
+      "campeonato": "ceara-pro-2026"
+    },
+    {
       "id": "2026-11-19-ceara-pro-domingo",
       "titulo": "Ceará Pro Jiu-Jitsu é neste domingo, 22 de novembro",
       "resumo": "A III Etapa do Campeonato Cearense terá disputas com e sem kimono no Ginásio Aécio de Borba, em Fortaleza.",
