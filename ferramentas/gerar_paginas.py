@@ -10,6 +10,8 @@ O que faz:
    O WhatsApp não roda JavaScript, então ele lê essas páginas para mostrar título e imagem.
    Quem clica no link é levado na hora para a página de verdade.
 3. Cria o sitemap.xml, a lista de páginas que ajuda o Google a encontrar o site.
+5. Coloca um número de versão nos arquivos de estilo e de JavaScript (estilo.css?v=...),
+   para o celular baixar a versão nova a cada publicação, em vez de usar a antiga guardada.
 4. Cria um arquivo de agenda (.ics) para cada campeonato, em agenda/.
    É o que o botão "iPhone e outros" abre: o iPhone só adiciona à agenda
    um arquivo de verdade, publicado no site.
@@ -165,7 +167,22 @@ def arquivo_agenda(e):
     (pasta / f'{e["id"]}.ics').write_bytes(("\r\n".join(dobrar_linha(l) for l in linhas) + "\r\n").encode("utf-8"))
 
 
+# ---------- 5. Versão nos arquivos de estilo e JavaScript ----------
+
+VERSAO = __import__("datetime").datetime.now().strftime("%Y%m%d%H%M")
+
+
+def versionar(arquivo: Path):
+    texto = arquivo.read_text(encoding="utf-8")
+    novo = re.sub(r'((?:src|href)="assets/(?:js|css)/[^"?]+\.(?:js|css))"', rf'\1?v={VERSAO}"', texto)
+    if novo != texto:
+        arquivo.write_text(novo, encoding="utf-8")
+
+
 def main():
+    for arquivo in PASTA_SITE.glob("*.html"):
+        versionar(arquivo)
+
     for arquivo in PASTA_SITE.glob("*.html"):
         if arquivo.name != "404.html":
             completar_etiquetas(arquivo)
