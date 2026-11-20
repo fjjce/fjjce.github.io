@@ -10,6 +10,9 @@ O que faz:
    O WhatsApp não roda JavaScript, então ele lê essas páginas para mostrar título e imagem.
    Quem clica no link é levado na hora para a página de verdade.
 3. Cria o sitemap.xml, a lista de páginas que ajuda o Google a encontrar o site.
+4. Cria um arquivo de agenda (.ics) para cada campeonato, em agenda/.
+   É o que o botão "iPhone e outros" abre: o iPhone só adiciona à agenda
+   um arquivo de verdade, publicado no site.
 
 Uso: python3 ferramentas/gerar_paginas.py .
 (o site fica na pasta principal; "novo-site" ainda é aceito por compatibilidade)
@@ -120,6 +123,48 @@ def pagina_previa(nome_arquivo, titulo, descricao, imagem, destino, tipo="articl
     ), encoding="utf-8")
 
 
+# ---------- 4. Arquivos de agenda (.ics) ----------
+
+def texto_ics(t):
+    return str(t).replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
+
+
+def dobrar_linha(linha):
+    # O formato .ics pede linhas de até 75 bytes; as mais longas continuam na linha de baixo com um espaço
+    partes, atual = [], ""
+    for letra in linha:
+        if len((atual + letra).encode("utf-8")) > 74:
+            partes.append(atual)
+            atual = " " + letra
+        else:
+            atual += letra
+    partes.append(atual)
+    return "\r\n".join(partes)
+
+
+def arquivo_agenda(e):
+    from datetime import timedelta
+    inicio = date.fromisoformat(e["inicio"])
+    fim = date.fromisoformat(e.get("fim") or e["inicio"]) + timedelta(days=1)
+    lugar = ", ".join(x for x in (e.get("local"), e.get("endereco"), e.get("cidade")) if x)
+    pagina = urljoin(BASE, f'evento.html?id={quote(e["id"])}')
+    descricao = (f'{e["etapa"]}. ' if e.get("etapa") else "") + f"Mais informações: {pagina}"
+    agora = date.today().strftime("%Y%m%dT000000Z")
+    linhas = [
+        "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//FJJCE//Site//PT-BR", "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH", "BEGIN:VEVENT",
+        f'UID:{e["id"]}@fjjce', f"DTSTAMP:{agora}",
+        f'DTSTART;VALUE=DATE:{inicio.strftime("%Y%m%d")}',
+        f'DTEND;VALUE=DATE:{fim.strftime("%Y%m%d")}',
+        f'SUMMARY:{texto_ics(e["nome"])}', f"LOCATION:{texto_ics(lugar)}",
+        f"DESCRIPTION:{texto_ics(descricao)}", f"URL:{pagina}",
+        "END:VEVENT", "END:VCALENDAR",
+    ]
+    pasta = PASTA_SITE / "agenda"
+    pasta.mkdir(exist_ok=True)
+    (pasta / f'{e["id"]}.ics').write_bytes(("\r\n".join(dobrar_linha(l) for l in linhas) + "\r\n").encode("utf-8"))
+
+
 def main():
     for arquivo in PASTA_SITE.glob("*.html"):
         if arquivo.name != "404.html":
@@ -134,6 +179,9 @@ def main():
             partes.insert(0, e["etapa"])
         pagina_previa(f'evento-{e["id"]}.html', f'{e["nome"]} | FJJCE', ". ".join(partes) + ".",
                       e.get("imagem"), f'evento.html?id={quote(e["id"])}', tipo="website")
+
+    for e in eventos:
+        arquivo_agenda(e)
 
     for n in noticias:
         pagina_previa(f'noticia-{n["id"]}.html', n["titulo"], n.get("resumo", ""),

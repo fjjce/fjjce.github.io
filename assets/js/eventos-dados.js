@@ -138,8 +138,17 @@ function linkGoogleAgenda(evento, endereco) {
   return `https://calendar.google.com/calendar/render?${parametros}`;
 }
 
-// Arquivo .ics: abre na agenda do iPhone, do Outlook e de outros aplicativos
+// Arquivo .ics: abre na agenda do iPhone, do Outlook e de outros aplicativos.
+// No site publicado, usa o arquivo agenda/<id>.ics, criado na hora de publicar
+// (ferramentas/gerar_paginas.py): o iPhone só aceita um arquivo de verdade.
+// No computador (Live Server), esse arquivo não existe, então o próprio navegador monta um.
 function linkArquivoAgenda(evento, endereco) {
+  const local = ['localhost', '127.0.0.1', ''].includes(location.hostname);
+  if (!local) return `agenda/${encodeURIComponent(evento.id)}.ics`;
+  return arquivoAgendaNoNavegador(evento, endereco);
+}
+
+function arquivoAgendaNoNavegador(evento, endereco) {
   const d = datasDaAgenda(evento);
   const texto = (t) => String(t).replace(/\\/g, '\\\\').replace(/([,;])/g, '\\$1').replace(/\n/g, '\\n');
   const linhas = [
@@ -166,6 +175,6 @@ function botoesAgenda(evento, endereco) {
     <div class="agenda">
       <span>Adicionar à agenda:</span>
       <a class="botao botao--contorno-escuro botao--pequeno" href="${escaparHTML(linkGoogleAgenda(evento, endereco))}" target="_blank" rel="noopener">Google Agenda</a>
-      <a class="botao botao--contorno-escuro botao--pequeno" href="${linkArquivoAgenda(evento, endereco)}" download="${escaparHTML(evento.id)}.ics">iPhone e outros</a>
+      <a class="botao botao--contorno-escuro botao--pequeno" href="${escaparHTML(linkArquivoAgenda(evento, endereco))}"${linkArquivoAgenda(evento, endereco).startsWith('data:') ? ` download="${escaparHTML(evento.id)}.ics"` : ''}>iPhone e outros</a>
     </div>`;
 }
