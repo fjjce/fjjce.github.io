@@ -164,8 +164,7 @@ header[data-incluir]:empty { display: block; min-height: 4.3rem; background: var
 .topo__barra {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: .5rem;
   min-height: 4.25rem;
 }
 
@@ -181,6 +180,19 @@ header[data-incluir]:empty { display: block; min-height: 4.3rem; background: var
 .marca__sigla { font-family: var(--fonte-titulo); font-size: 1.6rem; letter-spacing: .04em; }
 .marca__nome { font-size: .8rem; color: rgba(255, 255, 255, .7); max-width: 16rem; }
 
+/* Instagram no topo (como no site da CBJJ) */
+.marca { margin-right: auto; }
+.topo__rede {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: var(--ouro);
+  border-radius: var(--raio);
+}
+.topo__rede:hover { color: var(--branco); }
+
 .menu ul {
   display: flex;
   gap: .25rem;
@@ -195,6 +207,12 @@ header[data-incluir]:empty { display: block; min-height: 4.3rem; background: var
   text-decoration: none;
   font-weight: 500;
   border-radius: var(--raio);
+}
+@media (min-width: 961px) {
+  .menu a { white-space: nowrap; }
+}
+@media (max-width: 1120px) {
+  .marca__nome { display: none; }
 }
 .menu a:hover { color: var(--ouro); }
 .menu a[aria-current="page"] { color: var(--ouro); }
