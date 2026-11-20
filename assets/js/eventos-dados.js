@@ -18,7 +18,27 @@ async function carregarEventos() {
   const resposta = await fetch('dados/eventos.json');
   if (!resposta.ok) throw new Error(`eventos.json: ${resposta.status}`);
   const dados = await resposta.json();
-  return [...dados.eventos].sort((a, b) => lerData(a.inicio) - lerData(b.inicio));
+  return dados.eventos.map(completarLinks).sort((a, b) => lerData(a.inicio) - lerData(b.inicio));
+}
+
+// Com o código do evento no iLutas ("ilutas"), o site monta sozinho os links que seguem
+// um endereço fixo: a página do evento (inscrições), a checagem (quando as inscrições abrem)
+// e os resultados (no dia seguinte ao campeonato). Link colado à mão em "links" sempre vale mais.
+const ILUTAS = 'https://www.ilutas.com.br';
+
+function completarLinks(evento) {
+  const codigo = (evento.ilutas || '').trim();
+  if (!codigo) return evento;
+  const links = { ...(evento.links || {}) };
+  const c = encodeURIComponent(codigo);
+  if (!links.inscricoes) links.inscricoes = `${ILUTAS}/Evento/?event=${c}`;
+  if (!links.checagem && estadoInscricoes(evento) !== 'em-breve') {
+    links.checagem = `${ILUTAS}/checagem/list-all/?event=${c}`;
+  }
+  if (!links.resultados && fimDo(evento) < hoje()) {
+    links.resultados = `${ILUTAS}/resultado/filter/?type=1&event=${c}`;
+  }
+  return { ...evento, links };
 }
 
 function fimDo(evento) {

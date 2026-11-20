@@ -61,7 +61,12 @@ Projeto-FJJCE/
    - `id`: nome curto sem acentos nem espaços (vira o endereço `evento.html?id=ceara-open-2027`);
    - `inicio` e `fim`: datas no formato `AAAA-MM-DD` (num evento de um dia, as duas iguais);
    - `imagem`: caminho do cartaz; `modalidades`, `descricao` e `apoio` são opcionais;
-   - `links`: cole os links do iLutas conforme forem saindo. Link vazio (`""`) aparece como "Em breve".
+   - `ilutas`: o código do evento no iLutas, o que vem depois de `event=` no endereço da página
+     do evento (ex.: `714efca9658ad9b76a620d7e773b97ae`). Com ele, o site monta sozinho os links
+     de **inscrição**, **checagem** (quando as inscrições abrem) e **resultados** (no dia seguinte
+     ao campeonato). Você não precisa colar esses três;
+   - `links`: cole os outros links do iLutas conforme forem saindo (chaves, cronograma, edital).
+     Link vazio (`""`) aparece como "Em breve". Link colado à mão vale mais que o automático.
 3. Use `"inscricoes_abertas": true` quando as inscrições abrirem.
    Com `"prazo_inscricoes": "AAAA-MM-DD"`, o site fecha as inscrições sozinho depois dessa data
    (o botão some e aparece "Inscrições encerradas"). Se o prazo for prorrogado, é só mudar a data.
@@ -79,7 +84,8 @@ Depois do campeonato, coloque o link de `resultados` para aparecer o botão "Ver
    `"chaves"`, `"cronograma"` ou `"checagem"` dentro de `links`. O site troca sozinho o aviso
    "Inscrições encerradas" pelos botões "Ver chaves", "Ver cronograma" e "Ver checagem" (lista de inscritos),
    na página do campeonato e no topo da página inicial.
-2. **Depois do campeonato:** cole o link em `"resultados"` (aparece o botão "Ver resultados").
+2. **Depois do campeonato:** com o código `ilutas` preenchido, o botão "Ver resultados" aparece
+   sozinho no dia seguinte. Sem o código, cole o link em `"resultados"`.
 3. **Notícia de resultados:** copie `noticias/_MODELO-resultados.md`, preencha e cadastre em
    `dados/noticias.json` (pode usar o cartaz do campeonato ou uma foto do pódio como imagem).
 4. Salve, faça o commit e sincronize.

@@ -1,5 +1,5 @@
 {
-  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens. 'prazo_inscricoes' (opcional, AAAA-MM-DD) fecha as inscrições sozinho depois dessa data. Texto extra do campeonato (premiação, horários etc.) vai em eventos/<id>.md.",
+  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens. 'prazo_inscricoes' (opcional, AAAA-MM-DD) fecha as inscrições sozinho depois dessa data. Texto extra do campeonato (premiação, horários etc.) vai em eventos/<id>.md. 'ilutas' (opcional): o código do evento no iLutas, o que vem depois de 'event=' no endereço da página do evento. Com ele, o site monta sozinho os links de inscrição, checagem e resultados.",
   "eventos": [
     {
       "id": "aberto-sesc-lutas-2026",
@@ -53,6 +53,7 @@
     },
     {
       "id": "ceara-pro-2026",
+      "ilutas": "714efca9658ad9b76a620d7e773b97ae",
       "nome": "Ceará Pro Jiu-Jitsu",
       "etapa": "III Etapa do Campeonato Cearense de Jiu-Jitsu FJJCE",
       "inicio": "2026-11-22",
@@ -76,7 +77,7 @@
       "links": {
         "inscricoes": "https://www.ilutas.com.br/evento/ceara-pro-de-jiu-jitsu-gi-no-gi",
         "edital": "",
-        "checagem": "https://www.ilutas.com.br/checagem/list-all/?event=714efca9658ad9b76a620d7e773b97ae",
+        "checagem": "",
         "cronograma": "",
         "chaves": "",
         "resultados": ""
