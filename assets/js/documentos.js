@@ -22,11 +22,14 @@ async function tamanhoDoArquivo(url) {
 
 function itemDocumento(doc) {
   const externo = /^https?:/i.test(doc.arquivo);
-  const formato = externo ? 'Link externo' : (doc.arquivo.split('.').pop() || '').toUpperCase();
+  const pdf = /\.pdf($|\?)/i.test(doc.arquivo);
+  const ilutas = /ilutas\.com\.br/i.test(doc.arquivo);
+  const formato = ilutas ? 'Página no iLutas' : externo ? 'Link externo' : (doc.arquivo.split('.').pop() || '').toUpperCase();
+  const icone = pdf ? 'PDF' : 'Link';
   return `
     <li>
       <a class="documento documento--grande" href="${escaparHTML(doc.arquivo)}" target="_blank" rel="noopener">
-        ${doc.capa ? `<img src="${escaparHTML(doc.capa)}" alt="" width="96" height="96" loading="lazy">` : '<span class="documento__icone" aria-hidden="true">PDF</span>'}
+        ${doc.capa ? `<img src="${escaparHTML(doc.capa)}" alt="" width="96" height="96" loading="lazy">` : `<span class="documento__icone" aria-hidden="true">${icone}</span>`}
         <span class="documento__texto">
           <span class="documento__titulo">${escaparHTML(doc.titulo)}</span>
           ${doc.descricao ? `<span class="documento__descricao">${escaparHTML(doc.descricao)}</span>` : ''}

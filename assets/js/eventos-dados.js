@@ -22,7 +22,7 @@ async function carregarEventos() {
 }
 
 // Com o código do evento no iLutas ("ilutas"), o site monta sozinho os links que seguem
-// um endereço fixo: a página do evento (inscrições), a checagem (quando as inscrições abrem)
+// um endereço fixo: a página do evento (inscrições e edital), a checagem (quando as inscrições abrem)
 // e os resultados (no dia seguinte ao campeonato). Link colado à mão em "links" sempre vale mais.
 const ILUTAS = 'https://www.ilutas.com.br';
 
@@ -32,6 +32,8 @@ function completarLinks(evento) {
   const links = { ...(evento.links || {}) };
   const c = encodeURIComponent(codigo);
   if (!links.inscricoes) links.inscricoes = `${ILUTAS}/Evento/?event=${c}`;
+  // A página do evento no iLutas traz o regulamento completo (valores, pesagem, uniforme, premiação)
+  if (!links.edital) links.edital = `${ILUTAS}/Evento/?event=${c}`;
   if (!links.checagem && estadoInscricoes(evento) !== 'em-breve') {
     links.checagem = `${ILUTAS}/checagem/list-all/?event=${c}`;
   }
