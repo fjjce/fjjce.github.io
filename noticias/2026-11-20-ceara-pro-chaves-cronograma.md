@@ -1,3 +1,5 @@
+**Atualização (21/11):** as **chaves já estão publicadas** no iLutas: [ver as chaves do Ceará Pro](https://www.ilutas.com.br/chaves/?event=714efca9658ad9b76a620d7e773b97ae). O cronograma sai em breve.
+
 As **chaves** e o **cronograma** do **Ceará Pro Jiu-Jitsu**, III Etapa do Campeonato Cearense, serão divulgados em breve.
 
 ## Onde acompanhar

@@ -23,7 +23,7 @@ async function carregarEventos() {
 
 // Com o código do evento no iLutas ("ilutas"), o site monta sozinho os links que seguem
 // um endereço fixo: a página do evento (inscrições e edital), a checagem (quando as inscrições abrem)
-// e os resultados (no dia seguinte ao campeonato). Link colado à mão em "links" sempre vale mais.
+// e os resultados (a partir do dia do campeonato). Link colado à mão em "links" sempre vale mais.
 const ILUTAS = 'https://www.ilutas.com.br';
 
 function completarLinks(evento) {
@@ -37,7 +37,8 @@ function completarLinks(evento) {
   if (!links.checagem && estadoInscricoes(evento) !== 'em-breve') {
     links.checagem = `${ILUTAS}/checagem/list-all/?event=${c}`;
   }
-  if (!links.resultados && fimDo(evento) < hoje()) {
+  // Resultados a partir do dia do campeonato: o iLutas publica ao longo do dia
+  if (!links.resultados && lerData(evento.inicio) <= hoje()) {
     links.resultados = `${ILUTAS}/resultado/filter/?type=1&event=${c}`;
   }
   return { ...evento, links };
@@ -125,12 +126,14 @@ function itemDeEvento(evento) {
 }
 
 // Depois que as inscrições fecham: os documentos do dia, na ordem em que o atleta precisa deles
-const DOCUMENTOS_DO_DIA = ['chaves', 'cronograma', 'checagem'];
-const TEXTO_BOTAO = { chaves: 'Ver chaves', cronograma: 'Ver cronograma', checagem: 'Ver checagem' };
+const DOCUMENTOS_DO_DIA = ['chaves', 'cronograma', 'checagem', 'resultados'];
+const TEXTO_BOTAO = { chaves: 'Ver chaves', cronograma: 'Ver cronograma', checagem: 'Ver checagem', resultados: 'Ver resultados' };
 
 function documentosDoDia(evento) {
   const links = evento.links || {};
-  return DOCUMENTOS_DO_DIA.filter((chave) => links[chave])
+  // Depois que as chaves saem, a checagem já encerrou: ela some dos botões principais
+  // (continua na lista de documentos do campeonato)
+  return DOCUMENTOS_DO_DIA.filter((chave) => links[chave] && !(chave === 'checagem' && links.chaves))
     .map((chave) => ({ chave, texto: TEXTO_BOTAO[chave], url: links[chave] }));
 }
 
