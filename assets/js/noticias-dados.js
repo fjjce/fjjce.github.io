@@ -79,7 +79,7 @@ function markdownParaHTML(md) {
     if ((m = linha.match(/^(#{2,3})\s+(.*)$/))) {
       fecharTudo();
       const nivel = m[1].length; // ## -> h2, ### -> h3
-      html.push(`<h${nivel}>${formatarLinha(m[2])}</h${nivel}>`);
+      html.push(`<h${nivel} id="${slug(original.trim().replace(/^#+\s+/, ''))}">${formatarLinha(m[2])}</h${nivel}>`);
     } else if ((m = linha.match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/))) {
       fecharTudo();
       html.push(`<figure><img src="${escaparHTML(urlSegura(m[2]))}" alt="${m[1]}" loading="lazy">${m[1] ? `<figcaption>${m[1]}</figcaption>` : ''}</figure>`);

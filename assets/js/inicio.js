@@ -35,7 +35,7 @@ function montarDestaque(evento, jaAconteceu) {
     // Quando as chaves (ou o cronograma) saem, viram o botão principal do topo
     const doDia = documentosDoDia(evento)[0];
     acoes.push(doDia
-      ? `<a class="botao botao--ouro" href="${escaparHTML(doDia.url)}" target="_blank" rel="noopener">${doDia.texto}</a>`
+      ? `<a class="botao botao--ouro" href="${escaparHTML(doDia.url)}"${alvoDoLink(doDia.url)}>${doDia.texto}</a>`
       : '<span class="destaque__aviso">Inscrições encerradas</span>');
   } else {
     acoes.push('<span class="destaque__aviso">Inscrições em breve</span>');

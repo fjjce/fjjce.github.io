@@ -1,3 +1,24 @@
+### Cronograma
+
+Domingo, 22 de novembro, no Ginásio Aécio de Borba. A pesagem é **30 minutos antes** do horário da categoria; quem não comparecer com antecedência é desclassificado por W.O.
+
+- **08h50:** abertura e início das pesagens
+- **09h00:** Pré-Mirim e Mirim (4 a 7 anos), faixas branca e cinza, masculino e feminino
+- **09h30:** Infantil A (8 e 9 anos), todas as faixas, masculino e feminino
+- **10h00:** Infantil B (10 e 11 anos), todas as faixas, masculino e feminino
+- **10h30:** Infanto-Juvenil A (12 e 13 anos), todas as faixas, masculino e feminino
+- **11h00:** Infanto-Juvenil B (14 e 15 anos), todas as faixas, masculino e feminino
+- **11h30:** Juvenil, todas as faixas, masculino e feminino
+- **12h30:** Adulto e Master, faixa branca, masculino e feminino
+- **13h30:** Adulto e Master, faixa azul, masculino e feminino
+- **15h00:** Adulto e Master, faixa preta, masculino e feminino
+- **15h30:** Adulto e Master, faixa marrom, masculino e feminino
+- **16h00:** Adulto e Master, faixa roxa, masculino e feminino
+- **16h30:** Absolutos, todas as faixas
+- **17h00:** encerramento
+
+Os horários podem mudar no dia. Confira também na [página do evento no iLutas](https://www.ilutas.com.br/Evento/?event=714efca9658ad9b76a620d7e773b97ae) (botão "Cronograma").
+
 ### Premiação
 
 Medalhas para o 1º, 2º e 3º lugar de cada categoria e premiação geral por equipes. A premiação em dinheiro para as equipes está condicionada à participação de **mais de 500 atletas inscritos** no campeonato.

@@ -37,7 +37,7 @@ function montarEvento(evento) {
     const encerradas = `Inscrições encerradas${evento.prazo_inscricoes ? ` em ${dataPorExtenso(evento.prazo_inscricoes)}` : ''}.`;
     if (doDia.length) {
       acao = `<div class="evento-pagina__botoes">${doDia.map((d, i) =>
-        `<a class="botao ${i === 0 ? 'botao--ouro' : 'botao--contorno-escuro'}" href="${escaparHTML(d.url)}" target="_blank" rel="noopener">${d.texto}</a>`).join('')}</div>
+        `<a class="botao ${i === 0 ? 'botao--ouro' : 'botao--contorno-escuro'}" href="${escaparHTML(d.url)}"${alvoDoLink(d.url)}>${d.texto}</a>`).join('')}</div>
         <p class="evento-pagina__prazo">${encerradas}${links.chaves ? '' : ' Chaves e cronograma serão divulgados em breve, primeiro no iLutas e depois no Instagram da federação.'}</p>`;
     } else {
       acao = `<p class="evento-pagina__aviso">${encerradas}</p>
@@ -52,7 +52,7 @@ function montarEvento(evento) {
   const documentos = Object.entries(NOMES_LINKS)
     .filter(([chave]) => chave !== 'inscricoes')
     .map(([chave, nome]) => (links[chave]
-      ? `<li><a class="doc-evento" href="${escaparHTML(links[chave])}" target="_blank" rel="noopener">${nome}</a></li>`
+      ? `<li><a class="doc-evento" href="${escaparHTML(links[chave])}"${alvoDoLink(links[chave])}>${nome}</a></li>`
       : `<li><span class="doc-evento doc-evento--pendente">${nome}<span>${passou ? 'Não publicado' : 'Em breve'}</span></span></li>`))
     .join('');
 
@@ -128,6 +128,8 @@ async function montarInformacoes(evento) {
     document.querySelector('[data-informacoes]').innerHTML = `
       <h2 class="evento-pagina__subtitulo">Informações do campeonato</h2>
       <div class="texto-corrido texto-corrido--evento">${html}</div>`;
+    // Link direto para uma seção (ex.: #cronograma): rola até ela depois que o texto carrega
+    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
   } catch (erro) {
     console.error(erro);
   }

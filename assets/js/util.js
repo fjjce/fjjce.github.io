@@ -20,6 +20,11 @@ function slug(texto = '') {
   return texto.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim().replace(/\s+/g, '-');
 }
 
+// Links para outros sites abrem em nova aba; links do próprio site, na mesma aba
+function alvoDoLink(url = '') {
+  return /^https?:/i.test(url) ? ' target="_blank" rel="noopener"' : '';
+}
+
 // Lê "2026-11-22" como data local (evita erro de fuso horário)
 function lerData(texto) {
   const [a, m, d] = texto.split('-').map(Number);
