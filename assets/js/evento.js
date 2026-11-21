@@ -129,7 +129,7 @@ async function montarInformacoes(evento) {
       <h2 class="evento-pagina__subtitulo">Informações do campeonato</h2>
       <div class="texto-corrido texto-corrido--evento">${html}</div>`;
     // Link direto para uma seção (ex.: #cronograma): rola até ela depois que o texto carrega
-    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+    if (location.hash) irParaSecao(decodeURIComponent(location.hash.slice(1)));
   } catch (erro) {
     console.error(erro);
   }
@@ -243,3 +243,25 @@ async function iniciar() {
 }
 
 iniciar();
+
+/* ---------- links para seções da própria página (ex.: "Ver cronograma") ---------- */
+
+function irParaSecao(id) {
+  const alvo = document.getElementById(id);
+  if (!alvo) return false;
+  alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  return true;
+}
+
+// Um link como "evento.html?id=ceara-pro-2026#cronograma" aponta para esta mesma página:
+// em vez de deixar o navegador decidir (o Safari às vezes não faz nada), a página rola até a seção.
+document.addEventListener('click', (e) => {
+  const link = e.target.closest('a[href*="#"]');
+  if (!link) return;
+  const destino = new URL(link.href, location.href);
+  if (destino.pathname !== location.pathname || destino.search !== location.search || !destino.hash) return;
+  if (irParaSecao(decodeURIComponent(destino.hash.slice(1)))) {
+    e.preventDefault();
+    history.replaceState(null, '', destino.hash);
+  }
+});
