@@ -14,7 +14,8 @@
 // mostra o último que aconteceu (com link para os resultados).
 function montarDestaque(evento, jaAconteceu) {
   const campo = (nome) => document.querySelector(`[data-destaque="${nome}"]`);
-  campo('rotulo').textContent = jaAconteceu ? 'Último campeonato' : 'Próximo campeonato';
+  const ehHoje = !jaAconteceu && lerData(evento.inicio) <= hoje();
+  campo('rotulo').textContent = jaAconteceu ? 'Último campeonato' : ehHoje ? 'É hoje' : 'Próximo campeonato';
   campo('nome').textContent = evento.nome;
   campo('etapa').textContent = evento.etapa || '';
   campo('data').textContent = formatarPeriodo(evento.inicio, evento.fim);
@@ -37,6 +38,11 @@ function montarDestaque(evento, jaAconteceu) {
     acoes.push(doDia
       ? `<a class="botao botao--ouro" href="${escaparHTML(doDia.url)}"${alvoDoLink(doDia.url)}>${doDia.texto}</a>`
       : '<span class="destaque__aviso">Inscrições encerradas</span>');
+    // No dia do campeonato, os resultados (que o iLutas publica ao longo do dia) também ficam no topo
+    const resultados = achar('resultados');
+    if (ehHoje && resultados) {
+      acoes.push(`<a class="botao botao--ouro" href="${escaparHTML(resultados.url)}" target="_blank" rel="noopener">Ver resultados</a>`);
+    }
   } else {
     acoes.push('<span class="destaque__aviso">Inscrições em breve</span>');
   }
