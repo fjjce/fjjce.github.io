@@ -122,7 +122,7 @@ function montarEvento(evento) {
 
 async function montarInformacoes(evento) {
   try {
-    const resposta = await fetch(`eventos/${encodeURIComponent(evento.id)}.md`);
+    const resposta = await fetch(`eventos/${encodeURIComponent(evento.id)}.md`, { cache: 'no-cache' });
     if (!resposta.ok) return; // campeonato sem arquivo de informações
     const html = markdownParaHTML(await resposta.text());
     document.querySelector('[data-informacoes]').innerHTML = `
@@ -146,7 +146,7 @@ function nomesNaColocacao(lista, colocacao) {
 async function montarResultados(evento) {
   let resultados;
   try {
-    const info = await (await fetch('dados/ranking-info.json')).json();
+    const info = await (await fetch('dados/ranking-info.json', { cache: 'no-cache' })).json();
     resultados = (await carregarResultados(info)).filter((r) => r.evento === evento.id);
   } catch (erro) {
     console.error(erro);

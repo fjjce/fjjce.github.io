@@ -65,6 +65,8 @@ Projeto-FJJCE/
      do evento (ex.: `714efca9658ad9b76a620d7e773b97ae`). Com ele, o site monta sozinho os links
      de **inscrição**, **edital** (a página do evento no iLutas, que traz o regulamento), **checagem** (quando as inscrições abrem) e **resultados** (no dia seguinte
      ao campeonato). Você não precisa colar esses três;
+   - `encerramento` (opcional): horário em que o campeonato termina no último dia (ex.: `"17:00"`).
+     Depois dele, o site já mostra o campeonato como encerrado, com "Ver resultados". Sem ele, considera 20h;
    - `links`: cole os outros links do iLutas conforme forem saindo (chaves e cronograma; edital só se for um PDF próprio).
      Link vazio (`""`) aparece como "Em breve". Link colado à mão vale mais que o automático.
 3. Use `"inscricoes_abertas": true` quando as inscrições abrirem.

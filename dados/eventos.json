@@ -1,5 +1,5 @@
 {
-  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens. 'prazo_inscricoes' (opcional, AAAA-MM-DD) fecha as inscrições sozinho depois dessa data. Texto extra do campeonato (premiação, horários etc.) vai em eventos/<id>.md. 'ilutas' (opcional): o código do evento no iLutas, o que vem depois de 'event=' no endereço da página do evento. Com ele, o site monta sozinho os links de inscrição, checagem e resultados.",
+  "_ajuda": "Um bloco por campeonato. Datas no formato AAAA-MM-DD. Links vazios (\"\") não aparecem no site. O 'id' vira o endereço da página do evento (evento.html?id=...), use letras minúsculas e hífens. 'prazo_inscricoes' (opcional, AAAA-MM-DD) fecha as inscrições sozinho depois dessa data. Texto extra do campeonato (premiação, horários etc.) vai em eventos/<id>.md. 'ilutas' (opcional): o código do evento no iLutas, o que vem depois de 'event=' no endereço da página do evento. Com ele, o site monta sozinho os links de inscrição, checagem e resultados. 'encerramento' (opcional): horário em que o campeonato termina no último dia (ex.: '17:00'); depois dele o site já mostra o campeonato como encerrado. Sem ele, considera 20h.",
   "eventos": [
     {
       "id": "aberto-sesc-lutas-2026",
@@ -58,6 +58,7 @@
       "etapa": "III Etapa do Campeonato Cearense de Jiu-Jitsu FJJCE",
       "inicio": "2026-11-22",
       "fim": "2026-11-22",
+      "encerramento": "17:00",
       "local": "Ginásio Aécio de Borba",
       "cidade": "Fortaleza",
       "modalidades": [

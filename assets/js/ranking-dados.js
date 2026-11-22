@@ -52,7 +52,7 @@ function lerCSV(texto) {
 
 // Lê os pódios (resultados.csv) e devolve uma linha por atleta no pódio
 async function carregarResultados(info) {
-  const resposta = await fetch(info.fonte || 'dados/resultados.csv');
+  const resposta = await fetch(info.fonte || 'dados/resultados.csv', { cache: 'no-cache' });
   if (!resposta.ok) throw new Error(`Resultados: ${resposta.status}`);
   return lerCSV(await resposta.text())
     .map((l) => ({
@@ -94,7 +94,7 @@ function somarPontos(resultados, info) {
 
 // Carrega tudo e devolve { info, atletas, resultados }
 async function carregarRanking() {
-  const info = await (await fetch('dados/ranking-info.json')).json();
+  const info = await (await fetch('dados/ranking-info.json', { cache: 'no-cache' })).json();
   const resultados = await carregarResultados(info);
   return { info, atletas: somarPontos(resultados, info), resultados };
 }

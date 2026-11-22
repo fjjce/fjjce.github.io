@@ -13,14 +13,14 @@
  */
 
 async function carregarNoticias() {
-  const resposta = await fetch('dados/noticias.json');
+  const resposta = await fetch('dados/noticias.json', { cache: 'no-cache' });
   if (!resposta.ok) throw new Error(`noticias.json: ${resposta.status}`);
   const dados = await resposta.json();
   return [...dados.noticias].sort((a, b) => lerData(b.data) - lerData(a.data));
 }
 
 async function carregarTexto(id) {
-  const resposta = await fetch(`noticias/${encodeURIComponent(id)}.md`);
+  const resposta = await fetch(`noticias/${encodeURIComponent(id)}.md`, { cache: 'no-cache' });
   if (!resposta.ok) throw new Error(`noticias/${id}.md: ${resposta.status}`);
   return resposta.text();
 }

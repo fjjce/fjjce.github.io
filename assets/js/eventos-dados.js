@@ -15,7 +15,7 @@ const NOMES_LINKS = {
 
 // Devolve os eventos em ordem de data
 async function carregarEventos() {
-  const resposta = await fetch('dados/eventos.json');
+  const resposta = await fetch('dados/eventos.json', { cache: 'no-cache' });
   if (!resposta.ok) throw new Error(`eventos.json: ${resposta.status}`);
   const dados = await resposta.json();
   return dados.eventos.map(completarLinks).sort((a, b) => lerData(a.inicio) - lerData(b.inicio));
@@ -48,8 +48,17 @@ function fimDo(evento) {
   return lerData(evento.fim || evento.inicio);
 }
 
-const proximos = (eventos) => eventos.filter((e) => fimDo(e) >= hoje());
-const encerrados = (eventos) => eventos.filter((e) => fimDo(e) < hoje()).reverse();
+// O campeonato termina no último dia, no horário de "encerramento" (ex.: "17:00").
+// Sem esse campo, considera encerrado às 20h do último dia.
+function terminou(evento) {
+  const [h, m] = (evento.encerramento || '20:00').split(':').map(Number);
+  const fim = new Date(fimDo(evento));
+  fim.setHours(h || 0, m || 0, 0, 0);
+  return new Date() >= fim;
+}
+
+const proximos = (eventos) => eventos.filter((e) => !terminou(e));
+const encerrados = (eventos) => eventos.filter((e) => terminou(e)).reverse();
 
 function linkDoEvento(evento) {
   return `evento.html?id=${encodeURIComponent(evento.id)}`;
@@ -78,8 +87,7 @@ function estadoInscricoes(evento) {
 
 function situacao(evento) {
   const inicio = lerData(evento.inicio);
-  const fim = fimDo(evento);
-  if (fim < hoje()) return { classe: 'encerrado', texto: 'Encerrado' };
+  if (terminou(evento)) return { classe: 'encerrado', texto: 'Encerrado' };
   if (inicio <= hoje()) return { classe: 'hoje', texto: 'É hoje' };
   const insc = estadoInscricoes(evento);
   if (insc === 'abertas') return { classe: 'aberto', texto: 'Inscrições abertas' };

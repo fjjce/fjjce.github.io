@@ -57,7 +57,7 @@ function grupoHTML(grupo, cinza) {
 async function iniciar() {
   const area = document.querySelector('[data-lista="documentos"]');
   try {
-    const dados = await (await fetch('dados/documentos.json')).json();
+    const dados = await (await fetch('dados/documentos.json', { cache: 'no-cache' })).json();
     const grupos = [...dados.grupos];
 
     // Editais: um por campeonato que tenha o link "edital" preenchido
