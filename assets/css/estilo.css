@@ -892,6 +892,22 @@ a.doc-evento:hover { background: var(--vermelho); color: var(--branco); }
 .podio__nome { display: block; font-weight: 600; }
 .podio__equipe { display: block; margin-bottom: .35rem; font-size: .9rem; color: var(--cinza-texto); }
 .podio__vazio { color: var(--cinza-texto); }
+.equipes__tabela { background: var(--branco); border: 1px solid var(--cinza-linha); border-radius: var(--raio); }
+.equipes__tabela table { width: 100%; border-collapse: collapse; }
+.equipes__tabela th, .equipes__tabela td { padding: .65rem 1rem; text-align: left; }
+.equipes__tabela thead th { font-size: .85rem; font-weight: 600; color: var(--cinza-texto); }
+.equipes__tabela tbody tr { border-top: 1px solid var(--cinza-claro); }
+.equipes__tabela td:nth-child(n+3), .equipes__tabela th:nth-child(n+3) { text-align: center; width: 4.5rem; }
+.equipes__tabela th:first-child { width: 3.5rem; }
+@media (max-width: 560px) {
+  .equipes__tabela th, .equipes__tabela td { padding: .55rem .3rem; font-size: .88rem; }
+  .equipes__tabela td:nth-child(n+3), .equipes__tabela th:nth-child(n+3) { width: auto; }
+  .equipes__tabela th:first-child { width: auto; padding-left: .6rem; }
+}
+.equipes__podio th, .equipes__podio td:nth-child(2) { font-weight: 700; }
+.equipes__podio--1 th { color: #9A6B00; }
+.equipes__mais { margin-top: 1rem; }
+.equipes__mais .equipes__tabela { border: 0; border-top: 1px solid var(--cinza-linha); border-radius: 0; }
 
 /* Informações do campeonato */
 .evento-pagina__botoes { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }

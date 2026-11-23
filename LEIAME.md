@@ -172,6 +172,19 @@ Esses arquivos **só existem no site publicado**, não na sua pasta. No Live Ser
 de compartilhar usam o endereço normal da página.
 Se o site ganhar domínio próprio, troque o endereço em `dados/site.json`.
 
+## Resultado por equipes de cada campeonato
+
+Fica em `dados/resultados-equipes.csv`, uma linha por equipe:
+
+```
+evento,colocacao,equipe,ouro,prata,bronze,pontos
+ceara-pro-2026,1,GRACIE BARRA,18,33,26,287
+```
+
+`evento` é o `id` do campeonato. Com as linhas preenchidas, a página do campeonato mostra a seção
+"Resultado por equipes" (top 10 e o botão para ver todas) e o botão "Classificação das equipes".
+Os dados ficam guardados no site, mesmo que o iLutas apague o evento.
+
 ## Contador de visitas (GoatCounter)
 
 O contador é gratuito, não usa cookies e não guarda dados pessoais dos visitantes.

@@ -226,6 +226,67 @@ function naoEncontrado() {
     </section>`;
 }
 
+/* ---------- resultado por equipes (dados/resultados-equipes.csv) ---------- */
+
+async function montarEquipes(evento) {
+  let equipes;
+  try {
+    const resposta = await fetch('dados/resultados-equipes.csv', { cache: 'no-cache' });
+    if (!resposta.ok) return;
+    equipes = lerCSV(await resposta.text())
+      .filter((l) => l.evento === evento.id)
+      .map((l) => ({ ...l, colocacao: Number(l.colocacao) }))
+      .sort((a, b) => a.colocacao - b.colocacao);
+  } catch (erro) {
+    console.error(erro);
+    return;
+  }
+  if (!equipes.length) return;
+
+  const linha = (e) => `
+    <tr${e.colocacao <= 3 ? ` class="equipes__podio equipes__podio--${e.colocacao}"` : ''}>
+      <th scope="row">${e.colocacao}º</th>
+      <td>${escaparHTML(e.equipe)}</td>
+      <td>${escaparHTML(e.ouro)}</td><td>${escaparHTML(e.prata)}</td><td>${escaparHTML(e.bronze)}</td>
+      <td><strong>${escaparHTML(e.pontos)}</strong></td>
+    </tr>`;
+  const tabela = (lista, titulo) => `
+    <div class="podio__tabela equipes__tabela" tabindex="0" role="region" aria-label="${titulo}">
+      <table>
+        <thead><tr><th scope="col"><abbr title="Posição">Pos.</abbr></th><th scope="col">Equipe</th><th scope="col">Ouro</th><th scope="col">Prata</th><th scope="col">Bronze</th><th scope="col"><abbr title="Pontos">Pts</abbr></th></tr></thead>
+        <tbody>${lista.map(linha).join('')}</tbody>
+      </table>
+    </div>`;
+  const top = equipes.slice(0, 10);
+  const resto = equipes.slice(10);
+
+  const secao = document.createElement('section');
+  secao.className = 'secao secao--cinza';
+  secao.id = 'equipes';
+  secao.setAttribute('aria-labelledby', 'equipes-titulo');
+  secao.innerHTML = `
+    <div class="container">
+      <div class="secao__cabeca">
+        <h2 id="equipes-titulo">Resultado por equipes</h2>
+        <p>Classificação geral oficial (Gi e No-Gi). Ouro vale 9 pontos, prata 3 e bronze 1.</p>
+      </div>
+      ${tabela(top, 'Classificação geral por equipes')}
+      ${resto.length ? `
+      <details class="podio equipes__mais">
+        <summary>Ver as ${equipes.length} equipes <span class="podio__qtd">${resto.length} a mais</span></summary>
+        ${tabela(resto, 'Demais equipes')}
+      </details>` : ''}
+    </div>`;
+  document.querySelector('[data-evento]').appendChild(secao);
+
+  // Atalho no topo da página para a classificação das equipes
+  const acao = document.querySelector('.evento-pagina__acao');
+  if (acao) {
+    acao.insertAdjacentHTML('beforeend', `<div class="evento-pagina__botoes"><a class="botao botao--contorno-escuro" href="#equipes">Classificação das equipes</a></div>`);
+  }
+  if (location.hash === '#equipes') irParaSecao('equipes');
+}
+
 async function iniciar() {
   const id = new URLSearchParams(location.search).get('id');
   try {
@@ -234,7 +295,7 @@ async function iniciar() {
     if (evento) {
       montarEvento(evento);
       montarInformacoes(evento);
-      montarResultados(evento);
+      montarEquipes(evento).then(() => montarResultados(evento));
     } else naoEncontrado();
   } catch (erro) {
     console.error(erro);

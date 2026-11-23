@@ -2,11 +2,11 @@
   "_ajuda": "Uma notícia por bloco, a mais nova no topo. O texto completo fica em noticias/<id>.md. 'imagem' e 'campeonato' são opcionais.",
   "noticias": [
     {
-      "id": "2026-11-22-ceara-pro-resultados-ilutas",
-      "titulo": "Ceará Pro Jiu-Jitsu: resultados já estão no iLutas",
-      "resumo": "A III Etapa do Campeonato Cearense foi disputada neste domingo. Os resultados das categorias já estão no iLutas; a classificação final por equipes sai em breve.",
-      "data": "2026-11-22",
-      "imagem": "assets/img/eventos/ceara-pro-2026.jpg",
+      "id": "2026-11-23-gracie-barra-campea-ceara-pro",
+      "titulo": "Gracie Barra é campeã geral do Ceará Pró 2026",
+      "resumo": "Com 287 pontos, a Gracie Barra venceu a III Etapa do Campeonato Cearense. Checkmat (237) e Rede Cuca (157) completam o pódio entre 38 equipes.",
+      "data": "2026-11-23",
+      "imagem": "assets/img/noticias/2026-11-23-resultado-ceara-pro.jpg",
       "campeonato": "ceara-pro-2026"
     },
     {
